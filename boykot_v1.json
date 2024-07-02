@@ -1,0 +1,50 @@
+[
+    {
+        "urunAdi": "Algida",
+        "urunAciklamasi": "since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently withest3",
+        "ulke": "EN",
+        "barkodNo": "987456123123",
+        "urunTip": "GIDA",
+        "urunLogo": null
+    },
+    {
+        "urunAdi": "Ariel",
+        "urunAciklamasi": "in to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
+        "ulke": "ABD",
+        "barkodNo": "987456123123",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": null
+    },
+    {
+        "urunAdi": "Burger King",
+        "urunAciklamasi": "test",
+        "ulke": "ABD",
+        "barkodNo": "123456789123",
+        "urunTip": "GIDA",
+        "urunLogo": null
+    },
+    {
+        "urunAdi": "Coco-Cola",
+        "urunAciklamasi": "to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
+        "ulke": "ABD",
+        "barkodNo": "987456123123",
+        "urunTip": "ICECEK",
+        "urunLogo": null
+    },
+    {
+        "urunAdi": "McDonalds",
+        "urunAciklamasi": "test2",
+        "ulke": "EN",
+        "barkodNo": "987456123123",
+        "urunTip": "GIDA",
+        "urunLogo": null
+    },
+    {
+        "urunAdi": "Starbucks",
+        "urunAciklamasi": "Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
+        "ulke": "EN",
+        "barkodNo": "987456123123",
+        "urunTip": "ICECEK",
+        "urunLogo": null
+    }
+]
