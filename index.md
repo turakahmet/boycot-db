@@ -1,6 +1,6 @@
 ---
 layout: default
 ---
-![Forbitten](https://raw.githubusercontent.com/turakahmet/boycot-db/main/close.png)
+![Forbitten](https://github.com/turakahmet/boycot-db/blob/main/file.png?raw=true)
 # JSON file
-[Link to baycot.json](./v1.json).
+[Link to baycot.json](./v1.json)
