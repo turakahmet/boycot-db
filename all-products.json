@@ -46,5 +46,13 @@
         "barkodNo": "987456123123",
         "urunTip": "ICECEK",
         "urunLogo": null
+    },
+    {
+        "urunAdi": "OMO",
+        "urunAciklamasi": "Lorem Ipsum which looks reasonable. always free from repetition, injected humour, or non-characteristic words etc",
+        "ulke": "EN",
+        "barkodNo": "1111111111223",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": null
     }
 ]
