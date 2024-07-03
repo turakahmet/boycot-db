@@ -1,0 +1,26 @@
+[
+    {
+        "urunAdi": "Algida",
+        "urunAciklamasi": "since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently withest3",
+        "ulke": "EN",
+        "barkodNo": "987456123123",
+        "urunTip": "GIDA",
+        "urunLogo": null
+    },
+    {
+        "urunAdi": "Burger King",
+        "urunAciklamasi": "test",
+        "ulke": "ABD",
+        "barkodNo": "123456789123",
+        "urunTip": "GIDA",
+        "urunLogo": null
+    },
+    {
+        "urunAdi": "McDonalds",
+        "urunAciklamasi": "test2",
+        "ulke": "EN",
+        "barkodNo": "987456123123",
+        "urunTip": "GIDA",
+        "urunLogo": null
+    },
+]
