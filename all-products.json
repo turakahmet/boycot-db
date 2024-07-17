@@ -1,58 +1,58 @@
 [
     {
-        "urunAdi": "Algida",
+        "urunAdi": "Torku",
         "urunAciklamasi": "since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently withest3",
         "ulke": "EN",
         "barkodNo": "987456123123",
         "urunTip": "GIDA",
-        "urunLogo": null
+        "urunLogo": "https://seeklogo.com/images/T/torku-logo-B85D336F2D-seeklogo.com.png"
     },
     {
-        "urunAdi": "Ariel",
+        "urunAdi": "Bingo",
         "urunAciklamasi": "in to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
         "ulke": "ABD",
         "barkodNo": "987456123123",
         "urunTip": "TEMIZLIK",
-        "urunLogo": null
+        "urunLogo": "https://seeklogo.com/images/B/bingo-deterjan-logo-3D48FA2FED-seeklogo.com.png"
     },
     {
-        "urunAdi": "Burger King",
+        "urunAdi": "Ülker",
         "urunAciklamasi": "test",
         "ulke": "ABD",
         "barkodNo": "123456789123",
         "urunTip": "GIDA",
-        "urunLogo": null
+        "urunLogo": "https://seeklogo.com/images/1/__lker-logo-4F14FB89AA-seeklogo.com.png"
     },
     {
-        "urunAdi": "Coco-Cola",
+        "urunAdi": "Uludağ",
         "urunAciklamasi": "to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
         "ulke": "ABD",
         "barkodNo": "987456123123",
         "urunTip": "ICECEK",
-        "urunLogo": null
+        "urunLogo": "https://seeklogo.com/images/U/uludag-logo-193C171582-seeklogo.com.png"
     },
     {
-        "urunAdi": "McDonalds",
+        "urunAdi": "Şölen",
         "urunAciklamasi": "test2",
         "ulke": "EN",
         "barkodNo": "987456123123",
         "urunTip": "GIDA",
-        "urunLogo": null
+        "urunLogo": "https://seeklogo.com/images/S/Solen-logo-E1A857FCFC-seeklogo.com.png"
     },
     {
-        "urunAdi": "Starbucks",
+        "urunAdi": "Beypazarı Maden Suyu",
         "urunAciklamasi": "Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
         "ulke": "EN",
         "barkodNo": "987456123123",
         "urunTip": "ICECEK",
-        "urunLogo": null
+        "urunLogo": "https://seeklogo.com/images/B/beypazari-logo-0526120871-seeklogo.com.png"
     },
     {
-        "urunAdi": "OMO",
+        "urunAdi": "Duru",
         "urunAciklamasi": "Lorem Ipsum which looks reasonable. always free from repetition, injected humour, or non-characteristic words etc",
         "ulke": "EN",
         "barkodNo": "1111111111223",
         "urunTip": "TEMIZLIK",
-        "urunLogo": null
+        "urunLogo": "https://seeklogo.com/images/D/duru-logo-9FC719ACD3-seeklogo.com.png"
     }
 ]
