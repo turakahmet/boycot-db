@@ -54,5 +54,29 @@
         "barkodNo": "8690506429348 8690506429355 8690506393670 8690506429331 8690506498993 8690506498924 8690506493561 8690506160029 8690506493547 8690506494605 8690506499020 8690506494582 8690506524852 8690506490133 8690506499006 8690506523619 8690506499501 8690506493592 8690506544065 8690506544089 8690506544096",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://seeklogo.com/images/D/duru-logo-9FC719ACD3-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "SEK",
+        "urunAciklamasi": "SEK, Türkiye’de süt ve süt ürünleri üretimi yapan bir markadır. 1963 yılında kurulan SEK, pastörize süt, homojenize yoğurt ve dil peyniri gibi ürünleri tüketiciyle tanıştırmıştır. Daha fazla bilgi için SEK’nin resmi web sitesini ziyaret edebilirsiniz.",
+        "ulke": "TR",
+        "barkodNo": "8692095344354 8692095344293 8692095344392",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/S/sek-sut-endustrisi-kurumu-logo-8C2BDAA448-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Danet",
+        "urunAciklamasi": "DANET, Türkiye’de geleneksel et ürünleri üreten bir markadır. 1975 yılından beri faaliyet gösteren DANET, sucuk, salam, kavurma, pastırma ve jambon gibi 80’den fazla lezzeti 20’ye yakın ülkeye ihraç ediyor ve farklı mutfak kültürlerinin beğenisine sunuyor. Afyon yöresinden alınan lezzetleriyle tanınan DANET, mangal sucuğu, sosis, kavurma ve daha birçok ürünüyle sofralarımızda yer alıyor. Daha fazla bilgi için DANET’in resmi web sitesini ziyaret edebilirsiniz",
+        "ulke": "TR",
+        "barkodNo": "8697403890882 8697403890448 8697403890691 8697403890141 8697403890103 8697403890493 8697403891537 8697403890035 8697403890981 8697403890462",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/D/danet-logo-0AB7E6CBBF-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Lezita",
+        "urunAciklamasi": "Lezita, Türkiye’nin önde gelen markalarından biridir. 1975 yılında kurulan Lezita, piliç eti ve ileri işlenmiş et ürünleri üretimi yapmaktadır. İzmir-Kemalpaşa’da bulunan modern entegre tesisinde saatte yaklaşık 25.500, günde ise yaklaşık 400.000 adet piliç işleme kapasitesine sahiptir. Lezita, Türk halkının damak tadına uygun ürünler sunan bir marka olarak bilinmektedir. Ürünleri 30’dan fazla ülkeye ihraç eden Lezita, yaklaşık 3000 kişiye iş olanağı sağlamaktadır",
+        "ulke": "TR",
+        "barkodNo": "8696425003102 8696425001238 8696425009760 8696425002112 8696425001306 8696425010384 8696425001207 8696425007032 8696425009630 8696425006172 8696425006226 8696425006219 8696425006196 8696425006356 8696425006363 8696425006479 8696425006455 8696425006493 8696425006516 8696425006530 8696425006561 8696425010513 8696425006578 8696425006523 8696425006462 8696425006554 8696425010858 8696425010841 8696425006851 8696425006868 8696425903105 8696425903204 8696425916792 8696425914934 869625902153 8696425917287 8696425002153 8696425017284 8696425018076 8696425017338",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/L/Lezita-logo-55AF8E1F04-seeklogo.com.png"
     }
 ]
