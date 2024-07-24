@@ -91,8 +91,24 @@
         "urunAdi": "Balparmak",
         "urunAciklamasi": "Balparmak, Türkiye’nin lider bal markasıdır. 1980 yılında kurulan Balparmak, sağlık, doğallık ve lezzeti sofralara taşımak amacıyla 350’den fazla çalışanıyla faaliyet göstermektedir. İstanbul’da mütevazi bir girişimle başlayan bu öykü, bugün dünyanın dinlemeye başladığı bir başarı hikayesidir. Balparmak, ürün kalitesindeki süreklilik ve yüksek tüketici güveni ile tanınır. ",
         "ulke": "TR",
-        "barkodNo": "8690998151796 8690998151857 8690998117129 8690998151826 8690998112124 8690998112131 8690998212282 8690998117235 8690998212596 8690998112537",
+        "barkodNo": "8690998151796 8690998151857 8690998117129 8690998151826 8690998112124 8690998112131 8690998212282 8690998117235 8690998212596 8690998112537 8690998117136 8695050012602 8690998532335 8690998117112 8690998112520 8690998112339",
         "urunTip": "GIDA",
         "urunLogo": "https://www.balparmak.com.tr/Data/EditorFiles/balparmak2021/Logo.png"
+    },
+    {
+        "urunAdi": "Sütaş",
+        "urunAciklamasi": "Sütaş, 1975 yılında Sadık Yılmaz tarafından kurulan Sütaş Süt Ürünleri A.Ş. bünyesinde üretilen süt ve süt ürünleri markasıdır. Türkiye, Makedonya ve Romanya'da bulunan beş tesisinde üretim yapmaktadır. Firma ürünlerini 32 ülkeye ihraç etmektedir. 'Çiftlikten Sofralara' entegre iş modeli ile ineklerin beslendiği yemden tüketicilerin sofrasına kadar giden süreci yönetiyor ve kontrol altına alıyorlar. Ana ürünleri arasında yoğurtlar, ayran, peynir, süzme yoğurt, kaymak, kefir, krema, çökelek, tereyağı, süt ve bebek-çocuk ürünleri yer almaktadır.",
+        "ulke": "TR",
+        "barkodNo": "869076771634 8690767716942 8690767716706 8690763133446 8681324004428 8690767714641 8681324003186 8681324003377 8690767716621 8690767714214 8690767710087 8690767716980 8690767716034 8690767714924 8690767716355 8690767675300 8681324002967 8690767716614 8690767710179 8681324003780 8690767710056 8681324000796 8690767670176 8690767673443 8690767716027 8690767714504 8690767714450 8690632047324 8690767716775 8690767716188 8681324002837 8681324000352 8690767716300 8681324000536 8690767002090 8690767711374 8690767711381 8681324002943 8690767716874 8690767714429 8680508916199 8680508915871 8690767716539",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/S/sutas-logo-F3B1A76282-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Dimes",
+        "urunAciklamasi": "DİMES, Türkiye'nin ilk yerli meyve suyu markasıdır. 1958 yılında Tokat'ta kurulan DİMES, doğal ve taze meyvelerden üretilen sağlıklı içecekler sunmaktadır. Ürün yelpazesi arasında meyve suları, nektarlar, smoothieler ve diğer içecek seçenekleri bulunmaktadır. Ayrıca süt ürünleri, limonata ve kahveli içecekler de üretmektedir. 'Hayata başka bak!' mottosuyla ilham veren DİMES, meyvenin mucizesine ve küçük anların değerine inanır.",
+        "ulke": "TR",
+        "barkodNo": "8690558037775 8690558029657 8690558024539 0690358014431 8690558027554 8690558028360 8690558029411 8690558033050 8690558029626 8690558031957 8690558014776 8690558031971 8690558030356 8690558022481 8690558014257 8690558029640 8690558026274 8690558031445 8690558026410 8690558031438 8690558027974 8690558026854 8690558022566 6698518022566 8690558024553 8690558028346 8690558022603 8690558026397 8690558024522 8690558029633 8690558022498",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/D/Dimes-logo-BDCF2248C3-seeklogo.com.png"
     }
 ]
