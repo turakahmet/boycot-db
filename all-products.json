@@ -156,7 +156,7 @@
         "urunAciklamasi": "Sarıyer Gazoz, Türkiye'nin köklü gazoz markalarından biridir. Oğuz Gıda A.Ş. bünyesinde 1997 yılında kurulan bu eşsiz içecek, yıllardır insanların damaklarında unutulmaz bir tat bırakmaktadır. Ürünler, Adana, Sakarya ve Bolu'daki fabrikalarda üretilmektedir . Sarıyer Gazoz, yerli ve geleneksel bir lezzet olarak Türkiye'nin soğuk içecek tercihlerinden biridir. ",
         "ulke": "TR",
         "barkodNo": "8698720",
-        "urunTip": "GIDA",
+        "urunTip": "ICECEK",
         "urunLogo": "https://sariyericecek.com.tr/public/assets/img/site_logo.png"
     },
     {
@@ -166,6 +166,38 @@
         "barkodNo": "8690565 8690525 8692105 8690317 8690310 8690527 8690321 8697413 8692106 8692107",
         "urunTip": "GIDA",
         "urunLogo": "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c2/P%C4%B1nar_marka.jpg/120px-P%C4%B1nar_marka.jpg?20190305184046"
+    },
+    {
+        "urunAdi": "Efsane",
+        "urunAciklamasi": "Efsane markası, Türkiye’nin önde gelen süpermarket zincirlerinden biri olan BİM Birleşik Mağazalar A.Ş. tarafından sunulan bir özel markalı ürün serisidir.",
+        "ulke": "TR",
+        "barkodNo": "8695077",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.bim.com.tr/uploads/markalar/4_7_efsane_logo.png"
+    },
+    {
+        "urunAdi": "Fide",
+        "urunAciklamasi": "1934 yılında Çanakkale’de başlayan konserve üretim yolculuğumuz, Susurluk’ta bulunan ve 100.000 metrekareye yayılan modern tesislerimizde devam etmektedir. Fide, Türkiye’nin verimli topraklarında yetişen taze sebze ve meyveleri geleneksel ve doğal hali ile konserveleştirmekte ve yurtiçi / yurtdışı pazarlar için her yıl yaklaşık 100.000 ton ürün işlemektedir. Merkez ofisi İstanbul’da bulunan Fide; Ton balığı, domates salçası, közlenmiş ürünler, hazır yemekler ve mandalina konservesinden oluşan geniş ürün gamıyla 47 ülkeye ihracat yapmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8691405",
+        "urunTip": "GIDA",
+        "urunLogo": "https://fide.com.tr/wp-content/uploads/2023/02/logo.png"
+    },
+    {
+        "urunAdi": "Bifa",
+        "urunAciklamasi": "Bifa Bisküvi ve Gıda San. A.Ş. 1962 yılında Birlik fabrikasında günlük 3 tonluk bisküvi üretimi ile başladığı 60 yılı aşkın serüveninde, 4 farklı ülkedeki tesislerinde 100’den fazla ülkeye ihracat yapan önemli bir uluslararası oyuncu haline gelmiştir. Sadece Karaman’da 500.000 mt üzerine kurulu fabrikalarında yılda 120.000 tondan fazla üretim yapmaktadır. Bisküvi, çikolata, kek, gofret ve kraker üretim hatlarının yanı sıra Bifa, üretimlerindeki ihtiyaçları için bir Un Fabrikası ve bir Kâğıt Ambalaj Fabrikası kurmuştur. Ayrıca alanında öncü olan Babaoğlu Tarım ve Örnek Tarım da Bifa' nın iştirakleri arasında yer almaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8690562",
+        "urunTip": "GIDA",
+        "urunLogo": "https://static.ticimax.cloud/55617/customcss/ticimax/images/logo.png"
+    },
+    {
+        "urunAdi": "Dost",
+        "urunAciklamasi": "Dost, Türkiye’de uzun yıllardır sofralarımıza lezzet ve sağlık katmış bir kahvaltı ürünleri markasıdırBİM market zincirinin özel markası olarak tüketicilerin gönlünde taht kuran Dost, Ak Gıda tarafından üretilmektedir",
+        "ulke": "TR",
+        "barkodNo": "8695077",
+        "urunTip": "GIDA",
+        "urunLogo": "https://files.sikayetvar.com/lg/cmp/16/16487.png?1522650125"
     }
     
 ]
