@@ -198,6 +198,22 @@
         "barkodNo": "8695077",
         "urunTip": "GIDA",
         "urunLogo": "https://files.sikayetvar.com/lg/cmp/16/16487.png?1522650125"
+    },
+    {
+        "urunAdi": "Maylo",
+        "urunAciklamasi": "Maylo, Lila Group'un hızlı tüketim sektöründe faaliyet gösterdiği dört ayrı markadan biridir. Sofia, Maylo, Berrak ve Nua markalarıyla tuvalet kağıdı, kağıt havlu, kağıt peçete ve kağıt mendil kategorilerinde yurt içi ve yurtdışı pazarda yer almaktadır. Maylo, tamamen yerli üretimdir ve 2006 yılında kurulan Lila Kağıt bünyesinde faaliyet göstermektedir. 2008 yılından beri yenilikçi, pratik ve kolay kullanım sağlayan temizlik kağıdı ürünleriyle tüketicilere uygun fiyatlı ve kaliteli seçenekler sunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8698996",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.maylo.com.tr/wp-content/uploads/2023/06/Maylo-logo-1.png"
+    },
+    {
+        "urunAdi": "VİP Kayve",
+        "urunAciklamasi": "Vip Kahve, BİM AŞ. adına Bakgörler Gıda Tur. Teks. Konf. San. ve Tic. Ltd. Şti. tarafından üretilen kahve içeceği markasıdır. VIP 3’ü 1 Arada Klasik, VIP Kahve Gold, VIP Kahve Classic gibi yumuşak içim ve zengin aroma sunan ürünleri mevcuttur.",
+        "ulke": "TR",
+        "barkodNo": "8695077",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.bim.com.tr/uploads/markalar/3_14_vip_logo.png"
     }
     
 ]
