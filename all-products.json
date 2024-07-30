@@ -147,7 +147,7 @@
         "urunAdi": "Tarım Kredi Kooperatif Market",
         "urunAciklamasi": "Tarım Kredi Market, Türkiye Tarım Kredi Kooperatiflerinin bir iştiraki olarak faaliyet göstermektedir. Çiftçilerden aldığı tarım ürünlerini işleyerek, yerli, kaliteli ve sağlıklı gıda ürünlerini tüketiciyle buluşturuyor. Manav reyonlarında her hafta sonu taze meyve ve sebzeleri halkla buluşturan bu market, çeşitli markaların ürünlerini sunmaktadır. Genel merkezi Ankara'da bulunan Tarım Kredi Market, çiftçilerin emeğini değerlendirmeyi amaçlayan bir iş modeliyle faaliyet göstermektedir. ",
         "ulke": "TR",
-        "barkodNo": "8682615 8681749 8696601 8680530 8697425 8683204",
+        "barkodNo": "8682615 8681749 8696601 8680530 8697425 8683204 8682655",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/T/turkiye-tarim-kredi-kooperatif-market-logo-6BABEB27D0-seeklogo.com.png"
     },
@@ -486,6 +486,14 @@
         "barkodNo": "8681506 8680782 8691477  ",
         "urunTip": "GIDA",
         "urunLogo": "https://lacingrup.com.tr/Uploads/gida/a8753b3333346b3f339dac9fe7c277bb.jpg"
+    },
+    {
+        "urunAdi": "Yumdoy Yumurta",
+        "urunAciklamasi": "Yumdoy, Türkiye’de 1985 yılında Doğuş Çay tarafından kurulan bir yumurta markasıdır. Yumdoy, sağlıklı yaşam için gerekli olan 6 temel besin grubunu içeren yumurtalar üretir. Bir yumurta, protein, n-3 yağ asitleri, vitamin A, K, D, E, B2, B12, niyasin, biyotin, pantotenik asit ve birçok mineral için önerilen günlük dozların %9’dan fazlasını karşılar.",
+        "ulke": "TR",
+        "barkodNo": "8680865",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.yumdoy.com/assets/img/logo.png"
     }
     
 ]
