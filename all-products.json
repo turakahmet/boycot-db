@@ -169,7 +169,7 @@
     },
     {
         "urunAdi": "BİM Ürünleri",
-        "urunAciklamasi": "BİM Birleşik Mağazalar A.Ş., 1995 yılında 21 mağazayla faaliyetlerine başladı ve bugün Türkiye’nin organize perakende sektöründe pazar payı en yüksek şirketi konumunda bulunuyor. Geniş bir ürün yelpazesine sahiptir ayrıca özel markalı ürünler sunmaktadır.BİM Birleşik Mağazalar A.Ş. ortaklık yapısı şu şekildedir. Merkez Bereket Gıda San. ve Tic. A.Ş. (yüzde 15,15), Naspak Gıda San. ve Tic. A.Ş. (yüzde 11,53), Diğer (Halka Açık) (yüzde 71,64)",
+        "urunAciklamasi": "BİM Birleşik Mağazalar A.Ş., 1995 yılında 21 mağazayla faaliyetlerine başladı ve bugün Türkiye’nin organize perakende sektöründe pazar payı en yüksek şirketi konumunda bulunuyor. Geniş bir ürün yelpazesine sahiptir ayrıca özel markalı ürünler sunmaktadır.BİM Birleşik Mağazalar A.Ş. ortaklık yapısı şu şekildedir. Merkez Bereket Gıda San. ve Tic. A.Ş. (yüzde 15,15), Naspak Gıda San. ve Tic. A.Ş. (yüzde 11,53), Diğer (Halka Açık) (yüzde 71,64). Ayrıca 2014 yılından beri çeşitli üreticilere özel olarak ürettirilen, Bim Birleşik Mağazalar A.Ş. ve File mağazalarında satışa sunulan harras ürünleri bu çatı altındadır.",
         "ulke": "TR",
         "barkodNo": "8695077",
         "urunTip": "GIDA",
@@ -510,6 +510,126 @@
         "barkodNo": "8697457",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/I/ikbal-gida-logo-14DAD59461-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Ekici",
+        "urunAciklamasi": "Ekici Peynir, 1957 yılında Konya’nın Ereğli ilçesinde küçük bir mandırada Şabettin Ekici tarafından kuruldu. Günde yaklaşık 1 ton koyun sütü işleyerek beyaz peynir üreten Şabettin Ekici, bu sırada çocukları Mansur ve Mustafa Ekici’ye de bilgi ve tecrübelerini aktarmaya başladı. Ekici Peynir, sadece peynir üretimi yaparak tüketicilerini kaliteli ve lezzetli peynirlerle buluşturuyor. Bugün Antalya Organize Sanayi Bölgesi’ndeki fabrikasında toplam 42.000 m²’lik alanda günlük 480 ton süt işleme kapasitesine sahip olan Ekici Peynir, Türkiye’nin en büyük ilk 1000 şirketi arasında yer alıyor. Ürün yelpazesi arasında yaklaşık 30 çeşit peynir bulunuyor ve bu peynirler Türkiye’nin dört bir yanında tüketicilerle buluşuyor. Ayrıca, ihracata da önem veren Ekici, kaliteli peynirlerini birçok ülkeye ihraç ediyor.",
+        "ulke": "TR",
+        "barkodNo": "8697403",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/E/ekici-peynir-logo-E37A1A19CB-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Karlıdağ",
+        "urunAciklamasi": "Karlıdağ, 1975 yılında Malatya’da tereyağ üretimiyle faaliyete başlayan bir markadır. 1985 yılından itibaren “Karlıdağ” markasıyla süt ve süt ürünleri üretimine devam etmiştir. Ürün yelpazesi arasında beyaz peynir, kaşar peynir, yoğurt, ayran, piknik boy reçel ve bal gibi lezzetler bulunmaktadır. Toplam kalite yönetimini önemseyen firma, TSE ve ISO 9000 belgelerini almıştır",
+        "ulke": "TR",
+        "barkodNo": "8693371",
+        "urunTip": "GIDA",
+        "urunLogo": "https://karlidag.com.tr/wp-content/uploads/2020/09/header-logo-3.png"
+    },
+    {
+        "urunAdi": "Billur Tuz",
+        "urunAciklamasi": "Billur Tuz, Türkiye’de üretim yapan ilk rafine tuz fabrikası olarak 1964 yılından beri İzmir’de faaliyet göstermektedir. Ham tuz ihtiyacını, Türkiye’nin en büyük deniz tuzlası olan Çamaltı Tuzla’sından karşılamaktadır",
+        "ulke": "TR",
+        "barkodNo": "8690771",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/B/billur-tuz-logo-53D292D27B-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Cebel",
+        "urunAciklamasi": "Cebel, Türkiye’de kahvaltılık ürünler sektöründe köklü bir firmadır. İlk adımları 1962 yılında Konya’da bal, peynir ve zeytin ticaretiyle atılan Cebel, uzun yıllar Şakir Gıda Pazarı adıyla hizmet verdi. Daha sonra Cebel Bal ve Cebel Zeytin ürünlerinin üretimine başladı. 1991 yılında Şakir Bal ve Gıda Mad. İhr. İth. Dah. Tic. Ltd. Şti. unvanını aldı. Cebel, ürün kalitesini her zaman ön planda tutarak her yıl ürün çeşitliliğini artırdı ve tercih edilen bir marka haline geldi. Manisa Akhisar’da yaptığı yatırımla Cebel Zeytin ve Tarım Ür. Gıda San. Tic. Ltd. Şti.'ni hayata geçirdi",
+        "ulke": "TR",
+        "barkodNo": "8697432 8691566 8690100",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/C/cebel-logo-FEC4FE05EB-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Hünnap",
+        "urunAciklamasi": "Hünnap, Türkiye’de geleneksel tatları modern teknolojiyle birleştirerek üreten bir markadır. Misyonları, binlerce yıllık deneyimle bu topraklara özgü lezzetleri tüketiciye sunmaktır. Ürünleri arasında Hünnap markalı gıda takviyeleri ve vitaminler bulunmaktadır",
+        "ulke": "TR",
+        "barkodNo": "8681161",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.hunnap.com.tr/Data/EditorFiles/%C3%9Cr%C3%BCn%20G%C3%B6rselleri/image_540.jpg"
+    },
+    {
+        "urunAdi": "Bahçıvan",
+        "urunAciklamasi": "Bahçıvan Peynir, Türkiye’de köklü bir markadır. 1956 yılında Doğu Anadolu ve Güneydoğu Anadolu bölgelerinde peynir üretimiyle başladı. İstanbul Boğazköy’de bir mandıra kurarak süt üretimini destekledi. 1988’de Türkiye’de peynir ithal eden ilk firma oldu. 1992’de Lüleburgaz fabrikasında fabrikasyon üretime geçti ve pek çok ilki gerçekleştirdi. Bahçıvan, küçük gramajlı, barkodlu, light, dilimli beyaz peynir ve dilimli kaşar peyniri gibi ürünleriyle tanınır. Aynı zamanda enerji verimliliği ve çevre koruma konularında da öncüdür. ",
+        "ulke": "TR",
+        "barkodNo": "8690843",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/B/bahcivan-logo-4D7CC1A124-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Bahçıvan",
+        "urunAciklamasi": "Bahçıvan Peynir, Türkiye’de köklü bir markadır. 1956 yılında Doğu Anadolu ve Güneydoğu Anadolu bölgelerinde peynir üretimiyle başladı. İstanbul Boğazköy’de bir mandıra kurarak süt üretimini destekledi. 1988’de Türkiye’de peynir ithal eden ilk firma oldu. 1992’de Lüleburgaz fabrikasında fabrikasyon üretime geçti ve pek çok ilki gerçekleştirdi. Bahçıvan, küçük gramajlı, barkodlu, light, dilimli beyaz peynir ve dilimli kaşar peyniri gibi ürünleriyle tanınır. Aynı zamanda enerji verimliliği ve çevre koruma konularında da öncüdür. ",
+        "ulke": "TR",
+        "barkodNo": "8690843",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/B/bahcivan-logo-4D7CC1A124-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Bağdat Baharat",
+        "urunAciklamasi": "Bağdat Baharat, Türkiye’de köklü bir markadır. 1960’lı yıllara kadar uzanan bir öyküsü vardır. Kurucusu Mustafa Danacı, Sivas’ın Yağbasan Köyü’nde doğdu. Zor şartlar altında büyüdü ve hayat mücadelesi verdi. İlk olarak bakkalda çırak olarak çalıştıktan sonra, 1964 yılında Ankara’da Bağdat Baharatları’nı kurdu. Bu baharat markası, gelişmiş teknoloji, hijyenik üretim ve kaliteli sunum prensipleriyle büyüdü. 1989 yılında Sincan Organize Sanayii’nde 10.000 m² üzerine 3500 m² kapalı alanda Baharat Fabrikasını kurarak, en kaliteli ürünleri tüketiciye sunmayı hedefler",
+        "ulke": "TR",
+        "barkodNo": "8690560",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/B/Bagdat-logo-504F6F976B-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "İpekyolu Baharat",
+        "urunAciklamasi": "İpekyolu Baharat, Türkiye’de 1946 yılında “Kalaycılar Ticaret” adıyla kurulan bir markadır. 1999 yılında daha kaliteli ürün vizyonuyla firma ismini “İpekyolu Baharat” olarak değiştirdi. İpekyolu Baharatları, Türk Gıda Kodeksine, Türk Standartlarına ve Dünya Standartlarına uygun üretim yapmaktadır",
+        "ulke": "TR",
+        "barkodNo": "8690280 8680487",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ipekyolubaharat.com.tr/wp-content/uploads/2018/06/logo.png"
+    },
+    {
+        "urunAdi": "Katmer Un",
+        "urunAciklamasi": "Katmer Un, Türkiye’de 1995 yılında kurulan bir markadır. Firma, tamamen Alman Buhler teknolojisi ile donatılmıştır. Çoğu fabrika, maliyetli olması nedeniyle buğdayı kuru temizleme sistemi ile temizlemektedir. Ancak Katmer Un, buğdayın tamamen yıkanıp temizlenmesi ile üretilmektedir. Ürün yelpazesi arasında Katmer Çavdar Unu, Katmer Siyez Unu, Katmer Un, Katmer İrmik ve Katmer Tam Buğday Unu gibi çeşitler bulunmaktadır",
+        "ulke": "TR",
+        "barkodNo": "8697426",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.katmerun.com.tr/_tema/cms/images/logo2.png"
+    },
+    {
+        "urunAdi": "Çotanak",
+        "urunAciklamasi": "Çotanak, Türkiye’de 1957 yılında Ordu ilinde kurulan önde gelen bir gıda firmasıdır. Firma, yüksek kalitede fındık, ayçiçek, aspir ve ceviz yağlarıyla ve sürülebilir ezmeleriyle tanınır. Ürün yelpazesi arasında Fındık Yağı, Ceviz Yağı, Aspir Yağı, Ayçiçek Yağı, Fındık Ürünleri Ezme ve Sürülebilir Ürünler (Ballı fındık ezmesi, şekerli fındık ezmesi, kakaolu fındık ezmesi, ballık fıstık ezmesi, şekerli fıstık ezmesi, kakaolu fıstık ezmesi) vardır.",
+        "ulke": "TR",
+        "barkodNo": "8693275",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.cotanak.com.tr/assets/frontend/uploads/2017/02/logo-white-glow.png"
+    },
+    {
+        "urunAdi": "Teksüt",
+        "urunAciklamasi": "Teksüt, Türkiye’nin önde gelen süt ve süt ürünleri markalarından biridir. 1956 yılında Balıkesir’in Gönen ilçesinde kurulan Teksüt, süt ve beyaz peynir üretimiyle faaliyetlerine başladı. O günden bu yana yüksek kaliteli ürünleri ve müşteri memnuniyeti odaklı hizmet anlayışıyla tanınmaktadır. Ürün yelpazesi arasında süt, yoğurt, peynir, krema ve diğer süt ürünleri bulunmaktadır. Ayrıca Teksüt, ihracat alanında da geniş bir pazar payına sahiptir ve ürünlerini birçok ülkeye göndermektedir.",
+        "ulke": "TR",
+        "barkodNo": "8690158",
+        "urunTip": "GIDA",
+        "urunLogo": "https://teksut.com.tr/wp-content/uploads/2020/01/logo.png"
+    },
+    {
+        "urunAdi": "Kenton",
+        "urunAciklamasi": "Kenton, Türkiye’nin köklü bir markasıdır. Temelleri 1945 yılında atılan %100 yerli sermayeli Sultanlar Holding bünyesinde yer almaktadır. Kenton, Türkiye’nin paketli olarak ilk Kabartma Tozu ve Şekerli Vanilin üretimini gerçekleştirmiştir. 70’lerin sonunda, Toz Tatlı ve Pişirme Yardımcıları kategorilerinde ilk küresel markası olma vizyonuyla yola çıkan Kenton, bugün tatlı ve pasta yapımında kullanılan tüm malzemeleri çatısında barındırmaktadır. 9 farklı kategoride, 200’ü aşkın ürün çeşidiyle hizmet veren Kenton, 60 ülkede milyonlarca eve ulaşmaktadır. ",
+        "ulke": "TR",
+        "barkodNo": "8690547",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.kenton.com.tr/wp-content/uploads/2021/09/logo.png"
+    },
+    {
+        "urunAdi": "Duru Bulgur",
+        "urunAciklamasi": "Duru Bulgur, Türkiye’nin köklü bir markasıdır. 1935 yılında Ziya Duru ve kardeşi İhsan Duru tarafından Karaman Züğürtler Yaylası’nda bulgur imalatına başlanmıştır. İlk başlarda askeriyenin bulgur ihtiyacını karşılamak üzere üretim yapılmıştır. Zamanla su değirmenlerinin yerini elektrikli değirmenler almış ve fabrikalaşmanın ilk adımları atılmıştır. Üretimde kalite ve doğallık her zaman ön planda tutulmuştur. Ziya Duru, bu anlayışı oğulları İhsan Duru ve Mehmet Emin Duru’ya aktarmıştır. 1990’lar ve sonrasında ürün çeşitleri artırılmış, tanıtım çalışmaları yapılmış ve ihracat yapılan ülke sayısı artmıştır. Duru Bulgur, 1935’ten bu yana tüketicilere en kaliteli ve çeşitli bulguru sunmayı kendine görev edinmiştir.",
+        "ulke": "TR",
+        "barkodNo": "8691440",
+        "urunTip": "GIDA",
+        "urunLogo": "https://durubulgur.com/public/uploads/logo.jpg"
+    },
+    {
+        "urunAdi": "Dardanel",
+        "urunAciklamasi": "Dardanel, 1984 yılında Niyazi Önen tarafından Türkiye’nin ilk konserve ton balığı üreticisi olarak kuruldu. Adını Çanakkale Boğazı’nın antik dönemdeki ismi olan Dardanelya’dan almaktadır. Şirket, deniz ürünleri, dondurulmuş gıda, konserve gıda ve hazır yemek üretimi yapmaktadır. Ayrıca Mr. No ve Baricci markalarıyla sandviç ve atıştırmalıklar üretmektedir. Dardenia adıyla balık-ekmek lokantası zinciri işletmektedir. Ürünlerinde Dolphin Safe rozetini kullanmaya yetkilidir. Aynı zamanda 1991 yılından bu yana futbol kulübü Çanakkale Dardanel’in sponsorluğunu yapmaktadır",
+        "ulke": "TR",
+        "barkodNo": "8690559 8699118",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/D/dardanel-logo-8538B589E5-seeklogo.com.png"
     }
-    
+
 ]
