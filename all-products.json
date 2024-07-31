@@ -155,7 +155,7 @@
         "urunAdi": "Sarıyer",
         "urunAciklamasi": "Sarıyer Gazoz, Türkiye'nin köklü gazoz markalarından biridir. Oğuz Gıda A.Ş. bünyesinde 1997 yılında kurulan bu eşsiz içecek, yıllardır insanların damaklarında unutulmaz bir tat bırakmaktadır. Ürünler, Adana, Sakarya ve Bolu'daki fabrikalarda üretilmektedir . Sarıyer Gazoz, yerli ve geleneksel bir lezzet olarak Türkiye'nin soğuk içecek tercihlerinden biridir. ",
         "ulke": "TR",
-        "barkodNo": "8698720",
+        "barkodNo": "8698720 8683789",
         "urunTip": "ICECEK",
         "urunLogo": "https://sariyericecek.com.tr/public/assets/img/site_logo.png"
     },
@@ -168,7 +168,7 @@
         "urunLogo": "https://upload.wikimedia.org/wikipedia/tr/thumb/c/c2/P%C4%B1nar_marka.jpg/120px-P%C4%B1nar_marka.jpg?20190305184046"
     },
     {
-        "urunAdi": "BİM Birleşik Mağazalar",
+        "urunAdi": "BİM Ürünleri",
         "urunAciklamasi": "BİM Birleşik Mağazalar A.Ş., 1995 yılında 21 mağazayla faaliyetlerine başladı ve bugün Türkiye’nin organize perakende sektöründe pazar payı en yüksek şirketi konumunda bulunuyor. Geniş bir ürün yelpazesine sahiptir ayrıca özel markalı ürünler sunmaktadır.BİM Birleşik Mağazalar A.Ş. ortaklık yapısı şu şekildedir. Merkez Bereket Gıda San. ve Tic. A.Ş. (yüzde 15,15), Naspak Gıda San. ve Tic. A.Ş. (yüzde 11,53), Diğer (Halka Açık) (yüzde 71,64)",
         "ulke": "TR",
         "barkodNo": "8695077",
@@ -478,6 +478,38 @@
         "barkodNo": "8680865",
         "urunTip": "GIDA",
         "urunLogo": "https://www.yumdoy.com/assets/img/logo.png"
+    },
+    {
+        "urunAdi": "İpek Salça",
+        "urunAciklamasi": "İpek Salça, Çelenlioğlu Gıda tarafından üretilen bir salça markasıdır. Akhisar, Manisa’da faaliyet gösteren bu marka, Türkiye’nin 2017 Yılı Üstün Lezzet Ödüllü Salçası olarak bilinmektedir. Üretim faaliyetleri yerli malı üretimi olan salça, konserve ve zeytin ürünlerini Türkiye başta olmak üzere dünya genelinde ihraç etmektedir",
+        "ulke": "TR",
+        "barkodNo": "8691898",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ipeksalca.com.tr/images/yootheme/logo_1.png"
+    },
+    {
+        "urunAdi": "Olca Gıda",
+        "urunAciklamasi": "Olca Gıda, 1994 yılında Karadeniz’in incisi Yeşil Niksar Ovası’nda kurulmuş bir salça ve konserve fabrikasıdır. Bu fabrika, özenle yetiştirilen domateslerden yıllık 6.000 ton domates salçası üretmek üzere tasarlanmıştır. Ayrıca, biber salçası ve kuşburnu marmelatı gibi butik ürünler de üretmektedir. Olca, salçalık domates-biber ekiminin yoğun olduğu Karacabey Ovası’nda bulunan bir başka salça fabrikasını da bünyesine katarak üretim kapasitesini artırmıştır. Uzmanlığı yüksek brixli salça üretimi olan Olca, Türkiye ve dünya piyasasına tanıtmak için çaba göstermektedir. Aynı zamanda dünya standardı olarak bilinen 28 brix ürününü de aynı sterillik ve kalitede üretmektedir. Olca, kaliteli ve lezzetli ürünleriyle sektörde yenilikçi bir rol oynamaya devam etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8697617",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.olca.com.tr/wp-content/uploads/2022/08/olca_logo.webp"
+    },
+    {
+        "urunAdi": "Akfa",
+        "urunAciklamasi": "AKFA, Türkiye’nin ilk salça üreticisi olarak 1951 yılında Çanakkale’de kuruldu. Ürünlerinin üstün kalitesi ve lezzeti, hem Türkiye’de hem de yurtdışında tanınmış ve markanın itibarı hızla artmıştır. AKFA, salça üretiminin %15’ini karşılamakta ve iç ve dış piyasalara satış yapmaktadır. Ürün yelpazesi arasında domates salçası, ketçap, domates sosu ve domates suyu gibi ürünler bulunmaktadır",
+        "ulke": "TR",
+        "barkodNo": "8690593",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/A/akfa-logo-8CBB90F7DA-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "İkbal",
+        "urunAciklamasi": "İkbal, 1922 yılında Salim Usta tarafından Afyon’da kurulan bir markadır. Türk mutfağının en sevilen şarküteri ürünleri arasında yerini alır. İkbal Sucuk, geleneksel tadı koruyarak ürettiği ürünlerle sektöründe aranan ve güvenilen bir marka olma yolunda büyük başarılara imza atmıştır",
+        "ulke": "TR",
+        "barkodNo": "8697457",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/I/ikbal-gida-logo-14DAD59461-seeklogo.com.png"
     }
     
 ]
