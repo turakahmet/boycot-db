@@ -169,7 +169,7 @@
     },
     {
         "urunAdi": "BİM Ürünleri",
-        "urunAciklamasi": "BİM Birleşik Mağazalar A.Ş., 1995 yılında 21 mağazayla faaliyetlerine başladı ve bugün Türkiye’nin organize perakende sektöründe pazar payı en yüksek şirketi konumunda bulunuyor. Geniş bir ürün yelpazesine sahiptir ayrıca özel markalı ürünler sunmaktadır.BİM Birleşik Mağazalar A.Ş. ortaklık yapısı şu şekildedir. Merkez Bereket Gıda San. ve Tic. A.Ş. (yüzde 15,15), Naspak Gıda San. ve Tic. A.Ş. (yüzde 11,53), Diğer (Halka Açık) (yüzde 71,64). Ayrıca 2014 yılından beri çeşitli üreticilere özel olarak ürettirilen, Bim Birleşik Mağazalar A.Ş. ve File mağazalarında satışa sunulan harras ürünleri bu çatı altındadır.",
+        "urunAciklamasi": "BİM Birleşik Mağazalar A.Ş., 1995 yılında 21 mağazayla faaliyetlerine başladı ve bugün Türkiye’nin organize perakende sektöründe pazar payı en yüksek şirketi konumunda bulunuyor. Geniş bir ürün yelpazesine sahiptir ayrıca özel markalı ürünler sunmaktadır.BİM Birleşik Mağazalar A.Ş. Ortaklık yapısı şu şekildedir, Merkez Bereket Gıda San. ve Tic. A.Ş. (yüzde 15,15), Naspak Gıda San. ve Tic. A.Ş. (yüzde 11,53), Diğer (Halka Açık) (yüzde 71,64). Ayrıca 2014 yılından beri çeşitli üreticilere özel olarak ürettirilen, Bim Birleşik Mağazalar A.Ş. ve File mağazalarında satışa sunulan harras ürünleri bu çatı altındadır.",
         "ulke": "TR",
         "barkodNo": "8695077",
         "urunTip": "GIDA",
@@ -694,6 +694,54 @@
         "barkodNo": "869911",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/A/a101-logo-6BBDE7F94F-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Kebir",
+        "urunAciklamasi": "1993 yılında Karadeniz Kardeşler A.Ş.'nin kurulmasıyla Kebir, artık tüm Türkiye'nin markası olur. Her geçen gün artan talepler doğrultusunda Kebir, 2000'li yıllarda daha kaliteli ve daha lezzetli ürünler sunabilmek ve Türkiye'nin kahvaltılık ihtiyacını karşılayabilmek için yatırımlarına hız verdi.",
+        "ulke": "TR",
+        "barkodNo": "8692963",
+        "urunTip": "GIDA",
+        "urunLogo": "https://files.sikayetvar.com/lg/cmp/65/6560.svg?1522650125"
+    },
+    {
+        "urunAdi": "Kahve Dünyası",
+        "urunAciklamasi": "Kahve Dünyası, 2004 yılında İstanbul'un Eminönü semtinde açılan ilk mağazasıyla başlayan bir hikayeye sahiptir. Müşteri odaklı yaklaşımı, Türk misafirperverliğini yansıtan güler yüzlü servisi ve kendi üretimi olmayan hiçbir ürünü sunmama ilkesiyle kısa sürede önerilen bir marka haline gelmiştir. Bugün Türkiye, İngiltere, Romanya, Kuveyt ve Suudi Arabistan'da 200'den fazla mağaza ile toplam 450'den fazla noktada müşterileriyle buluşmaktadır. Ürün yelpazesi kahveden çikolataya, unlu mamulden dondurmaya kadar genişlemiş ve herkesin ulaşabileceği bir marka olarak tanınmıştır. Kendi üretimleriyle kaliteli ve lezzetli ürünleri sunan Kahve Dünyası, Türk kahvesi ve diğer özgün lezzetleri dünyaya tanıtmaya devam etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8697447",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/K/kahve-dunyasi-logo-65084B42BA-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Niğde Gazozu",
+        "urunAciklamasi": "Niğde Gazozu, Türkiye’nin meşhur gazlı içeceklerinden biridir.  İlk olarak 44 metrekarelik bir dükkânda üretilen bu ferahlatıcı içecek, bugün Niğde Meşrubat ve Gıda Sanayi Ticaret Limited Şirketi tarafından yıllık 8 milyon şişe kapasitesiyle üretilmektedir. Niğde Gazozu, meyve esansı, şeker, karbondioksit, asitik düzenleyici (E330), koruyucu (E211) ve frambuaz aroması içerir. Niğde Gazozu, Türkiye’nin geleneksel lezzetlerinden biri olarak bilinir ve ferahlatıcı tadıyla öne çıkar. ",
+        "ulke": "TR",
+        "barkodNo": "8697448",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/N/nigde-gazozu-logo-654D3E4246-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Avşar Madensuyu",
+        "urunAciklamasi": "Avşar Maden Suyu, Türkiye’nin meşhur maden sularından biridir. İlk yazılı bilgi, Türk Hıfzısıhha ve Tecrübi Biyoloji mecmuasının 1940 yılında yayınlanan 3. sayısında yer alır. Bu yazıda, Afyon’a dört saat mesafede Avşar Membaları’nın bulunduğundan bahsedilir. Daha sonraki yıllarda Avşar Maden Suları ile ilgili birçok araştırma ve analiz yapılmış ve Avşar Maden Suyunun üstün vasıflara sahip olduğu belirtilmiştir. Avşar Maden Suyu, içme amaçlı kullanımının yanı sıra jeotermal sağlık kürü amacıyla da kullanılır. Kaynağının yakınında bulunan mağaralar, Eski Yunanlılar döneminde su tedavisi amacıyla kullanıldığını göstermektedir. 2015 yılında Demirci Hacı Ömer Oğulları Şirketler Grubu tarafından fabrika yatırımı başlatılarak, yurt içinde ve yurt dışında yaşayan insanların faydasına sunulmuştur. ",
+        "ulke": "TR",
+        "barkodNo": "8681349",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://images.seeklogo.com/logo-png/53/1/avsar-logo-png_seeklogo-536006.png"
+    },
+    {
+        "urunAdi": "Kızılcahamam Madensuyu",
+        "urunAciklamasi": "Kızılcahamam Maden Suyu, 1957 yılında maden suyu dolumu yaparak faaliyetlerine başlamıştır. 1998 yılında Canerler Grup tarafından devralınan Kızılcahamam Maden Suları, Kızılcahamam’ın yer altındaki şifa dolu mineralli sularını saf kaynağa sadık kalarak %100 doğal olarak şişelemektedir. Bu eşsiz lezzetli maden suyu, yıllara dayanan doğallık, sağlık ve kalite ilkelerini benimseyerek sofralarımızla buluşmaya devam ediyor.",
+        "ulke": "TR",
+        "barkodNo": "8691660",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://kizilcahamammadensuyu.com/wp-content/uploads/2022/08/Kizilcahamam-Maden-Suyu-Logo-001-1400x794.png"
+    },
+    {
+        "urunAdi": "Kızılay Madensuyu",
+        "urunAciklamasi": "Kızılay Maden Suyu, Türkiye’nin meşhur maden sularından biridir. Tarihçesi oldukça köklüdür ve M.Ö. 8. yüzyıla kadar uzanır. Eski adı “Karahisar Suyu” olan Kızılay Maden Suyu, Osmanlı döneminde padişahlara sunulmuş ve sağlık amaçlı kullanılmıştır. 1900 yılında Belçikalı bir hekim II. Abdülhamid’e Afyonkarahisar maden suyunu tavsiye etmiş ve suyun tahlilini yapmıştır. Atatürk ise 1926 yılında Kızılay Maden Suyu’nun gelirini Kızılay’a bırakmak üzere bir şişeleme fabrikası kurmuştur. 1932’de Londra’da yapılan bir yarışmada kalitesi ve mineral içeriği değerlendirilerek Kızılay Maden Suyu “Altın Madalya” almaya hak kazanmıştır.",
+        "ulke": "TR",
+        "barkodNo": "8692813",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.kizilaymadensuyu.com.tr/assets/images/footer-logo.png"
     }
 
 ]
