@@ -27,7 +27,7 @@
         "urunAdi": "Uludağ",
         "urunAciklamasi": "Uludağ, 1931 yılında kurulan Uludağ İçecek Türk A.Ş. bünyesinde üretilen doğal mineralli su, meyveli doğal mineralli su, doğal kaynak suları, doğal maden suyu, meyve aromalı doğal maden suyu, meyve sulu doğal maden suyu, hafif içimli doğal maden suyu, limonata, portakallı gazoz ve az kalorili gazoz gibi içecekler markasıdır.",
         "ulke": "TR",
-        "barkodNo": "8694413 8683111 8690723 8693807 8693806 8693364 8680304 8697430 8690690 8697429 8693166 8693368 8693703 8698758 8697428 8680211",
+        "barkodNo": "8694413 8683111 8690723 8693807 8693806 8693364 8680304 8697430 8697429 8693166 8693368 8693703 8698758 8697428 8680211",
         "urunTip": "ICECEK",
         "urunLogo": "https://seeklogo.com/images/U/uludag-logo-193C171582-seeklogo.com.png"
     },
@@ -124,7 +124,7 @@
         "urunAciklamasi": "ÇAYKUR, Türkiye Cumhuriyeti devletine ait bir çay üretim kuruluşudur. Tam adı 'Çay Sanayi ve Ticaret AŞ' olan ÇAYKUR, 1983 yılında Rize ilinde kurulmuştur. Doğu Karadeniz Bölgesi'nde çay tarımı ve sanayisinde önemli bir rol oynamaktadır. ÇAYKUR'un 45 yaş çay işleme fabrikası, çay paketleme fabrikası, pazarlama ve üretim bölge müdürlükleri, Anatamir Fabrikası ve Atatürk Çay ve Bahçe Kültürleri Araştırma Enstitüsü Müdürlüğü bulunmaktadır. Ayrıca, ÇAYKUR'un 16.500 çalışanı ve 6.600 ton/gün yaş çay işleme kapasitesi ile Türkiye çay sektörünün en büyük ve lider kuruluşlarından biridir.",
         "ulke": "TR",
         "barkodNo": "8690105 8691020 8681711",
-        "urunTip": "GIDA",
+        "urunTip": "ICECEK",
         "urunLogo": "https://seeklogo.com/images/C/Caykur-logo-CD03EDBAE1-seeklogo.com.png"
     },
     {
@@ -752,14 +752,6 @@
         "urunLogo": "https://javsu.com.tr/demo2/wp-content/uploads/2022/02/javsulogo-1.png"
     },
     {
-        "urunAdi": "Javsu",
-        "urunAciklamasi": "JAVSU, Türkiye’nin meşhur maden sularından biridir. 2003 yılından bu yana ambalajlı su sektöründe faaliyet gösteren JAVSU, Jandarma Asayiş Vakfını Destekleme A.Ş. tarafından kurulmuştur ve gelirlerinin tamamını vakfa aktarmaktadır1. JAVSU, doğal mineralli bir sudur ve yüksek mineral içeriği sayesinde gün boyunca vücudun kaybettiği minerallerin geri alınmasına destek olur",
-        "ulke": "TR",
-        "barkodNo": "8697401",
-        "urunTip": "ICECEK",
-        "urunLogo": "https://javsu.com.tr/demo2/wp-content/uploads/2022/02/javsulogo-1.png"
-    },
-    {
         "urunAdi": "Korusu",
         "urunAciklamasi": "Korusu, Türkiye’nin meşhur maden sularından biridir. Yumuşak içimli suyu, yıllardır Uludağ’dan gelen ve Kızık köylerinin tarihi kaynaklarında can bulan sudur. 700 yılı aşan bir tarihin adıdır Korusu. Çevresindeki yeşillikler, mevsimlere göre değişen renk cümbüşleriyle adeta bir tablo gibidir. Korusu, kalite ve hijyenin kusursuz uyumunu sunar; her damlası titizlikle korunmuş, doğanın saf güzelliğiyle bütünleşmiş bir nimettir. Doğal Kaynak Suyu Uludağ’ın derinliklerinde saklı olan özün yüceliğini taşırken, bedenimize ve ruhumuza doğanın doğal güzelliğini armağan eder.",
         "ulke": "TR",
@@ -790,6 +782,70 @@
         "barkodNo": "8680188",
         "urunTip": "ICECEK",
         "urunLogo": "https://seeklogo.com/images/A/assu-logo-773A069DCA-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Hamidiye",
+        "urunAciklamasi": "Hamidiye, İstanbul’un doğal ormanları içindeki kaynaklardan elde edilen lezzetli, sağlıklı ve güvenilir doğal kaynak sularını İstanbul halkına ve Türkiye’nin birçok şehrine, ayrıca dünya genelinde 29 ülkeye ulaştırmaktadır. II. Abdülhamid tarafından “II. Abdülhamid Han Hamidiye Suyu Tesisleri” adıyla kurulan Hamidiye Su Tesisleri, İstanbul’a kaliteli içme suyu sağlama amacıyla kurulmuş ve ilk kez basınçlı su verilmesini sağlamıştır.",
+        "ulke": "TR",
+        "barkodNo": "8693202",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/H/hamidiye-logo-66D9D05F2E-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Karali Çay",
+        "urunAciklamasi": "Karali Çay, 1993 yılında Rize’de kurulan bir Türk markasıdır. Özçay ile birlikte 2002 yılında Türkiye’deki ilk organik çayı üretmiştir. 2022 ve 2023 yıllarında Avrupa Kalite Zirvesi’nde Avrupa Kaliteli ödülünü kazanmıştır. Karali Çay, 27 ülkeye ihracat yapmaktadır ve 4 fabrikada 15.000 tonluk üretim kapasitesine sahiptir. Ürünleri arasında fındıklı çay ve diğer çeşitler bulunmaktadır",
+        "ulke": "TR",
+        "barkodNo": "8692204",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.karalicay.com/front/img/logo.png"
+    },
+    {
+        "urunAdi": "Meysu",
+        "urunAciklamasi": "Meysu, Türkiye’nin ilk meyve suyu markasıdır. Yıllardır aynı kalite ve tecrübeyle nesilden nesile sofralarda yerini almıştır. Meysu, %100 Meyve Suları, Meyve Nektarı, Meyveli İçecekler, Soğuk Kahve, Enerji İçeceği, Soğuk Çay, Limonata, Şerbet, Süt ve Gazlı İçecekler gibi geniş bir ürün yelpazesi sunar.",
+        "ulke": "TR",
+        "barkodNo": "8681049 8690792",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.meysu.com.tr/images/header-logo.png"
+    },
+    {
+        "urunAdi": "Özkaynak",
+        "urunAciklamasi": "Özkaynak, Mineralli Maden Suyu ve Kaynak Suyu sektöründe önemli bir konuma sahip bir Türk markasıdır. Faaliyetlerine 1968 yılında başlayan Özkaynak, 1972 yılında Bursa’da Özkaynak Mineralli Su (maden suyu) tesislerini kurdu. Teknik altyapısı, teknolojisi, kalitesi ve güvenilirliği ile sektörde öne çıkan Özkaynak, 2003 yılında Tekirdağ fabrikasını açarak “Özgü” marka Doğal Mineralli Maden Suyu üretimine başladı. Kalitesini TÜV EN ISO 9001 2015 sertifikasıyla belgeleyen Özkaynak, sağlıklı suyun tüketiciye ulaşma aşamalarında titizlikle çalışmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8691637",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.meysu.com.tr/images/header-logo.png"
+    },
+    {
+        "urunAdi": "Kardelen",
+        "urunAciklamasi": "Kardelen Su, Türkiye’nin köklü markalarından biridir. 1993 yılında KAR-SU Çamlıca Köyü Su İşletmeleri adıyla kurulan modern bir tesis olan Kardelen Su, 6.500 m² kapalı ve 25.000 m² açık alanda faaliyet göstermektedir 1. Bu sağlıklı su, Kerem Ali Dağları’nın zirvesinden elde edilir ve kimyasal ve biyolojik kirlenmelerden uzaktır. Kardelen Su, 8,30 pH alkali ve mineral yapısıyla öne çıkar ve tercih edilen bir markadır. Ürünleri arasında 200 ml, 0.33 lt, 0.5 lt, 1.5 lt, 5 lt, 10 lt ve 19 lt boyutlarında şişelenmiş su bulunur ",
+        "ulke": "TR",
+        "barkodNo": "8695188",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.kardelensu.com/yonetim/uploads/1_Site/settings_v/999999x999999/1-site--1-njj0t25.png"
+    },
+    {
+        "urunAdi": "Aroma",
+        "urunAciklamasi": "Aroma, Türkiye’nin köklü meyve suyu markalarından biridir. 1968 yılında Bursa’nın Gürsu ilçesinde kurulan Aroma, yılda 20.000 tondan 125.000 tona çıkan işlenen meyve miktarıyla ülkenin önde gelen meyve suyu dolum tesislerinden biri haline gelmiştir. Aroma, %100 meyve suyu üretimiyle yeni bir kategori yaratmış ve Türkiye’de ilk kez multivitaminli karışık meyve suyu üretmiştir. Ayrıca doğal kaynak suyu ve gazlı içecekler de üretmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8690690",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/A/aroma-logo-B0FDCFFF0F-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Tirebolu Çay",
+        "urunAciklamasi": "Tirebolu Çayı, Tirebolu’nun yüksek kesimlerinde yetişir ve bol yağış alan topraklarda özel bir çay çeşididir. Yağmurlardan sonra açan ilk çay filizleri kullanılarak hazırlanır ve tek tek elle toplanır. Toplandıktan hemen sonra güneşe maruz kalmadan işlenmeye başlanır, bu da çayın taze ve eşsiz aromasını korur. Karadeniz kıyısında yer alan Tirebolu yöresinde geleneksel yollarla üretilir. El emeğiyle özenle toplanan filizler özel olarak işlenir ve paketlenir. Çay demlemek için porselen demlik tercih etmeniz, çayın tadını daha net çıkaracaktır.",
+        "ulke": "TR",
+        "barkodNo": "8693769",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.tirebolucay.com/data/image/setting/logo.png"
+    },
+    {
+        "urunAdi": "Nazo",
+        "urunAciklamasi": "Nazo, günümüzde portakal, şeftali, limon ve mango çeşitleriyle geniş bir ürün yelpazesi sunan bir içecek markasıdır. Nazo meyve suyu tozları, sağlıkla meyve suyu arasında bir bağlantı kurmak isteyenler için ideal bir seçenektir. Portakal, şeftali, limon ve mango aromalı Nazo içecekleri, pratik ve lezzetli bir alternatif sunar. Ayrıca, Nazo’nun vişne aromalı toz içeceği de tercih edilebilir.",
+        "ulke": "TR",
+        "barkodNo": "8696150",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.yurtpatent.com/images/logo/1072.jpg"
     }
 
 ]
