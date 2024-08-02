@@ -48,14 +48,6 @@
         "urunLogo": "https://seeklogo.com/images/B/beypazari-logo-0526120871-seeklogo.com.png"
     },
     {
-        "urunAdi": "Duru",
-        "urunAciklamasi": "Duru Sabun, Türkiye merkezli bir markadır ve Evyap Grubu'nun bir parçasıdır. Evyap, 1927 yılında İstanbul'da kurulmuştur ve Duru markası altında sabun ve kişisel bakım ürünleri üretmektedir. Duru, özellikle doğal ve bitkisel içerikli sabunlarıyla tanınır ve hem Türkiye'de hem de uluslararası pazarlarda geniş bir tüketici kitlesine sahiptir. Marka, yıllar içinde genişleyerek çeşitli kişisel bakım ürünleri sunan bir hale gelmiştir.",
-        "ulke": "TR",
-        "barkodNo": "8690506",
-        "urunTip": "TEMIZLIK",
-        "urunLogo": "https://seeklogo.com/images/D/duru-logo-9FC719ACD3-seeklogo.com.png"
-    },
-    {
         "urunAdi": "SEK",
         "urunAciklamasi": "SEK, Türkiye’de süt ve süt ürünleri üretimi yapan bir markadır. 1963 yılında kurulan SEK, pastörize süt, homojenize yoğurt ve dil peyniri gibi ürünleri tüketiciyle tanıştırmıştır. Daha fazla bilgi için SEK’nin resmi web sitesini ziyaret edebilirsiniz.",
         "ulke": "TR",
@@ -846,6 +838,64 @@
         "barkodNo": "8696150",
         "urunTip": "ICECEK",
         "urunLogo": "https://www.yurtpatent.com/images/logo/1072.jpg"
+    },
+    {
+        "urunAdi": "Aktürk",
+        "urunAciklamasi": "Aktürk, 1989 yılında kurulan Aktürk Şekerli Mamüller Ürt. ve Paz. Ltd. Şti. bünyesinde üretilen gofret, helva, reçel, marmelat, tahin, pekmez, lokum, cezerye, cevizli sucuk, fındık kreması, pişmaniye, saray helvası, tahinli krema, bal markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8692562",
+        "urunTip": "GIDA",
+        "urunLogo": "https://hotelasistan.com/yonetim/firmalogolari/124002486.png"
+    },
+    {
+        "urunAdi": "Asperox",
+        "urunAciklamasi": "Asperox, 2005 yılında Adana Organize Sanayi Bölgesi’nde kurulan bir Türk markasıdır. Beyaz Kağıt A.Ş. bünyesinde faaliyet gösteren Asperox, toz deterjan, sıvı deterjan, yumuşatıcı, kireç önleyici, sıvı ve jel bulaşık deterjanı, çamaşır suyu, genel amaçlı temizleyiciler, sıvı sabun, oda spreyi gibi kozmetik ürünler ile birlikte hammadde üretmektedir",
+        "ulke": "TR",
+        "barkodNo": "8697713",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.asperox.com.tr/wp-content/uploads/2020/11/asperox-logo-180x93-1.png"
+    },
+    {
+        "urunAdi": "ABC",
+        "urunAciklamasi": "ABC, 1972 yılında Türkiye sanayisinin emekleme döneminde kurulan bir şirkettir. Başer Kardeşler’in sınırsız hayal gücü, “Bir Türk firması olarak, dünya çapında ürünler üretmek” vizyonunu şekillendirdi. ABC Deterjan (o zamanlar Başer Kimya olarak biliniyordu), ilk olarak yurtiçi ve uluslararası pazarlara kimyasal hammadde üretimiyle faaliyet gösterdi. Kısa sürede deterjan hammaddelerinin ana üreticisi haline geldi ve 1980’lerin sonlarında krem deterjan üretimine başladı. 1986’da Türk tüketicileriyle tanışan ABC markası, temizlik sektöründe dünyanın en bilinen markalarından biri haline geldi. ABC, iş kalitesini korumak ve kurumsallaşmak için yenilikçi yöntemler uygulamaya devam ediyor. Firmanın bünyesindeki markalar, ABC, Alfa, TEK",
+        "ulke": "TR",
+        "barkodNo": "8690511",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.abcdeterjan.com.tr/wp-content/uploads/logo.png"
+    },
+    {
+        "urunAdi": "Camsil",
+        "urunAciklamasi": "Camsil, Sultanlar Holding’in bir parçası olarak 1945 yılında faaliyetlerine başlamıştır. Türkiye’nin ilk markalı cam temizleyicisini üreten Camsil, temizlik kimyasalları alanında Türkiye’nin öncü markalarından biridir. Ürünlerini tanıtmak amacıyla ilk reklam filmini 1979 yılında yayınlamıştır.",
+        "ulke": "TR",
+        "barkodNo": "8690546",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.camsil.com.tr/img/logo-2022.png"
+    },
+    {
+        "urunAdi": "Hypo",
+        "urunAciklamasi": "Hypo, 1960 yılından bu yana Türkiye’de çamaşır suyunun adı olarak bilinir. Yılların uzmanlığıyla kusursuz temizlik ve hijyen sunmak amacıyla şişelenmiştir. Mikrop ve bakterilere karşı %99.9 etkili Hypo Çamaşır Suyu, inatçı kirleri ve hijyen endişelerini anında ortadan kaldırırken temizliği bir adım öteye taşır. Ayrıca, Hypo Hijyenik Köpük Çamaşır Suyu, aktif mikro köpük teknolojisi sayesinde sıçramaz, kolay durulanır ve yüzeylere sımsıkı tutunur.",
+        "ulke": "TR",
+        "barkodNo": "8690673",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.yerlituket.com/images/brand/hypo.jpg"
+    },
+    {
+        "urunAdi": "Tex",
+        "urunAciklamasi": "Tex, AYKİM TEMİZLİK MADDELERİ SANAYİ VE TİCARET A.Ş. tarafından 1994 yılında İstanbul’da kurulmuş bir Türk markasıdır. %100 yerli sermaye ile hızlı tüketime yönelik temizlik ve hijyen ürünleri üretimi ve dağıtımı amacıyla kurulan AYKİM, bugün itibariyle Tex, Aspirix, Lento, Özcan, Babylife ve Greener markalarıyla İstanbul ve Lüleburgaz’da ileri teknoloji kullanılarak tam otomasyona ve çevresel duyarlılığa sahip tesislerinde Temiz Üretim Şartları ve GMP Standartlarına uygun dünya standartlarında üretim yapmaktadır. Ürünler TSE Belgesine sahiptir. Aykim, yurtiçi müşterilerinin yanı sıra Avrupa, Asya ve Afrika’da yaklaşık otuz ülkeye kendi markaları ile ihracat yapmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8697427",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.tex.com.tr/wp-content/uploads/2023/12/tex-logo-240-135-yeni.png"
+    },
+    {
+        "urunAdi": "Evyap",
+        "urunAciklamasi": "Evyap, çatısı altında Activex, Arko, Arko Nem, Bellissima, Blade, Duru, Emotion, Evy Baby, Fax, First Class, Gibbs, Privacy, Sanino ve Soft Touch markalarını bulunduran Türkiye'nin köklü sabun ve kişisel bakım ürünleri üreticilerinden biridir. 1927 yılında Erzurum'da sabun üretimiyle başlayan serüveni, daha sonra duş jeli, şampuan, tıraş ürünleri, cilt bakım ürünleri, kokulu kozmetik, bebek bezi ve diş macunu gibi birçok ürünle genişledi. Evyap'ın kurucusu Mehmet Rıfat Evyap'ın en büyük prensibi, kaliteli ürünler üretmekti. Türkiye sabun ve kişisel bakım ürünleri ihracatının önemli bir kısmını gerçekleştiren Evyap, ismini 100’den fazla ülkeye ulaştırmaktadır. ",
+        "ulke": "TR",
+        "barkodNo": "8690506 8690586",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.maycreative.com.tr/web/wp-content/uploads/2023/02/evyap-urunleri-toptan.jpg"
     }
+
+
 
 ]
