@@ -989,7 +989,7 @@
         "ulke": "TR",
         "barkodNo": "8690530 8693239",
         "urunTip": "TEMIZLIK_BAKIM",
-        "urunLogo": "https://www.parex.com.tr/kfb-inc/uploads/2016/03/logo.png"
+        "urunLogo": "https://seeklogo.com/images/E/eczacibasi-holding-logo-06C40F85AC-seeklogo.com.png"
     },
     {
         "urunAdi": "Dalin",
@@ -998,5 +998,21 @@
         "barkodNo": "8690605",
         "urunTip": "BAKIM",
         "urunLogo": "https://seeklogo.com/images/D/dalin-logo-8C784B462F-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Biotalab",
+        "urunAciklamasi": "B’iota Laboratuvarları, 2002 yılında kurulan bir firma olarak sağlık ve güzellik sorunlarına etkin ve uzun vadeli bitkisel çözümler sunuyor. Markaları arasında Bioxcin, Bioblas, Bioder, Nutraxin, Biobaby, Restorex ve Proxentin bulunuyor. Bioxcin Forte Serisi, saç dökülmesine karşı lipozom teknolojisi ile geliştirilmiş bitkisel içerikli ürünlerden oluşuyor. Ayrıca, cilt problemlerine karşı da yüz yıkama jelleri, kremler ve serumlar sunuyorlar",
+        "ulke": "TR",
+        "barkodNo": "8680512",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://seeklogo.com/images/D/dalin-logo-8C784B462F-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Kayın",
+        "urunAciklamasi": "Kayın, 2009 yılında kurulan Kartane Su Gıda Madencilik İnşaat Turizm Sanayi ve Ticaret Limited Şirketi tarafından üretilen doğal mineralli su markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8680998",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://www.kayinsu.com.tr/images/logo.png"
     }
 ]
