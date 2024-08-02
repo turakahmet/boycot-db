@@ -8,6 +8,14 @@
         "urunLogo": "https://seeklogo.com/images/T/torku-logo-B85D336F2D-seeklogo.com.png"
     },
     {
+        "urunAdi": "Bingo",
+        "urunAciklamasi": "Bingo, Türkiye merkezli bir markadır ve temizlik ürünleri ile tanınır. Bingo, 1987 yılında Saban Grubu tarafından kurulmuştur. Marka, deterjan, yumuşatıcı, çamaşır suyu, bulaşık deterjanı gibi çeşitli temizlik ürünleri üretmektedir. Bingo, Türkiye'nin önde gelen temizlik markalarından biridir ve ürünleri geniş bir tüketici kitlesi tarafından kullanılmaktadır. Bingo, kaliteye ve müşteri memnuniyetine önem vererek, geniş bir ürün yelpazesi sunar ve hem yurtiçinde hem de yurtdışında önemli bir pazar payına sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://seeklogo.com/images/B/bingo-deterjan-logo-3D48FA2FED-seeklogo.com.png"
+    },
+    {
         "urunAdi": "Ülker",
         "urunAciklamasi": "Ülker, 1944 yılında Sabri ve Asım Ülker tarafından kurulan Ülker Bisküvi Sanayi A.Ş. bünyesindeki; çikolata, diyet ürünler, bisküvi, gofret, bebek maması, mandıra ürünü ve kahvaltı gevreği markasıdır.",
         "ulke": "TR",
@@ -54,6 +62,14 @@
         "barkodNo": "8697403",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/D/danet-logo-0AB7E6CBBF-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Asperox",
+        "urunAciklamasi": "Asperox, 2005 yılında Adana Organize Sanayi Bölgesi’nde kurulan bir Türk markasıdır. Beyaz Kağıt A.Ş. bünyesinde faaliyet gösteren Asperox, toz deterjan, sıvı deterjan, yumuşatıcı, kireç önleyici, sıvı ve jel bulaşık deterjanı, çamaşır suyu, genel amaçlı temizleyiciler, sıvı sabun, oda spreyi gibi kozmetik ürünler ile birlikte hammadde üretmektedir",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.asperox.com.tr/wp-content/uploads/2020/11/asperox-logo-180x93-1.png"
     },
     {
         "urunAdi": "Lezita",
@@ -884,7 +900,7 @@
         "urunAciklamasi": "Hayat, çatısı altında Bingo, Familia, Has, Joly, Molfıx, Molped, Papia, Teno, Test, Bebem, Evony, Focus markalarını bulunduran Türkiye merkezli bir markadır ve temizlik ürünleri ile tanınır. Bingo, 1987 yılında Saban Grubu tarafından kurulmuştur. Marka, deterjan, yumuşatıcı, çamaşır suyu, bulaşık deterjanı gibi çeşitli temizlik ürünleri üretmektedir. Bingo, Türkiye'nin önde gelen temizlik markalarından biridir ve ürünleri geniş bir tüketici kitlesi tarafından kullanılmaktadır. Bingo, kaliteye ve müşteri memnuniyetine önem vererek, geniş bir ürün yelpazesi sunar ve hem yurtiçinde hem de yurtdışında önemli bir pazar payına sahiptir.",
         "ulke": "TR",
         "barkodNo": "8690536",
-        "urunTip": "TEMIZLIK",
+        "urunTip": "TEMIZLIK_BAKIM",
         "urunLogo": "https://seeklogo.com/images/H/hayat-logo-9321394722-seeklogo.com.png"
     },
     {
@@ -899,7 +915,7 @@
         "urunAdi": "Uni Baby",
         "urunAciklamasi": "Uni Baby, Eczacıbaşı Topluluğu bünyesine 2012 yılında dahil olan bir Türk markasıdır. Yenidoğan uzmanlığıyla anne ve bebeklere özel ürünler sunmaktadır. Uni Baby, yüksek kalite standartlarında ürünleriyle yüzbinlerce bebeği büyütmüş ve anneler için güvenli bir yol arkadaşı olmuştur.",
         "ulke": "TR",
-        "barkodNo": "8690530 8692190",
+        "barkodNo": "",
         "urunTip": "BAKIM",
         "urunLogo": "https://unibaby.mncdn.com/unibaby/images/frontend/120.58-x-66.91.jpg"
     },
@@ -934,10 +950,53 @@
         "barkodNo": "8697713",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://beyazkagit.com.tr/wp-content/uploads/2024/07/beyazlogo-yeni-16.png"
+    },
+    {
+        "urunAdi": "Porçöz",
+        "urunAciklamasi": "Porçöz, Türkiye’nin ilk kireç çözücü markasıdır. Levent Kimya şirketine ait olan bu yerli malı marka, 1979 yılında İstanbul’da kurulmuştur. Ürünleri Antalya’daki 40.000 metrekarelik kapalı alanda üretilmektedir. Porçöz, kireç çözücü ürünüyle tanınsa da günlük temizlik, elektrikli ev aletleri, ekstra güçlü temizlik ve leke çıkarıcı kategorilerinde de ürünler sunmaktadır. Ayrıca, Levent Kimya, PORÇÖZ markasını yurtdışında farklı bir isimle taşıyarak dünya genelinde satış yapmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8690802",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.porcoz.com/images/site/logo.png"
+    },
+    {
+        "urunAdi": "Tampa",
+        "urunAciklamasi": "Tampa 1960 yılında Kadri ve Tamer Albayrak tarafından temeli atılan Esmen kozmetik bünyesindeki temizlik kimyasalları, genel temizlik kimyasalları, gıda üreticileri için hijyen ürünleri ve havuz kimyasalları için üretilen Türk markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8691644",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.yerlituket.com/images/brand/tampa-beyaz.jpg"
+    },
+    {
+        "urunAdi": "Boron",
+        "urunAciklamasi": "Boron, Türkiye’nin yerli ve milli temizlik ürünüdür. Eti Maden tarafından üretilen “Boron”, doğal mineralli, antialerjik ve antifungal özelliklere sahiptir. İçeriğinde zararlı kimyasallar, fosfat ve alerjen parfümler bulunmaz. Bor mineralleri, çamaşır temizlik ürünleri, ev veya endüstriyel tip temizleyiciler ve kişisel bakım ürünlerinin üretiminde kullanılır. “Boron”, çevre dostu, yerli ve sağlıklı bir seçenektir. Ayrıca, beyaz ve renkli çamaşırları temizlerken renkleri solutmaz ve çamaşırlarda kalıntı bırakmaz. Bulaşıklarda da kullanılabilen “Boron”, Türkiye’nin en çok tercih edilen doğal mineralli temizlik ürünlerinden biridir.",
+        "ulke": "TR",
+        "barkodNo": "8690132",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://ideacdn.net/idea/jc/45/myassets/banner_pictures/banner_1.png?revision=1634136535"
+    },
+    {
+        "urunAdi": "Parex",
+        "urunAciklamasi": "Parex, 2011 yılında kurulan Provel San. ve Tic. A.Ş. bünyesinde üretilen sünger, temizlik bezi, mikrofiber bez, ovma ürünleri, çöp torbası, streç film, alüminyum folyo, fırın torbası, yağlı pişirme kağıdı, buzdolabı poşeti, fırça, süpürge, tüy toplayıcı markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8699971",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.parex.com.tr/kfb-inc/uploads/2016/03/logo.png"
+    },
+    {
+        "urunAdi": "Eczacıbaşı",
+        "urunAciklamasi": "Eczacıbaşı, 1942 yılında Dr. Nejat F. Eczacıbaşı tarafından kurulan önemli bir Türk sanayi grubudur. Eczacıbaşı temel olarak yapı ürünleri, sağlık, tüketim ürünleri alanında, ulusal ve uluslararası pazarlara yönelik olarak çalışan bir sanayi kuruluşları topluluğudur. Topluluk yapısında, bu temel sektörler dışında finans, bilgi teknolojileri, kaynak teknolojileri, madencilik ve gayrimenkul geliştirme alanında etkinlik gösteren kuruluşlar da yer alıyor. Eczacıbaşı Topluluğu Tüketim Ürünleri Grubu’nda faaliyet gösteren Eczacıbaşı Girişim, Topluluk tarafından üretilen ve ithal edilen tüketim ürünleri ile Topluluk dışı kuruluşlarla yaptığı dağıtım anlaşmaları kapsamındaki toplam 38 marka ve 1600 ürün çeşidinin satış ve dağıtımını gerçekleştiriyor. Bünyesindeki markalar, Artema, Burgbad, Capintec, Cezbeli kahve, Daylong, Defans, Detan, Dispo, Ecco, Egos, Engers Keramik, Intema Mutfak, Maratem, Marathon, OK (Okey), Oralet, Pisipisi, Premax, Selin, Selpak, Sens, Servis, Silen, Solo, Şelale, Uni Baby, Uni Wipes,  Uni Care,  Uni Mom,  Uni Med, Villeroy-Boch, Vitra, VitraThermH, Vitrafix ve Viva markaları yer almaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8690530 8693239",
+        "urunTip": "TEMIZLIK_BAKIM",
+        "urunLogo": "https://www.parex.com.tr/kfb-inc/uploads/2016/03/logo.png"
+    },
+    {
+        "urunAdi": "Dalin",
+        "urunAciklamasi": "Dalin markası, Eczacı M. Adil Karaağaç tarafından 1983 yılında oluşturuldu. Kopaş Kozmetik Pazarlama ve Sanayi A.Ş.’ye aittir. Kozmetik, kişisel bakım ve ev temizlik ürünlerini geliştiren, insan ve çevre sağlığına zarar vermeksizin uluslararası standartlarda üreterek ülke çapında tüm kanallarda bulunurluğunu sağlayan ve satan bir kuruluştur.",
+        "ulke": "TR",
+        "barkodNo": "8690605",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://seeklogo.com/images/D/dalin-logo-8C784B462F-seeklogo.com.png"
     }
-
-
-
-
-
 ]
