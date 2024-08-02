@@ -8,14 +8,6 @@
         "urunLogo": "https://seeklogo.com/images/T/torku-logo-B85D336F2D-seeklogo.com.png"
     },
     {
-        "urunAdi": "Bingo",
-        "urunAciklamasi": "Bingo, Türkiye merkezli bir markadır ve temizlik ürünleri ile tanınır. Bingo, 1987 yılında Saban Grubu tarafından kurulmuştur. Marka, deterjan, yumuşatıcı, çamaşır suyu, bulaşık deterjanı gibi çeşitli temizlik ürünleri üretmektedir. Bingo, Türkiye'nin önde gelen temizlik markalarından biridir ve ürünleri geniş bir tüketici kitlesi tarafından kullanılmaktadır. Bingo, kaliteye ve müşteri memnuniyetine önem vererek, geniş bir ürün yelpazesi sunar ve hem yurtiçinde hem de yurtdışında önemli bir pazar payına sahiptir.",
-        "ulke": "TR",
-        "barkodNo": "8690536",
-        "urunTip": "TEMIZLIK",
-        "urunLogo": "https://seeklogo.com/images/B/bingo-deterjan-logo-3D48FA2FED-seeklogo.com.png"
-    },
-    {
         "urunAdi": "Ülker",
         "urunAciklamasi": "Ülker, 1944 yılında Sabri ve Asım Ülker tarafından kurulan Ülker Bisküvi Sanayi A.Ş. bünyesindeki; çikolata, diyet ürünler, bisküvi, gofret, bebek maması, mandıra ürünü ve kahvaltı gevreği markasıdır.",
         "ulke": "TR",
@@ -27,7 +19,7 @@
         "urunAdi": "Uludağ",
         "urunAciklamasi": "Uludağ, 1931 yılında kurulan Uludağ İçecek Türk A.Ş. bünyesinde üretilen doğal mineralli su, meyveli doğal mineralli su, doğal kaynak suları, doğal maden suyu, meyve aromalı doğal maden suyu, meyve sulu doğal maden suyu, hafif içimli doğal maden suyu, limonata, portakallı gazoz ve az kalorili gazoz gibi içecekler markasıdır.",
         "ulke": "TR",
-        "barkodNo": "8694413 8683111 8690723 8693807 8693806 8693364 8680304 8697430 8697429 8693166 8693368 8693703 8698758 8697428 8680211",
+        "barkodNo": "8690723 8693806 8693364 8693166 8693703",
         "urunTip": "ICECEK",
         "urunLogo": "https://seeklogo.com/images/U/uludag-logo-193C171582-seeklogo.com.png"
     },
@@ -35,7 +27,7 @@
         "urunAdi": "Şölen",
         "urunAciklamasi": "Şölen, Türkiye merkezli bir markadır. 1989 yılında Gaziantep'te kurulmuştur ve çikolata, şekerleme, bisküvi, kek gibi çeşitli gıda ürünleri üretmektedir. Şölen, özellikle çikolata ve şekerleme alanında Türkiye'nin önde gelen markalarından biridir ve uluslararası alanda da faaliyet göstermektedir.",
         "ulke": "TR",
-        "barkodNo": "8690527 8691707 8699141 8690637",
+        "barkodNo": "8691707 8699141",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/S/Solen-logo-E1A857FCFC-seeklogo.com.png"
     },
@@ -75,7 +67,7 @@
         "urunAdi": "Aytaç",
         "urunAciklamasi": "Aytaç, 1993 yılında kurulan bir Türk markasıdır. Avrupa’nın en büyük entegre et tesisini kuran Aytaç, 2014 yılında Yıldız Holding bünyesine katılmıştır. 30 yıllık tecrübesiyle, kalite, hijyen ve lezzetten ödün vermeden 130’dan fazla ürün çeşidiyle şarküteri ve taze et kategorilerinde geniş bir yelpazede hizmet sunmaktadır. Aytaç’ın üretim tesisleri Çerkeş, Çankırı ilçesinde bulunmaktadır. Ürünler, helal kesim ve hijyenik üretim standartlarına uygun olarak üretilmektedir. Aytaç, müşteri memnuniyetini ve güvenini ön planda tutarak, yüksek gıda güvenliği ve kalite standartlarını benimsemektedir",
         "ulke": "TR",
-        "barkodNo": "8682101 8691520 8691796 8680789",
+        "barkodNo": "8682101 8691520",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/A/aytac-logo-129A63C797-seeklogo.com.png"
     },
@@ -91,7 +83,7 @@
         "urunAdi": "Sütaş",
         "urunAciklamasi": "Sütaş, 1975 yılında Sadık Yılmaz tarafından kurulan Sütaş Süt Ürünleri A.Ş. bünyesinde üretilen süt ve süt ürünleri markasıdır. Türkiye, Makedonya ve Romanya'da bulunan beş tesisinde üretim yapmaktadır. Firma ürünlerini 32 ülkeye ihraç etmektedir. 'Çiftlikten Sofralara' entegre iş modeli ile ineklerin beslendiği yemden tüketicilerin sofrasına kadar giden süreci yönetiyor ve kontrol altına alıyorlar. Ana ürünleri arasında yoğurtlar, ayran, peynir, süzme yoğurt, kaymak, kefir, krema, çökelek, tereyağı, süt ve bebek-çocuk ürünleri yer almaktadır.",
         "ulke": "TR",
-        "barkodNo": "8690767 8690763 8681324 8693780 8693805",
+        "barkodNo": "8690767 8681324 8693780 8693805",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/S/sutas-logo-F3B1A76282-seeklogo.com.png"
     },
@@ -115,7 +107,7 @@
         "urunAdi": "ÇAYKUR",
         "urunAciklamasi": "ÇAYKUR, Türkiye Cumhuriyeti devletine ait bir çay üretim kuruluşudur. Tam adı 'Çay Sanayi ve Ticaret AŞ' olan ÇAYKUR, 1983 yılında Rize ilinde kurulmuştur. Doğu Karadeniz Bölgesi'nde çay tarımı ve sanayisinde önemli bir rol oynamaktadır. ÇAYKUR'un 45 yaş çay işleme fabrikası, çay paketleme fabrikası, pazarlama ve üretim bölge müdürlükleri, Anatamir Fabrikası ve Atatürk Çay ve Bahçe Kültürleri Araştırma Enstitüsü Müdürlüğü bulunmaktadır. Ayrıca, ÇAYKUR'un 16.500 çalışanı ve 6.600 ton/gün yaş çay işleme kapasitesi ile Türkiye çay sektörünün en büyük ve lider kuruluşlarından biridir.",
         "ulke": "TR",
-        "barkodNo": "8690105 8691020 8681711",
+        "barkodNo": "8690105 8691020",
         "urunTip": "ICECEK",
         "urunLogo": "https://seeklogo.com/images/C/Caykur-logo-CD03EDBAE1-seeklogo.com.png"
     },
@@ -139,7 +131,7 @@
         "urunAdi": "Tarım Kredi Kooperatif Market",
         "urunAciklamasi": "Tarım Kredi Market, Türkiye Tarım Kredi Kooperatiflerinin bir iştiraki olarak faaliyet göstermektedir. Çiftçilerden aldığı tarım ürünlerini işleyerek, yerli, kaliteli ve sağlıklı gıda ürünlerini tüketiciyle buluşturuyor. Manav reyonlarında her hafta sonu taze meyve ve sebzeleri halkla buluşturan bu market, çeşitli markaların ürünlerini sunmaktadır. Genel merkezi Ankara'da bulunan Tarım Kredi Market, çiftçilerin emeğini değerlendirmeyi amaçlayan bir iş modeliyle faaliyet göstermektedir. ",
         "ulke": "TR",
-        "barkodNo": "8682615 8681749 8696601 8680530 8697425 8683204 8682655",
+        "barkodNo": "8682615 8681749 8683204",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/T/turkiye-tarim-kredi-kooperatif-market-logo-6BABEB27D0-seeklogo.com.png"
     },
@@ -848,14 +840,6 @@
         "urunLogo": "https://hotelasistan.com/yonetim/firmalogolari/124002486.png"
     },
     {
-        "urunAdi": "Asperox",
-        "urunAciklamasi": "Asperox, 2005 yılında Adana Organize Sanayi Bölgesi’nde kurulan bir Türk markasıdır. Beyaz Kağıt A.Ş. bünyesinde faaliyet gösteren Asperox, toz deterjan, sıvı deterjan, yumuşatıcı, kireç önleyici, sıvı ve jel bulaşık deterjanı, çamaşır suyu, genel amaçlı temizleyiciler, sıvı sabun, oda spreyi gibi kozmetik ürünler ile birlikte hammadde üretmektedir",
-        "ulke": "TR",
-        "barkodNo": "8697713",
-        "urunTip": "TEMIZLIK",
-        "urunLogo": "https://www.asperox.com.tr/wp-content/uploads/2020/11/asperox-logo-180x93-1.png"
-    },
-    {
         "urunAdi": "ABC",
         "urunAciklamasi": "ABC, 1972 yılında Türkiye sanayisinin emekleme döneminde kurulan bir şirkettir. Başer Kardeşler’in sınırsız hayal gücü, “Bir Türk firması olarak, dünya çapında ürünler üretmek” vizyonunu şekillendirdi. ABC Deterjan (o zamanlar Başer Kimya olarak biliniyordu), ilk olarak yurtiçi ve uluslararası pazarlara kimyasal hammadde üretimiyle faaliyet gösterdi. Kısa sürede deterjan hammaddelerinin ana üreticisi haline geldi ve 1980’lerin sonlarında krem deterjan üretimine başladı. 1986’da Türk tüketicileriyle tanışan ABC markası, temizlik sektöründe dünyanın en bilinen markalarından biri haline geldi. ABC, iş kalitesini korumak ve kurumsallaşmak için yenilikçi yöntemler uygulamaya devam ediyor. Firmanın bünyesindeki markalar, ABC, Alfa, TEK",
         "ulke": "TR",
@@ -892,9 +876,67 @@
         "urunAciklamasi": "Evyap, çatısı altında Activex, Arko, Arko Nem, Bellissima, Blade, Duru, Emotion, Evy Baby, Fax, First Class, Gibbs, Privacy, Sanino ve Soft Touch markalarını bulunduran Türkiye'nin köklü sabun ve kişisel bakım ürünleri üreticilerinden biridir. 1927 yılında Erzurum'da sabun üretimiyle başlayan serüveni, daha sonra duş jeli, şampuan, tıraş ürünleri, cilt bakım ürünleri, kokulu kozmetik, bebek bezi ve diş macunu gibi birçok ürünle genişledi. Evyap'ın kurucusu Mehmet Rıfat Evyap'ın en büyük prensibi, kaliteli ürünler üretmekti. Türkiye sabun ve kişisel bakım ürünleri ihracatının önemli bir kısmını gerçekleştiren Evyap, ismini 100’den fazla ülkeye ulaştırmaktadır. ",
         "ulke": "TR",
         "barkodNo": "8690506 8690586",
-        "urunTip": "TEMIZLIK_KOZMETIK",
+        "urunTip": "TEMIZLIK_BAKIM",
         "urunLogo": "https://www.maycreative.com.tr/web/wp-content/uploads/2023/02/evyap-urunleri-toptan.jpg"
+    },
+    {
+        "urunAdi": "Hayat",
+        "urunAciklamasi": "Hayat, çatısı altında Bingo, Familia, Has, Joly, Molfıx, Molped, Papia, Teno, Test, Bebem, Evony, Focus markalarını bulunduran Türkiye merkezli bir markadır ve temizlik ürünleri ile tanınır. Bingo, 1987 yılında Saban Grubu tarafından kurulmuştur. Marka, deterjan, yumuşatıcı, çamaşır suyu, bulaşık deterjanı gibi çeşitli temizlik ürünleri üretmektedir. Bingo, Türkiye'nin önde gelen temizlik markalarından biridir ve ürünleri geniş bir tüketici kitlesi tarafından kullanılmaktadır. Bingo, kaliteye ve müşteri memnuniyetine önem vererek, geniş bir ürün yelpazesi sunar ve hem yurtiçinde hem de yurtdışında önemli bir pazar payına sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8690536",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://seeklogo.com/images/H/hayat-logo-9321394722-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Ceysu",
+        "urunAciklamasi": "Ceysu, 2003 yılında pet ve damacana üretimi ile ambalajlı su sektörüne adım atmış bir Türk markasıdır. Her geçen gün büyüyen dağıtım ağı ve üretim kapasitesi ile sektörün köklü firmalarından biri haline gelmiştir.",
+        "ulke": "TR",
+        "barkodNo": "8697429",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/C/ceysu-logo-FF3AA64264-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Uni Baby",
+        "urunAciklamasi": "Uni Baby, Eczacıbaşı Topluluğu bünyesine 2012 yılında dahil olan bir Türk markasıdır. Yenidoğan uzmanlığıyla anne ve bebeklere özel ürünler sunmaktadır. Uni Baby, yüksek kalite standartlarında ürünleriyle yüzbinlerce bebeği büyütmüş ve anneler için güvenli bir yol arkadaşı olmuştur.",
+        "ulke": "TR",
+        "barkodNo": "8690530 8692190",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://unibaby.mncdn.com/unibaby/images/frontend/120.58-x-66.91.jpg"
+    },
+    {
+        "urunAdi": "Renax",
+        "urunAciklamasi": "Renax, %100 yerli ve milli bir Türk markasıdır. 2004 yılında Konya'da kurulan Etap Kimya Sanayi Anonim Şirketi bünyesinde sıvı ve toz deterjan üretimiyle faaliyet göstermektedir. Renax, Konya Organize Sanayi Bölgesi'nde 29.000 metrekarelik açık alana ve 40.000 metrekarelik kapalı alana sahip tesislerinde yerli üretim yapmaktadır. Üretim sürecinde sürdürülebilirliğe önem veren Renax, ISO 9001, ISO 14001 ve OHSAS 18001 belgelerine sahip olarak kalite standartlarına uygun üretim yapmaktadır. Ürünleri arasında polimer teknolojisi ile canlı renkleri koruyan deterjanlar ve kıyafet dokularını yumuşatan bakım teknolojisine sahip ürünler bulunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8690058",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.yerlituket.com/images/brand/renax.jpg"
+    },
+    {
+        "urunAdi": "Dalan",
+        "urunAciklamasi": "Dalan, 1941 yılında İzmir’de Hamdi Dalan tarafından kurulan bir Türk markasıdır. O günden bu yana pirinalı sabun üretiminde liderliğini koruyan Dalan, bugün İzmir Pınarbaşı’ndaki 70.000 metrekarelik tesiste, en son teknoloji ile sabun, kozmetik ve gliserin üretimi yapmaktadır. Dalan Antik, geleneksel pirinalı, beyaz ve defneli çeşitleriyle öne çıkan bir üründür. Ayrıca, d’Olive markasıyla zeytinyağlı kozmetik ürünleri konusunda liderliği hedeflemektedir.",
+        "ulke": "TR",
+        "barkodNo": "8690529",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://seeklogo.com/images/D/dalan-logo-712DB0C0B5-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Viking",
+        "urunAciklamasi": "Viking Temizlik ve Kozmetik Ürünleri, 1978 yılında Türkiye’de kurulan bir temizlik ve kozmetik ürünleri üreticisidir. 2005 yılında İzmir Kemalpaşa’da modern tesislerini açarak sektördeki varlığını sürdürmüştür. Viking, bulaşık deterjanları, bulaşık tabletleri, oda parfümleri, yüzey temizleyici ve endüstriyel ürünler gibi geniş bir ürün yelpazesi sunmaktadır. ",
+        "ulke": "TR",
+        "barkodNo": "8692900",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://vikingtemizlik.com.tr/img/viking-40yil-logo.png"
+    },
+    {
+        "urunAdi": "Beyaz Kağıt",
+        "urunAciklamasi": "Beyaz Kağıt, çatısı altında Peros, Asperox, Sev, Halk, Fest, Clix markalarını bulunduran %100 Türk sermayeli bir şirkettir ve 2005 yılında Adana Organize Sanayi Bölgesi’nde kurulmuştur. Ev temizlik ürünleri sektöründe Türkiye’nin en büyük üç üreticisinden biridir. Üretim tesislerinde çamaşır bakım ürünleri (toz deterjan, yumuşatıcı, sıvı deterjan), bulaşık bakım ürünleri, sert yüzey bakım ürünleri ve kişisel bakım ürünleri olmak üzere 500’den fazla çeşit üretilmektedir. Ayrıca deterjan ana hammaddeleri Labsa ve SLES de bu tesislerde üretilmektedir. Beyaz Kağıt, yenilikçi, kalite odaklı ve güvenilir bir küresel lider olma yolunda ilerlemektedir. Temizlik ürünlerini sadece bir görev olarak değil, günlük temizlik rutinlerini keyifli anlara dönüştürmek için tasarlamaktadır. Çevre dostu üretim anlayışı ve sürdürülebilirlik taahhütleriyle temiz bir geleceğe katkıda bulunmaktadır. Ayrıca, dünyada sadece birkaç ülkede üretimi olan bulaşık makinesi deterjan kapsülünü tüketicilerle buluşturan Beyaz Kağıt, ülkemizin ekonomik gelişimine katma değer sağlamaktadır",
+        "ulke": "TR",
+        "barkodNo": "8697713",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://beyazkagit.com.tr/wp-content/uploads/2024/07/beyazlogo-yeni-16.png"
     }
+
+
 
 
 
