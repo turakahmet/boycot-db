@@ -147,7 +147,7 @@
         "urunAdi": "Tarım Kredi Kooperatif Market",
         "urunAciklamasi": "Tarım Kredi Market, Türkiye Tarım Kredi Kooperatiflerinin bir iştiraki olarak faaliyet göstermektedir. Çiftçilerden aldığı tarım ürünlerini işleyerek, yerli, kaliteli ve sağlıklı gıda ürünlerini tüketiciyle buluşturuyor. Manav reyonlarında her hafta sonu taze meyve ve sebzeleri halkla buluşturan bu market, çeşitli markaların ürünlerini sunmaktadır. Genel merkezi Ankara'da bulunan Tarım Kredi Market, çiftçilerin emeğini değerlendirmeyi amaçlayan bir iş modeliyle faaliyet göstermektedir. ",
         "ulke": "TR",
-        "barkodNo": "8682615 8681749 8683204",
+        "barkodNo": "8682615 8681749 8683204 8694962",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/T/turkiye-tarim-kredi-kooperatif-market-logo-6BABEB27D0-seeklogo.com.png"
     },
@@ -1014,5 +1014,13 @@
         "barkodNo": "8680998",
         "urunTip": "ICECEK",
         "urunLogo": "https://www.kayinsu.com.tr/images/logo.png"
+    },
+    {
+        "urunAdi": "Duru",
+        "urunAciklamasi": "Duru Sabun, 1967 yılında Türkiye'de kurulan bir temizlik ve kişisel bakım markasıdır. Doğal içeriklere odaklanan Duru, zeytinyağı, hindistancevizi yağı ve shea yağı gibi bitkisel yağlardan üretilen sabunlarıyla bilinir. Ayrıca duş jelleri, sıvı sabunlar ve çeşitli cilt bakım ürünleri de sunmaktadır. Markanın ürünleri, hem Türkiye'de hem de uluslararası pazarda geniş bir kullanıcı kitlesi tarafından tercih edilmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK_BAKIM",
+        "urunLogo": "https://seeklogo.com/images/D/duru-logo-9FC719ACD3-seeklogo.com.png"
     }
 ]
