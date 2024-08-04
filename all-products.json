@@ -1022,5 +1022,69 @@
         "barkodNo": "",
         "urunTip": "TEMIZLIK_BAKIM",
         "urunLogo": "https://seeklogo.com/images/D/duru-logo-9FC719ACD3-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Eyüp Sabri Tuncer",
+        "urunAciklamasi": "Eyüp Sabri Tuncer, 1923 yılında Türkiye'de kurulmuş köklü bir kozmetik ve kişisel bakım markasıdır. Marka, özellikle kolonya üretimiyle tanınır ve Türkiye'nin en eski kolonya markalarından biridir. Eyüp Sabri Tuncer, geleneksel Türk kolonyasının yanı sıra sabun, şampuan, diş macunu, el ve vücut kremleri gibi geniş bir ürün yelpazesi sunar. Doğal ve bitkisel içerikli ürünlere odaklanarak, hem yerel hem de uluslararası pazarlarda büyük bir kullanıcı kitlesine hitap eder.",
+        "ulke": "TR",
+        "barkodNo": "8691685",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://seeklogo.com/images/E/eyup-sabri-tuncer-logo-B7B0F7AA0F-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Ersağ",
+        "urunAciklamasi": "Ersağ, Türkiye merkezli bir temizlik ve kişisel bakım ürünleri markasıdır. 2002 yılında kurulan Ersağ, özellikle çevre dostu ve doğal içerikli ürünleriyle bilinir. Ürün yelpazesi, temizlik ürünlerinden kişisel bakım ürünlerine kadar geniş bir alana yayılır. Markanın en bilinen ürünleri arasında bitkisel temizlik ürünleri, şampuanlar, cilt bakım ürünleri ve diyet takviyeleri yer alır. Ersağ, doğaya saygılı üretim anlayışı ve kalite odaklı yaklaşımıyla hem Türkiye'de hem de uluslararası alanda tercih edilen bir markadır.",
+        "ulke": "TR",
+        "barkodNo": "8681515",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://seeklogo.com/images/E/ersag-logo-C612943B91-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Farmasi",
+        "urunAciklamasi": "Farmasi, çatısı altında 3f, Age Reversist, Bolero, Celesty, Dayana, Dr. C. Tuna, Dr.Tuna, Epilex, Eurofresh, Extralast Eye Pencil, Farmacity, Farmadent, Farmasi, Farmasiint, Farmasix, Fırat, Fruttare, Guylavin, Hifresh, L.Q, Laura Cınellı, Luxart, Makeart, Me Too, Mr.Wipes, Nutricoffee, Nutriplus, Nutritea, Panther, Pareo, Shark, Yrva Beauty ve Zeus markalarını bulunduran 2003 yılında Türkiye’de kurulan bir kozmetik ve kişisel bakım ürünleri markasıdır. Kurucusu Dr. Cevdet Tuna’dır. Farmasi, geniş ürün yelpazesiyle makyaj, cilt bakımı, diş macunu, saç bakımı, kişisel bakım, parfüm ve ev temizlik ürünleri sunar. Ürünleri, yüksek kalite standartlarına uygun olarak üretilir ve çevre dostu yöntemler kullanılır. Farmasi, doğrudan satış modeliyle çalışır ve uluslararası alanda da faaliyet göstermektedir",
+        "ulke": "TR",
+        "barkodNo": "8690131",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://seeklogo.com/images/F/farmasi-logo-3F12ED5196-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "T-Brush",
+        "urunAciklamasi": "T-Brush, ağız ve diş sağlığı ürünleri sunan bir markadır. Hacettepe Üniversitesi işbirliğiyle geliştirilen T-Brush, çevre dostu ve sürdürülebilir ürünleriyle dikkat çeker. Ürün yelpazesinde diş macunu tabletleri, ağız çalkalama tabletleri ve bambu diş fırçaları gibi çevre dostu malzemelerden üretilmiş ürünler bulunur. T-Brush, doğaya saygılı üretim anlayışıyla plastik kullanımını minimuma indirir ve geri dönüştürülebilir ambalajlar kullanır",
+        "ulke": "TR",
+        "barkodNo": "8682858",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://exponatura.net/b2b/yonet/upload/logo/A430-T-BRUSH.png"
+    },
+    {
+        "urunAdi": "Dk dent",
+        "urunAciklamasi": "Dkdent, ağız ve diş sağlığı ürünleri sunan bir markadır. Ezel Kozmetik tarafından üretilen Dkdent, doğal içerikli diş macunlarıyla bilinir. Ürünlerinde kil ve kalsiyum mineralleri kullanarak diş minesini güçlendirmeyi hedefler. Dkdent diş macunları, florürsüz, glutensiz ve SLS içermeyen formülleriyle dikkat çeker. Ayrıca, sigara, çay ve kahve lekelerini gidermeye yardımcı olur",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://www.dkdent.com.tr/images/dk-logo.png"
+    },
+    {
+        "urunAdi": "Dermokil",
+        "urunAciklamasi": "Dermokil, çatısı altında Clean Clay, Dermokil, Dkclay, Dkdent, Dkderm, Dkhair, Dkkil, Dkshop, Dr. Kil, Dr.Kil, Ezel, Ezel Kozmetik ve Kilmatik markalarını bulunduran 2006 yılında Türkiye’de kurulan bir kozmetik markasıdır. Ezel Kozmetik tarafından üretilen Dermokil, kil içerikli cilt bakım ürünleriyle tanınır. Ürün yelpazesi, cilt bakım maskeleri, şampuanlar, el ve vücut bakım ürünleri gibi çeşitli kategorileri kapsar. Dermokil, doğal kilin temizleyici, onarıcı ve yenileyici özelliklerini kullanarak ürünlerini geliştirir. Marka, hem Türkiye’de hem de uluslararası pazarda faaliyet göstermektedir",
+        "ulke": "TR",
+        "barkodNo": "8697916",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://www.madamecleopatra.com/wp-content/uploads/2024/02/Adsiz-tasarim-21.png"
+    },
+    {
+        "urunAdi": "Asilnur Grup",
+        "urunAciklamasi": "Asilnur Grup, 2008 yılında kurulan ve diş macunu, kişisel bakım ve temizlik ürünleri kategorilerinde faaliyet gösteren bir şirkettir. Şirket, yüksek kaliteli ve yenilikçi ürünlerini Türkiye, Avrupa, Orta Doğu ve Asya pazarlarında sunmaktadır. Asilnur Grup, Bioorbil, Feradisin ve OrbilLife gibi markalar altında bitki bazlı ve doğal içerikli ürünler üretir. Ürün yelpazesi diş macunları, ağız çalkalama suları, sabunlar, şampuanlar, duş jelleri ve vücut bakım ürünlerini kapsar",
+        "ulke": "TR",
+        "barkodNo": "8699241",
+        "urunTip": "TEMIZLIK_BAKIM",
+        "urunLogo": "https://asilnurkimya.com.tr/wp-content/uploads/2023/11/asilnur-kimya-logo.png"
+    },
+    {
+        "urunAdi": "BoomButter",
+        "urunAciklamasi": "BoomButter, çatısı altında Acnemin, Baam Baam, Babypore, Baicapil, Body Boom, Book Boom, Boom, Boom Bloom, Boom Bottox, Boom Butter, Boombox, Boomla, Bysmile, Clin Oil, Clınocs, Cooper, Declon, Diamond Shine, Face&Boom, Glory White, Hair Mayonez, Hair Mayonnaise, Hello Boom, Hello Jelly, Hello Smile, Hellosmile, Herbal Home, Hyaloid, Hydra Block, Hydra Boom, Hydra Cinamide, Hydra Mist, Hydra Shot, Hydraluron, Hydro Solution Icon, Hydropro, Hydrosolution, Hydrosolution Dna-Age, Hydrosolution Icon, Hydrosynol, Hyoluron, Hysmile, Icon13, Jelly Smile, Joom, Joomla, Loop Boom, Magic Mix, Mayo Mayonez, Mayo Mayonnaise, Mayonez, Mayonnaise, Original Mayonnaise, Orijinal Mayonez, Pone, Procerin, Procsan, Procsin, Procsiner, Revealing, Roseatopia, Saç Mayonezi, Saç Mayonnaise, Snoxin, Summer Boom, Xoom ve Youth Boom markalarını bulunduran doğal ve bitkisel içerikli bakım ürünleri sunan bir markadır. Marka, özellikle saç ve cilt bakımında kullanılan yağ karışımları ile tanınır. BoomButter ürünleri, içerdikleri doğal yağlar sayesinde besleyici ve onarıcı özelliklere sahiptir. Ürün yelpazesi saç bakım yağları, cilt bakım kremleri,diş macunu ve doğal sabunlar gibi çeşitli bakım ürünlerini içerir. BoomButter, kimyasal içermeyen, doğal ve sağlıklı bakım çözümleri arayan kullanıcılar tarafından tercih edilir.",
+        "ulke": "TR",
+        "barkodNo": "8697863  8682427",
+        "urunTip": "TEMIZLIK_BAKIM",
+        "urunLogo": "https://ekipkozmetik.com/image/cache/catalog/markalar/procsin-logo-600x315h.png"
     }
 ]
