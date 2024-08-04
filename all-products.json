@@ -475,9 +475,9 @@
         "urunAdi": "Yumdoy Yumurta",
         "urunAciklamasi": "Yumdoy, Türkiye’de 1985 yılında Doğuş Çay tarafından kurulan bir yumurta markasıdır. Yumdoy, sağlıklı yaşam için gerekli olan 6 temel besin grubunu içeren yumurtalar üretir. Bir yumurta, protein, n-3 yağ asitleri, vitamin A, K, D, E, B2, B12, niyasin, biyotin, pantotenik asit ve birçok mineral için önerilen günlük dozların %9’dan fazlasını karşılar.",
         "ulke": "TR",
-        "barkodNo": "8680865",
+        "barkodNo": "8680885",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.yumdoy.com/assets/img/logo.png"
+        "urunLogo": "https://yumdoy.com/wp-content/uploads/2024/08/YUMDOY-LOGO.png"
     },
     {
         "urunAdi": "İpek Salça",
@@ -1081,10 +1081,26 @@
     },
     {
         "urunAdi": "BoomButter",
-        "urunAciklamasi": "BoomButter, çatısı altında Acnemin, Baam Baam, Babypore, Baicapil, Body Boom, Book Boom, Boom, Boom Bloom, Boom Bottox, Boom Butter, Boombox, Boomla, Bysmile, Clin Oil, Clınocs, Cooper, Declon, Diamond Shine, Face&Boom, Glory White, Hair Mayonez, Hair Mayonnaise, Hello Boom, Hello Jelly, Hello Smile, Hellosmile, Herbal Home, Hyaloid, Hydra Block, Hydra Boom, Hydra Cinamide, Hydra Mist, Hydra Shot, Hydraluron, Hydro Solution Icon, Hydropro, Hydrosolution, Hydrosolution Dna-Age, Hydrosolution Icon, Hydrosynol, Hyoluron, Hysmile, Icon13, Jelly Smile, Joom, Joomla, Loop Boom, Magic Mix, Mayo Mayonez, Mayo Mayonnaise, Mayonez, Mayonnaise, Original Mayonnaise, Orijinal Mayonez, Pone, Procerin, Procsan, Procsin, Procsiner, Revealing, Roseatopia, Saç Mayonezi, Saç Mayonnaise, Snoxin, Summer Boom, Xoom ve Youth Boom markalarını bulunduran doğal ve bitkisel içerikli bakım ürünleri sunan bir markadır. Marka, özellikle saç ve cilt bakımında kullanılan yağ karışımları ile tanınır. BoomButter ürünleri, içerdikleri doğal yağlar sayesinde besleyici ve onarıcı özelliklere sahiptir. Ürün yelpazesi saç bakım yağları, cilt bakım kremleri,diş macunu ve doğal sabunlar gibi çeşitli bakım ürünlerini içerir. BoomButter, kimyasal içermeyen, doğal ve sağlıklı bakım çözümleri arayan kullanıcılar tarafından tercih edilir.",
+        "urunAciklamasi": "BoomButter, çatısı altında Acnemin, Baam Baam, Babypore, Baicapil, Body Boom, Bysmile, Clin Oil, Clınocs, Cooper, Declon, Diamond Shine, Face&Boom, Glory White, Hair Mayonez, Hair Mayonnaise, Hello Smile, Hellosmile, Herbal Home, Hyaloid, Hydra Block, Hydra Boom, Hydra Cinamide, Hydra Mist, Hydra Shot, Hydraluron, Hydro Solution Icon, Hydropro, Hydrosolution, Hydrosolution Dna-Age, Hydrosolution Icon, Hydrosynol, Hyoluron, Hysmile, Icon13, Jelly Smile, Joom, Joomla, Loop Boom, Magic Mix, Mayo Mayonez, Mayo Mayonnaise, Mayonez, Mayonnaise, Original Mayonnaise, Orijinal Mayonez, Pone, Procerin, Procsan, Procsin, Procsiner, Revealing, Roseatopia, Saç Mayonezi, Snoxin, Summer Boom, Xoom ve Youth Boom markalarını bulunduran doğal ve bitkisel içerikli bakım ürünleri sunan bir markadır. Marka, özellikle saç ve cilt bakımında kullanılan yağ karışımları ile tanınır. BoomButter ürünleri, içerdikleri doğal yağlar sayesinde besleyici ve onarıcı özelliklere sahiptir. Ürün yelpazesi saç bakım yağları, cilt bakım kremleri,diş macunu ve doğal sabunlar gibi çeşitli bakım ürünlerini içerir. BoomButter, kimyasal içermeyen, doğal ve sağlıklı bakım çözümleri arayan kullanıcılar tarafından tercih edilir.",
         "ulke": "TR",
         "barkodNo": "8697863  8682427",
         "urunTip": "TEMIZLIK_BAKIM",
         "urunLogo": "https://ekipkozmetik.com/image/cache/catalog/markalar/procsin-logo-600x315h.png"
+    },
+    {
+        "urunAdi": "Endeks Kimya",
+        "urunAciklamasi": "Endeks Kimya, 1968 yılından beri gıda ve gıda dışı dağıtım, satış ve perakende sektörlerinde faaliyet gösteren Ender Grup bünyesinde yer almaktadır. 2007 yılında temizlik, deterjan ve kişisel bakım kategorilerinde üretime başlamıştır. Ürün yelpazesinde Kalyon, Hugva, Joystar gibi markalar altında çeşitli temizlik ürünleri ve Beauty Fresh ile Doa markaları altında kozmetik ürünler bulunmaktadır. Endeks Kimya, 75’ten fazla ülkeye ihracat yaparak global bir üretici konumuna gelmiştir ve Türkiye’de özel markalı ürünler üreten firmalardan biridir.",
+        "ulke": "TR",
+        "barkodNo": "8680731",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.endekskimya.com/Content/i/logo.png"
+    },
+    {
+        "urunAdi": "Güleç Kimya",
+        "urunAciklamasi": "Asprinn, Güleç Kimya tarafından üretilen çok amaçlı bir temizlik ürünüdür. Ev ve ofis temizliğinde kullanılmak üzere geliştirilmiştir. Ahşap, cam, masif, sert plastik, laminant ve mermer gibi çeşitli yüzeylerde etkili temizlik sağlar. Asprinn, iz bırakmadan kusursuz bir temizlik sunar ve özel formülü sayesinde inatçı kirleri kolayca çıkarır. Kullanımı kolay olan bu ürün, hijyenik ve sağlıklı yaşam alanları oluşturmak için idealdir. Bünyesindeki markalar, Ailem, Ancal, Asprinn, Detax, Expo, Formül, Hanımeli, Hipotos, Pendy, Yuvam",
+        "ulke": "TR",
+        "barkodNo": "8694068",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.guleckimya.com.tr/yuklemeler/imaj/logo.png"
     }
 ]
