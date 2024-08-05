@@ -1296,7 +1296,7 @@
         "urunLogo": "https://seeklogo.com/images/K/kutahya-porselen-logo-2A76DCD30B-seeklogo.com.png"
     },
     {
-        "urunAdi": "Hatemoğlu",
+        "urunAdi": "LC Waikiki",
         "urunAciklamasi": "1988 yılında George Amouyal ve ortakları tarafından kurulmuş olan hazır giyim markasıdır. 1997 yılında Taha Holding tarafından satın alınmıştır. LC Waikiki Mağazacılık Hizmetleri Tic. A.Ş. bünyesindedir. 60’a yakın ülkede binden fazla mağazaya sahiptir. Bünyesindeki markalar; LC Waikiki, XSIDE",
         "ulke": "TR",
         "barkodNo": "",
@@ -1342,5 +1342,13 @@
         "barkodNo": "",
         "urunTip": "MUTFAK_URUNU",
         "urunLogo": "https://seeklogo.com/images/P/pasabahce-logo-BB9CDF2C74-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Hatemoğlu",
+        "urunAciklamasi": "Hatemoğlu, 1924 yılında kurulan Mib Mağazacılık Tic. A. Ş. bünyesindeki hazır giyim markasıdır. Ceket, palto, kaban, mont, pardösü, takım elbise, smokin, gömlek, t-shirt, sweatshirt, yelek, pantolon, ayakkabı, çanta, cüzdan, gözlük, kemer, kol düğmesi, kravat, papyon, mendil, şapka, bere, kozmetik ürünlerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://seeklogo.com/images/H/hatemoglu-logo-2DFFDC2620-seeklogo.com.png"
     }
 ]
