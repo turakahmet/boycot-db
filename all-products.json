@@ -1102,5 +1102,45 @@
         "barkodNo": "8694068",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://www.guleckimya.com.tr/yuklemeler/imaj/logo.png"
+    },
+    {
+        "urunAdi": "A.O.Ç.",
+        "urunAciklamasi": "Atatürk Orman Çiftliği (A.O.Ç.), Türkiye’de önemli bir tarihi ve tarımsal kuruluştur. A.O.Ç., geniş ürün yelpazesi ile bilinir. Başlıca ürünleri arasında süt ve süt ürünleri, et ve et ürünleri, organik sebze ve meyveler, bal, zeytinyağı, unlu mamuller ve çeşitli içecekler bulunmaktadır. Özellikle süt ve süt ürünleri, yüksek kalitesi ve lezzeti ile tüketiciler tarafından tercih edilmektedir. Çiftlikte üretilen tüm ürünler, doğal ve sağlıklı üretim yöntemleri kullanılarak hazırlanır. A.O.Ç. ürünleri, Türkiye genelinde birçok markette ve kendi satış noktalarında tüketicilere sunulmaktadır. Atatürk Orman Çiftliği, doğal ve kaliteli ürünleriyle Türk tarımının önemli bir temsilcisi olmaya devam etmektedir. ",
+        "ulke": "TR",
+        "barkodNo": "8690115",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/A/aoc-ataturk-orman-ciftligi-logo-F2BC4AF497-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Türem Yumurta",
+        "urunAciklamasi": "Türem Yumurta, 1969 yılında yumurta üretim serüvenine başladı. Ankara’da faaliyetlerine başlayan Türem Yumurta, uzun süren araştırma ve geliştirme çalışmalarının ardından Çubuk kasabasında iki farklı yumurta üretim tesisi kurdu. Üretim sürecinde her yumurta, Tarım ve Köy İşleri Bakanlığı’nın Avrupa Birliği Standartlarına uygun olarak barkodlanıyor. Bu sayede her yumurtanın üretim tarihini, üretim yerini ve üretici bilgilerini görebilirsiniz. ISO 9001, ISO 22000 ve Helal belgelerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8693880",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.turem.com.tr/wp-content/uploads/2021/08/logoweb.jpg"
+    },
+    {
+        "urunAdi": "Aybar Tavukçuluk",
+        "urunAciklamasi": "Aybar Tavukçuluk, Türkiye'nin önde gelen beyaz et üreticilerinden biri olarak uzun yıllardır faaliyet göstermektedir. Şirket, sektöre giriş yaptığı günden bu yana kalite ve güvenilirlik prensiplerinden ödün vermeden büyümesini sürdürmüştür. Aybar Tavukçuluk, yenilikçi üretim teknikleri ve modern tesisleriyle Türkiye'nin dört bir yanına sağlıklı ve lezzetli tavuk ürünleri sunmaktadır. Şirket, Tekirdağ’ın Çorlu ilçesinde faaliyet göstermektedir.",
+        "ulke": "TR",
+        "barkodNo": "8693956",
+        "urunTip": "GIDA",
+        "urunLogo": "http://aybartavukculuk.com.tr/logo.png"
+    },
+    {
+        "urunAdi": "Öğütler Süpermarket",
+        "urunAciklamasi": "Öğütler Süpermarket ilk şubesini 1991 yılında Eryaman semtinde 500 metrekarelik mağaza ile Ankara’nın o zamanki en büyük Süpermarketini kurmuş ve daha sonra bünyesine kattığı 13 şubeyle Ankara’da gıda perakendeciliği alanında güven, kalite ve müşteri odaklı ticaret politikası çerçevesinde hizmete sunarak istikrarlı büyümesini sürdürmüştür.",
+        "ulke": "TR",
+        "barkodNo": "9900100",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ogutler.com.tr/wp-content/uploads/2019/09/kendi-ciftligimiz.png"
+    },
+    {
+        "urunAdi": "Kocatepe Kahve",
+        "urunAciklamasi": "Kocatepe Kahve, 1949 yılında kuruldu ve Türk kahvesi üretiminde büyük bir hassasiyetle seçkin kahve çekirdekleri kullanıyor. Bu çekirdekler doğal taş değirmenlerde öğütülüp kavruluyor, böylece sert ve yoğun bir lezzet deneyimi sunuyor. Ayrıca, Kocatepe Türk Kahvesi’nin sıcak çikolata ve salep gibi diğer içecekleri de lezzetli alternatifler arasında yer alıyor.",
+        "ulke": "TR",
+        "barkodNo": "8682287",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/K/kocatepe-logo-8081ED9689-seeklogo.com.png"
     }
 ]
