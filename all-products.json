@@ -1145,10 +1145,18 @@
     },
     {
         "urunAdi": "Vestel",
-        "urunAciklamasi": "Vestel, 1984 yılında Asil Nadir tarafından kurulmuş olan Vestel Elektronik San. ve Tic. A.Ş. bünyesinde üretilen tüketici elektroniği, büyük ev aletleri, profesyonel ekranlar, otomotiv ve akü çözümleri ve elektrikli araç şarj cihazları ürünleri markasıdır. 1994 yılında Zorlu Holding tarafından satın alınmıştır. Firma Manisa merkezlidir. ",
+        "urunAciklamasi": "Vestel, 1984 yılında Asil Nadir tarafından kurulmuş olan Vestel Elektronik San. ve Tic. A.Ş. bünyesinde üretilen tüketici elektroniği, büyük ev aletleri, profesyonel ekranlar, otomotiv ve akü çözümleri ve elektrikli araç şarj cihazları ürünleri markasıdır. 1994 yılında Zorlu Holding tarafından satın alınmıştır. Firma Manisa merkezlidir. Marka çatısı altında bazı markalar, Seg, Venus, Regal, Clean Pro...  ",
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "TEKNOLOJI",
         "urunLogo": "https://seeklogo.com/images/V/Vestel-logo-C1BCC9CF48-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Arçelik",
+        "urunAciklamasi": "Arçelik, 1955 yılında Vehbi Koç ve Lütfi Doruk’un madeni eşya üretmek üzere 1955 yılında kurduğu ortaklıkla doğar. Arçelik A.Ş., Arçelik, Beko, Altus, Elektra Bregenz, Bloomberg, Arctic, Leisure, Flavel ve Tirolia markaları ile yerel ve uluslararası pazarlarda tüm tüketici segmentlerine hitap edecek bir ürün gamına sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/A/arcelik-logo-4275A5066A-seeklogo.com.png"
     }
 ]
