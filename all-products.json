@@ -1350,5 +1350,21 @@
         "barkodNo": "",
         "urunTip": "GIYIM",
         "urunLogo": "https://seeklogo.com/images/H/hatemoglu-logo-2DFFDC2620-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Mutlu Makarna",
+        "urunAciklamasi": "Mutlu Makarna, 1972 yılında kurulan Mutlu Makarnacılık Sanayi ve Ticaret A.Ş. bünyesindeki makarna, un ve irmik markasıdır. Sade makarna, kepekli makarna, sebzeli makarna, irmik, un gibi ürünlerden 45 çeşit Gaziantep’te kurulu tesislerinde üretim yapmaktadır. Bünyesindeki markalar: Mutlu, Pastaricco, Bahar, Pasta, Lusso",
+        "ulke": "TR",
+        "barkodNo": "8690946",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/M/mutlu-makarna-logo-E6B763D253-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Sleepy",
+        "urunAciklamasi": "Sleepy markası, yüzde yüz yerli sermayeli Eruslu Sağlık Ürünleri Sanayi ve Ticaret A.Ş. tarafından 2004 yılında çocuk bezi üretimiyle başlatılmıştır. Sleepy, saf ve doğal içeriklerle yenilikçi ürünler sunarak tüketicilere hizmet vermektedir. Ayrıca, 100’den fazla ülkeye ihracat yaparak Türkiye’yi dünya pazarında temsil eden bir markadır. Ürün Çeşitleri: Bebek Bezi, Islak Mendil, Alt Açma Pedi, Mama Önlüğü, Havlu ,Diğer hijyen ürünleri",
+        "ulke": "TR",
+        "barkodNo": "8681212 8697512 8682241",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://seeklogo.com/images/S/sleepy-logo-DF43C3AFBA-seeklogo.com.png"
     }
 ]
