@@ -1374,5 +1374,13 @@
         "barkodNo": "8690103",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/M/Marmarabirlik-logo-8B649B2D83-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Merit Süt",
+        "urunAciklamasi": "Merit Süt, Türkiye’de süt ürünleri üreten bir firmadır. Şirket, çeşitli peynirler, tereyağı, yoğurt ve kaymak gibi ürünler sunmaktadır. Kaşar peyniri, Akdeniz’in ekolojik yapısından gelen lezzetli ve kaliteli bir peynirdir. Beyaz peynir, kahvaltıların vazgeçilmezi olan yumuşak ve lezzetli bir peynirdir. Tereyağı, yemeklerin baş tacı olan doğal ve sağlıklı bir üründür. Yoğurt, doğal tatlarıyla yemeklere değer katan çeşitleriyle sunulmaktadır. Tulum peyniri, geleneksel lezzetlerin buluşma noktası olan ve özel günlerin vazgeçilmezi olan bir peynirdir. Kaymak, sağlıklı bir kahvaltının olmazsa olmazı olan doğal ve lezzetli bir üründür. Lor peyniri, protein ve kalsiyum açısından zengin olup, özellikle sporcular ve çocuklar için besleyici bir üründür.",
+        "ulke": "TR",
+        "barkodNo": "869740349",
+        "urunTip": "GIDA",
+        "urunLogo": "http://www.meritsut.com/img/logo2.png"
     }
 ]
