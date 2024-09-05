@@ -6,3 +6,5 @@ layout: default
 [Link to baycot.json](./all-products.json)
 # Gizlilik Politikasi
 [Link to Gizlilik_Politikası](./gizlilik_politikasi.html)
+# app-ads
+[Link to app-ads](./app-ads.txt)
