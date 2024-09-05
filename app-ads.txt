@@ -1,2 +1,1 @@
-# YerliTüketBoykotEt app-ads.txt dosyası
 google.com, pub-5739456278243519, DIRECT, f08c47fec0942fa0
