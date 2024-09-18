@@ -1446,5 +1446,13 @@
         "barkodNo": "8681630",
         "urunTip": "GIDA",
         "urunLogo": "https://www.yerlituket.com/images/brand/zuber.jpg"
-    }
+    },
+    {
+        "urunAdi": "Defacto",
+        "urunAciklamasi": "2003 yılında kurulan ve 2005 yılında ilk mağazasını açan DeFacto, dünyada 50'den fazla ülkede, 500'den fazla mağaza ve 14.000'den fazla çalışan ile faaliyet göstermektedir. Türkiye'deki mağaza sayısı 300'dür. Kısa zamanda edindiği tecrübe ve hızlı büyüme ivmesi, DeFacto’nun yurt dışı pazarlara açılmasını teşvik etmiştir. Kurulduğu günden beri global moda marka olması vizyonuyla hareket eden DeFacto, ilk yurt dışı mağazasını 2012 yılının Şubat ayında Kazakistan’da açmıştır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://seeklogo.com/images/D/defacto-logo-381BA696B8-seeklogo.com.png"
+    },
 ]
