@@ -16,14 +16,6 @@
         "urunLogo": "https://seeklogo.com/images/B/bingo-deterjan-logo-3D48FA2FED-seeklogo.com.png"
     },
     {
-        "urunAdi": "Ülker",
-        "urunAciklamasi": "Ülker, 1944 yılında Sabri ve Asım Ülker tarafından kurulan Ülker Bisküvi Sanayi A.Ş. bünyesindeki; çikolata, diyet ürünler, bisküvi, gofret, bebek maması, mandıra ürünü ve kahvaltı gevreği markasıdır.",
-        "ulke": "TR",
-        "barkodNo": "8690840 8690504 8690766 8683508",
-        "urunTip": "GIDA",
-        "urunLogo": "https://seeklogo.com/images/1/__lker-logo-4F14FB89AA-seeklogo.com.png"
-    },
-    {
         "urunAdi": "Uludağ",
         "urunAciklamasi": "Uludağ, 1931 yılında kurulan Uludağ İçecek Türk A.Ş. bünyesinde üretilen doğal mineralli su, meyveli doğal mineralli su, doğal kaynak suları, doğal maden suyu, meyve aromalı doğal maden suyu, meyve sulu doğal maden suyu, hafif içimli doğal maden suyu, limonata, portakallı gazoz ve az kalorili gazoz gibi içecekler markasıdır.",
         "ulke": "TR",
@@ -454,14 +446,6 @@
         "barkodNo": "8690770",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/P/pakmaya-logo-5EFEDE5660-seeklogo.com.png"
-    },
-    {
-        "urunAdi": "Superfresh",
-        "urunAciklamasi": "Superfresh, 1970 yılında kurulan Kerevitaş Gıda San. ve Tic. A.Ş. bünyesinde üretilen dondurulmuş gıdalar ve konserve ürünler markasıdır. Dondurulmuş sebzeler, pizza, hamburger, köfte, milföy, mantı, börek, deniz ürünleri, konserve mısır gibi ürün yelpazesine sahiptir.",
-        "ulke": "TR",
-        "barkodNo": "8690612",
-        "urunTip": "GIDA",
-        "urunLogo": "https://seeklogo.com/images/S/SuperFresh-logo-B21ACE9BC4-seeklogo.com.png"
     },
     {
         "urunAdi": "Patos, Cipso, Çerezos, Chips Master",
@@ -1446,5 +1430,21 @@
         "barkodNo": "8690187",
         "urunTip": "KIRTASIYE",
         "urunLogo": "https://static.ticimax.cloud/46752/Uploads/EditorUploads/Pages/Scrikss/scrikss-logo-1.jpeg"
+    },
+    {
+        "urunAdi": "Oba Makarna",
+        "urunAciklamasi": "OBA Makarna 1966 yılında Gaziantep’te kuruldu. Oba Makarna hisselerinin yüzde 50’si ÖZGÜÇLÜ AİLESİ’ne yüzde 50’si ise Bahreynli finans kuruluşları Venture Capital Bank ve First Energy Bank’a ait. Gaziantep 4.OSB 110 bin metrekare açık, 65 bin metrekare kapalı alana sahip tesislerinde en son İtalyan teknolojisi ve yüksek kapasitesi ile dünya standartlarında üretim yapmakta. Başta Türkiye, Afrika, Ortadoğu, Uzakdoğu pazarı olmak üzere İngiltere, Almanya, Çin, Güney Kore, Hindistan, Ukrayna ve Kolombiya gibi 86 ülke’de satılmakta.",
+        "ulke": "TR",
+        "barkodNo": "8690828",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/O/oba-makarna-logo-E9B350AB1A-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Züber",
+        "urunAciklamasi": "Züber, 2017 yılında Nailcan Kurt, Raşit Müftüoğlu ve Murathan Kurt tarafından kurulan Alterna Gıda San. Paz. ve Tic. A.Ş. bünyesinde üretilen doğal meyve ve kuruyemiş barları, protein barları, fıstık ezmesi spreadleri, granolalar ve tuzlu cipsler markasıdır. Ürünleri katkı, koruyucu, ilave şeker, gluten ve laktoz içermez. Ürünlerinde medjoul cinsi hurma ve deniz tuzu kullanmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8681630",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.yerlituket.com/images/brand/zuber.jpg"
     }
 ]
