@@ -1454,5 +1454,37 @@
         "barkodNo": "",
         "urunTip": "GIYIM",
         "urunLogo": "https://seeklogo.com/images/D/defacto-logo-381BA696B8-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Actisoft",
+        "urunAciklamasi": "1995 yılında kurulmuş olan Bim Birleşik Mağazalar A.Ş.’nin ev temizliği ve kağıt ürünlerindeki özel markasıdır. Actisoft markalı deterjan, yumuşatıcı, yüzey temizleyicisi, çöp poşeti, buzdolabı poşeti, kağıt havlu, tuvalet kağıdı gibi temizlik ve kağıt ürünleri gibi ürün çeşitlerinin her biri yerli veya yabancı menşeli muhtelif üreticiler tarafından Bim Birleşik Mağazalar A.Ş. adına üretilmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://www.yerlituket.com/images/brand/actisoft.jpg"
+    },
+    {
+        "urunAdi": "Afia",
+        "urunAciklamasi": "Afia, 1998 yılında kurulan Nafia Gıda Ltd. Şti. bünyesindeki; Unlu Mamüller, Temizlik Malzemeleri, Sos, Salça,Yağ ve Baharat, Şeker ve Hediyelik, Pasta Malzemeleri, Meşrubat ve İçecek Çeşitleri, Kuru Gıda ve Bakliyat, Kozmetik ve Kişisel Bakım, Kahvaltılık, Hediye Paketleri, Et Ürünleri, Cips, Kraker ve Atıştırmalık, Çikolata ve Kek Çeşitleri, Çay, Kahve, Şeker ve Tuz, Bisküvi ve Gofret Çeşitleri, Bal, Reçel ve Gıda Takviyeleri markasıdır. Ürünlerinde insan sağlığına zararlı ve dinen haram olan katkı maddeleri kullanılmıyor. ",
+        "ulke": "TR",
+        "barkodNo": "8698881",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.afiagida.com/Data/EditorFiles/afia_logo.png"
+    },
+    {
+        "urunAdi": "Agarta",
+        "urunAciklamasi": "Agarta, 2000 yılında Güneyce Pazarlama Sanayi ve Ticaret Ltd. Şti. bünyesinde kuruldu. Güneyce Pazarlama 1996 yılında perakende sektörüyle ticarete başlayarak organik gıda ve mantarcılık sektöründe üretim yapmakta olan yerli bir firmadır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://seeklogo.com/images/A/agarta-bitkisel-kozmetik-agarta-logo-491AA488C9-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Altunsa",
+        "urunAciklamasi": "Altunsa, 2003 yılında kurulmuş olan Altunsa Gıda San. Tic. A.Ş. bünyesinde üretilen hazır toz çorbalar, soğuk içecekler markasıdır. Ayrıca hazır çorba çeşitleri, yemek yardımcıları, pasta yardımcıları, tatlılar sunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8697449",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.altunsagida.com/images/markalar/altunsa.png"
     }
 ]
