@@ -139,7 +139,7 @@
         "urunAdi": "Tarım Kredi Kooperatif Market",
         "urunAciklamasi": "Tarım Kredi Market, Türkiye Tarım Kredi Kooperatiflerinin bir iştiraki olarak faaliyet göstermektedir. Çiftçilerden aldığı tarım ürünlerini işleyerek, yerli, kaliteli ve sağlıklı gıda ürünlerini tüketiciyle buluşturuyor. Manav reyonlarında her hafta sonu taze meyve ve sebzeleri halkla buluşturan bu market, çeşitli markaların ürünlerini sunmaktadır. Genel merkezi Ankara'da bulunan Tarım Kredi Market, çiftçilerin emeğini değerlendirmeyi amaçlayan bir iş modeliyle faaliyet göstermektedir. ",
         "ulke": "TR",
-        "barkodNo": "8682615 8681749 8683204 8694962",
+        "barkodNo": "8682615 868174914 8683204 8694962",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/T/turkiye-tarim-kredi-kooperatif-market-logo-6BABEB27D0-seeklogo.com.png"
     },
@@ -1486,5 +1486,165 @@
         "barkodNo": "8697449",
         "urunTip": "GIDA",
         "urunLogo": "https://www.altunsagida.com/images/markalar/altunsa.png"
-    }
+    },
+	{
+        "urunAdi": "Badem Su",
+        "urunAciklamasi": "Bademler Şirketler Grubu olarak profesyonel anlamda şirketleşme sürecinde ilk olarak 1950li yıllarda, gazoz üretim tesisi, taş ocak işletmeciliği ve mıcır şantiyeleri ile başlamış olup, ilerleyen süreçte mermer fabrikası, mermer ocakları işletmeciliği ve doğal kaynak su üretimi ile devam etmiştir.",
+        "ulke": "TR",
+        "barkodNo": "8699211",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.badempinari.net/wp-content/uploads/2024/01/badem-pinari-logo-2024.png"
+	},
+	{
+        "urunAdi": "Buzdağı Su",
+        "urunAciklamasi": "Buzdağı Doğal Mineralli Su, Sakarya İli Geyve ilçesi Doğançay Köyü Keremali Dağları sınırlarında kalan Yörük Ali Kestanelik Mevkiinden 640 m. kot mesafesinden doğmaktadır. Kaynaktan 8 km. çift hat polietilen hatlar ile Eskişehir yolu üzerindeki dolum tesislerimize hijyenik şartlarda çevresel tüm faktörlerden yalıtılarak ulaşmaktadır. Dolum tesislerimiz 6000 m2'si kapalı, toplam 28.000 m2 alan üzerine kurulmuştur.",
+        "ulke": "TR",
+        "barkodNo": "8699878",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/B/buzdagi-mineralli-su-logo-88E68300A7-seeklogo.com.png"
+	},
+	{
+        "urunAdi": "Sultan Su",
+        "urunAciklamasi": "Sultan, Doğal Kaynak Suyu 1975 yılında İnegöl Çiftlik Köyü Kooperatifi tarafından kuruldu. 2010 yılında Sedef Gıda Mad. Paz. ve Tic. Ltd. Şti. Sultan Su Dolum Tesisinin her türlü haklarını satın aldı.",
+        "ulke": "TR",
+        "barkodNo": "8699131",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/S/sultan_su-logo-878080BD03-seeklogo.com.png"
+	},
+	{
+        "urunAdi": "Munzur Su",
+        "urunAciklamasi": "Munzur, 2005 yılında 240 ortaklı olarak kurulan Munzur Tarım ve San. Ürünleri. Tic. A.Ş. bünyesindeki kaynak suyu markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8697641",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/M/munzur-su-logo-542F42331A-seeklogo.com.png"
+	},
+	{
+        "urunAdi": "Tekir Su",
+        "urunAciklamasi": "Tekir, 1999 yılında kurulan Tekir İçecekler Grubu tarafından üretilen doğal kaynak suyu, maden suyu ve gazoz markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8697418",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.tekiricecekler.com/images/ik/logo.png"
+	},
+	{
+        "urunAdi": "Taşkesti Su",
+        "urunAciklamasi": "Taşkesti, 2008 yılında kurulan Bolu Kaynak Suları İşletmeleri Tic. A.Ş. bünyesinde üretilen doğal kaynak suyu markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8680829",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/T/taskesti-su-logo-417349AEEA-seeklogo.com.png"
+	},
+	{
+        "urunAdi": "Çobanpınar Su",
+        "urunAciklamasi": "1985 yılında kurulmuş olan Çobanpınar İçme Suyu ve İnş. San. Tic. Ltd. Şti. bünyesinde üretilen şişelenmiş içme suyu markasıdır. Polikarbonat Damacanaları, her dolumdan önce sağlığa uygun deterjan, dezenfektan ve ozonla sterilize edilmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8697071",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.yerlituket.com/images/brand/cobanpinar.jpg"
+	},
+	{
+        "urunAdi": "Çene Su",
+        "urunAciklamasi": "Çene Suyu, 1999 yılında kurulan Çenesuyu A.Ş. bünyesinde üretilen doğal kaynak suyu markasıdır. Pet preformlar dolum tesislerindeki makinelerde şişirilerek pet şişe haline getirilip ozonlu suyla çalkalanarak tam otomatik makinelerde doldurulur. Damacanalar deterjan ile yıkanıp ozonlu su ile durulanarak sanitize edilir. Çenesuyu A.Ş., Kocaeli Derince Belediyesi kuruluşudur. Ürünleri çok sayıda ülkeye ihraç edilmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8697423",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/C/cene-suyu-logo-44BD671861-seeklogo.com.png"
+	},
+	{
+        "urunAdi": "Kestane Su",
+        "urunAciklamasi": "1954’ten bu yana  “Bir İstanbul Klasiği” olarak günümüze kadar gelen “Kestane Doğal Kaynak Suyu” kurulduğu ilk günden bu yana sadece CAM Şişede üretilmektedir. Türkiye’nin en eski kaynak suyu markalarından biri olan Kestane Su tamamen saf ve doğal kaynak suyudur.",
+        "ulke": "TR",
+        "barkodNo": "8699394",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://kestanesu.com/wp-content/uploads/2018/11/Kestane-logo.jpg"
+	},
+	{
+        "urunAdi": "Baby Turco",
+        "urunAciklamasi": "Baby Turco, 2012 yılında kurulan Puretex Plastik ve Tekstil Ürünleri San. ve Tic. A.Ş. bünyesinde üretilen bebek bezi ve ıslak havlu markasıdır. Bünyesindeki markalar, Baby Turco, Lady Turco ",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://www.babyturco.com.tr/public/upload/71ec707fc86e2afc38d0297d552c1bd2.png"
+	},
+	{
+        "urunAdi": "Baby Turco",
+        "urunAciklamasi": "Baby Turco, 2012 yılında kurulan Puretex Plastik ve Tekstil Ürünleri San. ve Tic. A.Ş. bünyesinde üretilen bebek bezi ve ıslak havlu markasıdır. Bünyesindeki markalar, Baby Turco, Lady Turco ",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://www.babyturco.com.tr/public/upload/71ec707fc86e2afc38d0297d552c1bd2.png"
+	},
+	{
+        "urunAdi": "Baby Turco",
+        "urunAciklamasi": "Baby Turco, 2012 yılında kurulan Puretex Plastik ve Tekstil Ürünleri San. ve Tic. A.Ş. bünyesinde üretilen bebek bezi ve ıslak havlu markasıdır. Bünyesindeki markalar, Baby Turco, Lady Turco ",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://www.babyturco.com.tr/public/upload/71ec707fc86e2afc38d0297d552c1bd2.png"
+	},
+	{
+        "urunAdi": "Abdurrahman Tatlıcı",
+        "urunAciklamasi": "Abdurrahman Tatlıcı, 1946 yılında kurulan Abdurrahman Tatlıcı Gıda San. ve Tic. Ltd. Şti. bünyesinde üretilen tahin, yaz helvası, tahin, pekmez, lokum, reçel, bal ve özel seri tahin helvalar markasıdır.leri glikoz şurubu, emülgatör, diğer hiçbir koruyucu katkı maddesi ve gluten içermemektedir.",
+        "ulke": "TR",
+        "barkodNo": "8690585",
+        "urunTip": "GIDA",
+        "urunLogo": "https://abdurrahmantatlici.com/wp-content/uploads/2017/04/logo-beyaz.png"
+	},
+	{
+        "urunAdi": "SADE Organik",
+        "urunAciklamasi": "Sade Organik Ürünler A.Ş., profesyonellerin yönettiği, kurumsallığı hedeflemiş bir firmadır. Sade Organik, kuru meyveler, kuruyemişler, bakliyat, baharat, salça, zeytin, zeytinyağı, un, yumurta ve reçel gibi çeşitli organik ürünler sunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8697463",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ideacdn.net/idea/gv/39/themes/selftpl_5f7d79533c205/assets/uploads/logo.png"
+	},
+	{
+        "urunAdi": "Seyidoğlu Gıda",
+        "urunAciklamasi": "Seyidoğlu, 1952 yılında Habeş Seyidoğlu tarafından temelleri atılan Gaziantepli Habeş Seyidoğlu Baklavaları Uluslararası Nakl. San. Tic. Ltd. Şti. bünyesinde üretilen baklava, kadayıf, helva, reçel ve lokum markasıdır. ISO 9001, ISO 22000 ve HACCP belgelerine sahiptir. Seyidoğlu Şirketler Grubu, 5 şirketle gıda ve tatlıcılık sektöründe faaliyet göstermektedir.",
+        "ulke": "TR",
+        "barkodNo": "8698529",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/S/seyidoglu-logo-1FCE789584-seeklogo.com.png"
+	},
+	{
+        "urunAdi": "Seğmen Gıda",
+        "urunAciklamasi": "Seğmen, 1938 yılında kurulan Seğmen Kardeşler Gıda Üretim ve Ambalaj Sanayi A.Ş. bünyesinde üretilen reçel, marmelad, bal, helva, fındık ezmesi, tahin, pekmez, tahinli pekmez, baharat, tereyağı, peynir, lokum markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8690551",
+        "urunTip": "GIDA",
+        "urunLogo": "https://seeklogo.com/images/S/segmen-logo-8A0BC97D61-seeklogo.com.png"
+	},
+	{	
+        "urunAdi": "Kalaycıoğlu",
+        "urunAciklamasi": "Firma 1966 yılında, geleneksel aile şirketi olarak Konya Bozkır’da kurulmuştur. Ana faaliyet konumuz tahindir. Kurulduğu günden bugüne 'Önce Kalite' prensibini ilke edinmiş olan firmadır, 'Kaliteli Ürün' odaklı üretim ve satış yapmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8694002",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ideacdn.net/idea/hr/20/myassets/std_theme_files/tpl-orion/assets/uploads/logo.png"
+	},
+	{
+        "urunAdi": "Wefood",
+        "urunAciklamasi": "Wefood, 2013 yılında Onur Kuş tarafından kurulan Doğavera Gıda ve Tic. Ltd. Şti. bünyesindeki süper tahıllar, glütensiz unlar, süper tozlar, ham, çiğ ve vegan besinler, organik gıda takviyeleri ve detoks gibi ürünlerin markasıdır. Ürünleri, yüzde 100 katkısız, koruyucusuz ve GDO’suzdur. Ürün ambalajlarının üzerinde ürünü hangi ülkeden, hangi tarladan tedarik edildiği ve ilgili yetki ve uzmanlık sertifikalarını paylaşmaktadır. Tüm ürünleri menşei ülkesinden sezonunda hasat edilip, tüm sertifikasyonları tamamlanarak satışa çıkarılır.",
+        "ulke": "TR",
+        "barkodNo": "868174910",
+        "urunTip": "GIDA",
+        "urunLogo": "https://wefood.com.tr/cdn/shop/files/162x41_beyaz.png"
+	},
+	{
+        "urunAdi": "Aldiva",
+        "urunAciklamasi": "Aldiva, 2015 yılında Tayyar Investment Finansal Yönetim A.Ş. bünyesinde üretilen bisküvi, kek, kraker, gofret, çikolata, çikolata bar ve kremalı çikolata markasıdır. Bünyesindeki markalar, Aldiva,Best Food",
+        "ulke": "TR",
+        "barkodNo": "8681270",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.aldiva.com.tr/logo_dark.png"
+	},
+	{
+        "urunAdi": "Delly",
+        "urunAciklamasi": "Delly, 2021 yılında kurulmuş olan Annalife Gıda San. Paz. Tic A.Ş. bünyesinde üretilen şekersiz çikolatalı meyve ve kuruyemiş atıştırmalıkları markasıdır. Ürünleri rafine şeker, kimyasallar, GDO’lu malzemeler içermez.",
+        "ulke": "TR",
+        "barkodNo": "8683851",
+        "urunTip": "GIDA",
+        "urunLogo": "https://images.migrosone.com/tazedirekt/brand/list/10000000007203/delly-logo-7b469e.jpg"
+	}
 ]
