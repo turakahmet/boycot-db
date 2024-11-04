@@ -1638,5 +1638,13 @@
         "barkodNo": "",
         "urunTip": "GIYIM",
         "urunLogo": "https://seeklogo.com/images/K/Koton-logo-EB44627AE9-seeklogo.com.png"
+	},
+	{
+        "urunAdi": "Ormanözü",
+        "urunAciklamasi": "Ormanözü, Serpil Oktay’ın girişimleriyle doğal malzemeler ve en iyi formüllerle organik yabani elma meyvesi başta olmak üzere, alıç, üzüm, sirke, kuburunu marmelat ürünlerini üstün lezzete ulaştırmış bir markadır. Türkiye pazarında yaygın bir satış ağında yer almaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8683382",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ormanozu.com.tr/wp-content/uploads/2023/08/logo-son.png"
 	}
 ]
