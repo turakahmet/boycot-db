@@ -1646,5 +1646,21 @@
         "barkodNo": "8683382",
         "urunTip": "GIDA",
         "urunLogo": "https://ormanozu.com.tr/wp-content/uploads/2023/08/logo-son.png"
+	},
+	{
+        "urunAdi": "Köycegiz Yöresel",
+        "urunAciklamasi": "Köyceğiz Yöresel markası, Muğla’nın Köyceğiz ilçesinde faaliyet gösteren Özçakırlar Gıda San. ve Tic. şirketine aittir. 1981 yılında kurulan bu şirket, %100 Türk sermayeli olup, yöresel ürünler üretmekte ve satmaktadır. Köyceğiz Yöresel markası, özellikle bal ve diğer yöresel lezzetleriyle tanınmaktadır",
+        "ulke": "TR",
+        "barkodNo": "8680030",
+        "urunTip": "GIDA",
+        "urunLogo": "https://images.koycegizbali.com/Data/EditorFiles/v4/yoresel-inter.png"
+	},
+	{
+        "urunAdi": "Zühre Ana",
+        "urunAciklamasi": "Zühre Ana, 2011 yılında Muharrem Kakı tarafından kurulmuş olan Erişim İthalat ve İnt Hiz. Tic. Ltd. Şti. bünyesinde üretilen bitkisel ürünler markasıdır. Ürün yelpazesinde macun, vitamin, krem, pekmez, kahvaltılık bitkisel gıda takviyeleri yer almaktadır. Firma İstanbul merkezlidir. Ürünlerini 22 ülkeye pazarlamaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8681144",
+        "urunTip": "GIDA",
+        "urunLogo": "https://files.sikayetvar.com/lg/cmp/20/202946.png"
 	}
 ]
