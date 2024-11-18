@@ -1659,8 +1659,32 @@
         "urunAdi": "Zühre Ana",
         "urunAciklamasi": "Zühre Ana, 2011 yılında Muharrem Kakı tarafından kurulmuş olan Erişim İthalat ve İnt Hiz. Tic. Ltd. Şti. bünyesinde üretilen bitkisel ürünler markasıdır. Ürün yelpazesinde macun, vitamin, krem, pekmez, kahvaltılık bitkisel gıda takviyeleri yer almaktadır. Firma İstanbul merkezlidir. Ürünlerini 22 ülkeye pazarlamaktadır.",
         "ulke": "TR",
-        "barkodNo": "8681144",
+        "barkodNo": "8683655",
         "urunTip": "GIDA",
         "urunLogo": "https://files.sikayetvar.com/lg/cmp/20/202946.png"
+	},
+	{
+        "urunAdi": "Başkent Süt",
+        "urunAciklamasi": "Başkent Süt, Ankara’da faaliyet gösteren ve yüksek kaliteli süt ürünleri sunan bir markadır. Çiftliklerinde Jersey, Simental ve Holstein ırkı ineklerden elde edilen sütler, hijyenik koşullarda işlenerek tüketicilere ulaştırılmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8683262",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.baskentsuturunleri.com.tr/wp-content/uploads/2020/08/baskentsutweblogo.png"
+	},
+	{
+        "urunAdi": "Kemal Öz Gıda",
+        "urunAciklamasi": "Kemal Öz Gıda, 1998 yılında kurulmuş ve o zamandan beri lezzetli, sağlıklı ve kaliteli ürünler sunmayı ilke edinmiş bir gıda firmasıdır. Çorum’da faaliyet gösteren firma, hijyenik koşullarda el değmeden üretilen ürünleriyle tanınmaktadır. Öne çıkan ürünleri arasında, Çorum mantısı, erişte ve börek çeşitleri vardır",
+        "ulke": "TR",
+        "barkodNo": "8680145",
+        "urunTip": "GIDA",
+        "urunLogo": "https://kemalozgida.com.tr/Content/Tema/images/logo.png"
+	},
+	{
+        "urunAdi": "Hastel Gıda",
+        "urunAciklamasi": "Hastel Gıda, 1972 yılında Burdur ve İzmir'de taze (çiğ) kadayıf üretimiyle faaliyetine başlamış bir firmadır. Hastel Gıda'nın öne çıkan ürünleri arasında, Kadayıf, Yufka, Mantı, Baklavalık Yufka, Böreklik Yufka, Tarhana ve Erişte bulunmakta. Firma, ürünlerini Türkiye'nin yanı sıra Avrupa, Rusya, Türk Devletleri ve Orta Doğu pazarlarına da sunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8691837",
+        "urunTip": "GIDA",
+        "urunLogo": "https://wwwi.globalpiyasa.com/lib/logo/50966/67d29e9509bdce93c82bc1336f062354.png"
 	}
 ]
