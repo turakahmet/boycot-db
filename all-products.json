@@ -72,14 +72,6 @@
         "urunLogo": "https://seeklogo.com/images/L/Lezita-logo-55AF8E1F04-seeklogo.com.png"
     },
     {
-        "urunAdi": "Aytaç",
-        "urunAciklamasi": "Aytaç, 1993 yılında kurulan bir Türk markasıdır. Avrupa’nın en büyük entegre et tesisini kuran Aytaç, 2014 yılında Yıldız Holding bünyesine katılmıştır. 30 yıllık tecrübesiyle, kalite, hijyen ve lezzetten ödün vermeden 130’dan fazla ürün çeşidiyle şarküteri ve taze et kategorilerinde geniş bir yelpazede hizmet sunmaktadır. Aytaç’ın üretim tesisleri Çerkeş, Çankırı ilçesinde bulunmaktadır. Ürünler, helal kesim ve hijyenik üretim standartlarına uygun olarak üretilmektedir. Aytaç, müşteri memnuniyetini ve güvenini ön planda tutarak, yüksek gıda güvenliği ve kalite standartlarını benimsemektedir",
-        "ulke": "TR",
-        "barkodNo": "8682101 8691520",
-        "urunTip": "GIDA",
-        "urunLogo": "https://seeklogo.com/images/A/aytac-logo-129A63C797-seeklogo.com.png"
-    },
-    {
         "urunAdi": "Balparmak",
         "urunAciklamasi": "Balparmak, Türkiye’nin lider bal markasıdır. 1980 yılında kurulan Balparmak, sağlık, doğallık ve lezzeti sofralara taşımak amacıyla 350’den fazla çalışanıyla faaliyet göstermektedir. İstanbul’da mütevazi bir girişimle başlayan bu öykü, bugün dünyanın dinlemeye başladığı bir başarı hikayesidir. Balparmak, ürün kalitesindeki süreklilik ve yüksek tüketici güveni ile tanınır. ",
         "ulke": "TR",
@@ -1686,5 +1678,13 @@
         "barkodNo": "8691837",
         "urunTip": "GIDA",
         "urunLogo": "https://wwwi.globalpiyasa.com/lib/logo/50966/67d29e9509bdce93c82bc1336f062354.png"
+	},
+	{
+        "urunAdi": "Türkiye Kalkınma Vakfı Arcılık",
+        "urunAciklamasi": "Türkiye Kalkınma Vakfı Entegre Arıcılık Tesislerinin temeli 1978 yılında Ankara/Kazan İlçesinde atılmıştır. 32.000 m2 alan üzerine kurulu olan bu tesiste, 40 yıldır kalite kontrol ve analizleri yapılan bu ürünlerin paketlenmesi yapılmakta. Bal dolum ünitesi, Kalite kontrol ve analiz laboratuvarı, 2 adet arıcılık laboratuvarı, Suni tohumlama ünitesi, Petek işleme alanı, Ana arı ve damızlık ana arı üretim merkezi ve Kovan atölyesi alanlarını bünyesinde bulundurmaktadır. TKV Türkiye’nin ilk sivil kalkınma kuruluşudur. Ülkemizde arıcılığın geliştirilmesi, eğitimler ile desteklenmesi amacıyla kurulmuştur. Balı, cam kavanoza dolduran ilk firmadır. Bunun gibi birçok ilklere imza atmıştır. ",
+        "ulke": "TR",
+        "barkodNo": "8690111",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ideacdn.net/idea/ca/08/themes/selftpl_63a58ff019e92/assets/uploads/logo.png"
 	}
 ]
