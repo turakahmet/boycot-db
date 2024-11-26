@@ -129,11 +129,27 @@
     },
     {
         "urunAdi": "Tarım Kredi Kooperatif Market",
-        "urunAciklamasi": "Tarım Kredi Market, Türkiye Tarım Kredi Kooperatiflerinin bir iştiraki olarak faaliyet göstermektedir. Çiftçilerden aldığı tarım ürünlerini işleyerek, yerli, kaliteli ve sağlıklı gıda ürünlerini tüketiciyle buluşturuyor. Manav reyonlarında her hafta sonu taze meyve ve sebzeleri halkla buluşturan bu market, çeşitli markaların ürünlerini sunmaktadır. Genel merkezi Ankara'da bulunan Tarım Kredi Market, çiftçilerin emeğini değerlendirmeyi amaçlayan bir iş modeliyle faaliyet göstermektedir. ",
+        "urunAciklamasi": "Tarım Kredi Market, Türkiye Tarım Kredi Kooperatiflerinin bir iştiraki olarak faaliyet göstermektedir. Çiftçilerden aldığı tarım ürünlerini işleyerek, yerli, kaliteli ve sağlıklı gıda ürünlerini tüketiciyle buluşturuyor. Manav reyonlarında her hafta sonu taze meyve ve sebzeleri halkla buluşturan bu market, çeşitli markaların ürünlerini sunmaktadır. Genel merkezi Ankara'da bulunan Tarım Kredi Market, çiftçilerin emeğini değerlendirmeyi amaçlayan bir iş modeliyle faaliyet göstermektedir. Bünyesinde kendi ve iştirak firmaların Tarım kredi bilrik, TKK Elit, TK Anadolu, Tarım Kredi Süt (TKS), TK et, TK yağ, TARSÜT, (Tarım kredi)TK markalarınıda barındırmaktır. ",
         "ulke": "TR",
-        "barkodNo": "8682615 868174914 8683204 8694962",
+        "barkodNo": "8682615 868174914 8683204",
         "urunTip": "GIDA",
         "urunLogo": "https://seeklogo.com/images/T/turkiye-tarim-kredi-kooperatif-market-logo-6BABEB27D0-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Akyudum",
+        "urunAciklamasi": "Aytaç Gıda A.Ş., 1993 Yılında Bir İsviçre Bankası Ve Dünya Bankası'nın Ortaklığıyla İstanbul'da Kurulmuştur. Kasım 1996'da Türk Tekstil, Mobilya, Gıda Ve Perakende şirketi Yimpaş Holding Tarafından Satın Alınmıştır. Su Ve Meyve Suyu Markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8691520",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://www.akyudum.com.tr/images/ik/logo.png"
+    },
+    {
+        "urunAdi": "Aynes",
+        "urunAciklamasi": "Aynes, 1993 yılında kurulan Aynes Gıda ve Tic. A.Ş. bünyesinde üretilen süt, ayran, peynir, yoğurt, tereyağ, krema, kaymak markasıdır. 2022 yılında Tarım ve Köyişleri Bakanlığının kuruluşu Tarım Kredi Kooperatifleri tarafından satın alındı.",
+        "ulke": "TR",
+        "barkodNo": "8694962",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://seeklogo.com/images/A/aynes-logo-DABE83AA83-seeklogo.com.png"
     },
     {
         "urunAdi": "Sarıyer",
