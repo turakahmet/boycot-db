@@ -600,14 +600,6 @@
         "urunLogo": "https://durubulgur.com/public/uploads/logo.jpg"
     },
     {
-        "urunAdi": "Dardanel",
-        "urunAciklamasi": "Dardanel, 1984 yılında Niyazi Önen tarafından Türkiye’nin ilk konserve ton balığı üreticisi olarak kuruldu. Adını Çanakkale Boğazı’nın antik dönemdeki ismi olan Dardanelya’dan almaktadır. Şirket, deniz ürünleri, dondurulmuş gıda, konserve gıda ve hazır yemek üretimi yapmaktadır. Ayrıca Mr. No ve Baricci markalarıyla sandviç ve atıştırmalıklar üretmektedir. Dardenia adıyla balık-ekmek lokantası zinciri işletmektedir. Ürünlerinde Dolphin Safe rozetini kullanmaya yetkilidir. Aynı zamanda 1991 yılından bu yana futbol kulübü Çanakkale Dardanel’in sponsorluğunu yapmaktadır",
-        "ulke": "TR",
-        "barkodNo": "8690559",
-        "urunTip": "GIDA",
-        "urunLogo": "https://seeklogo.com/images/D/dardanel-logo-8538B589E5-seeklogo.com.png"
-    },
-    {
         "urunAdi": "Orkide",
         "urunAciklamasi": "Orkide Yağ, Türkiye’nin köklü bir markasıdır. 1979 yılında bereketli ayçiçek tarlalarında üretimine başladı. O günden bugüne bitkisel sıvı yağ, zeytinyağı, bitkisel margarin, bitkisel susuz yağ, ev dışı tüketim ve pastacılık yağları ile endüstriyel yağ kategorilerinde aynı anda üretim yapabilen bir marka olarak Türk mutfağından dünya mutfaklarına uzanan bir lezzet öyküsünün adı oldu. “Sağlıkla, güvenle” sofralarımızda olmanın gururunu yaşıyorlar. Üretim ve istihdam güçleriyle ülke ekonomisine katkı sağlayan Orkide Yağları, Türkiye genelinde hane tüketiminde ön sıralarda yer alıyor ve 100’ü aşkın ülkeye ihracat yaparak ülke ekonomisine katkı sunuyor. İzmir Bornova’daki fabrikalarında 1980 yılında “Orkide” markasıyla ayçiçek yağı üretimine başlandı. Orkide Ayçiçek Yağı, Türk mutfağında bitkisel sıvı yağ olarak önemli bir yere sahiptir. ",
         "ulke": "TR",
@@ -1734,5 +1726,37 @@
         "barkodNo": "",
         "urunTip": "GIDA",
         "urunLogo": "https://www.tkyag.com.tr/image.php?src=uploads%2Fproducts%2Fanadolu-ayc-ic-ek-yag-i-5lt_dar-ag-izli-273.png&w=417&h=564&zc=1"
+	},
+	{
+        "urunAdi": "Antepsan",
+        "urunAciklamasi": "Antepsan, 2008 yılında yatırımlarına hız vererek Türkiye’nin en kaliteli antep fıstığı üreticilerinden biri olma yolunda önemli adımlar attı. Bünyesinde, fıstık ezmesi ve kreması, badem kreması, fındık kreması gibi ürünler bulunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8699936",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.antepsan.com/assets/images/logo2-3-564x128.png"
+	},
+	{
+        "urunAdi": "Reis Gıda",
+        "urunAciklamasi": "Resi gıda, 1981 yılında Mehmet Reis tarafından kurulan REİS Ticaret bünyesindedir. 1993 yılında Reis Tarımsal Ürünler San. Tic. A.Ş. kurularak Türkiye’nin ilk sarımsak işleme tesisi Kastamanou Taşköprü’de açıldı. Reis Ürünleri: Pirinç, Bakliyat, Reis Special, Verim Pirinç / Bakliyat, Sarmoni Sarımsak, Reis EDT (Ev dışı tüketim)",
+        "ulke": "TR",
+        "barkodNo": "8690849",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.reisgida.com.tr/Backoffice/UploadFiles/HistoryImages/c1055cff-a770-465d-bd06-10476cd62843.png"
+	},
+	{
+        "urunAdi": "Aktaşlar Lezzet Grubu",
+        "urunAciklamasi": "Aktaşlar Lezzet Grubu, marka yolculuğuna 1981 yılında Ordu'da 40 kişiye hizmet veren mütevazı bir restoranla başladı.  Aktaşlar, Pidemiss ve Nelipide gibi sevilen markaları, ülke ve dünya çapında tüm tüketicilerin beğenisini kazandı. BRC, IFS ve HELAL ürün sertifikalarına sahiptir. ",
+        "ulke": "TR",
+        "barkodNo": "8681820",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.aktaslardondurulmuslezzetler.com/assets/uploads/logo-beyaz.png"
+	},
+	{
+        "urunAdi": "Cey Natural Foods",
+        "urunAciklamasi": "Cey Natural Foods olarak %100 yerli üretim yapıyor, yerli üretimi savunuyor ve destekliyor. Bünyesinde, kinoa cipsi bulunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8682476",
+        "urunTip": "GIDA",
+        "urunLogo": "https://ideacdn.net/idea/gf/27/myassets/std_theme_files/tpl-marqett/assets/uploads/logo.png?revision=1715188692"
 	}
 ]
