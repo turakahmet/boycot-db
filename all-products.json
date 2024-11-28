@@ -1757,6 +1757,14 @@
         "ulke": "TR",
         "barkodNo": "8682476",
         "urunTip": "GIDA",
-        "urunLogo": "https://ideacdn.net/idea/gf/27/myassets/std_theme_files/tpl-marqett/assets/uploads/logo.png?revision=1715188692"
+        "urunLogo": "https://ideacdn.net/idea/gf/27/myassets/std_theme_files/tpl-marqett/assets/uploads/logo.png"
+	},
+	{
+        "urunAdi": "Gap Pınar Su",
+        "urunAciklamasi": "2007 yılında kurulmuş olan Gappınar Gıda San. ve Tic. A.Ş. bünyesinde üretilen doğal kaynak suyu markasıdır. Firma Gaziantep merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "8698599",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://files.sikayetvar.com/lg/cmp/14/143534.png"
 	}
 ]
