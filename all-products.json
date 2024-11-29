@@ -1112,12 +1112,12 @@
         "urunLogo": "https://seeklogo.com/images/K/kocatepe-logo-8081ED9689-seeklogo.com.png"
     },
     {
-        "urunAdi": "Vestel",
-        "urunAciklamasi": "Vestel, 1984 yılında Asil Nadir tarafından kurulmuş olan Vestel Elektronik San. ve Tic. A.Ş. bünyesinde üretilen tüketici elektroniği, büyük ev aletleri, profesyonel ekranlar, otomotiv ve akü çözümleri ve elektrikli araç şarj cihazları ürünleri markasıdır. 1994 yılında Zorlu Holding tarafından satın alınmıştır. Firma Manisa merkezlidir. Marka çatısı altında bazı markalar, Seg, Venus, Regal, Clean Pro...  ",
+        "urunAdi": "Kumtel",
+        "urunAciklamasi": "Kumtel, 1972 yılında kurulan; pişirici, ısıtıcı, elektrikli ısıtıcı, mini ve tam boy fırın, tost makinası, barbekü ve su ısıtıcısı gibi çeşitli ev aletleri markasıdır. Büntesindeki markalar, kumtel ve Luxell",
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "TEKNOLOJI",
-        "urunLogo": "https://seeklogo.com/images/V/Vestel-logo-C1BCC9CF48-seeklogo.com.png"
+        "urunLogo": "https://seeklogo.com/images/K/Kumtel-logo-C8E25A13CE-seeklogo.com.png"
     },
     {
         "urunAdi": "Arçelik",
@@ -1126,6 +1126,62 @@
         "barkodNo": "",
         "urunTip": "TEKNOLOJI",
         "urunLogo": "https://seeklogo.com/images/A/arcelik-logo-4275A5066A-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Altus",
+        "urunAciklamasi": "Altus, 1998 yılında Arçelik A.Ş. bünyesinde üretilen beyaz eşya, ankastre cihazlar, elektrikli süpürge, klima, su ısıtıcısı ve küçük ev aletleri markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/A/altus-logo-3B38E00BDE-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Grundig",
+        "urunAciklamasi": "Grundig 1945 yılında Max Grundig tarafından kurulan Grundig Intermedia GmbH bünyesindeki televizyon, ses sistemleri, beyaz eşya, saç kurutma makinesi, saç düzleştirici, saç maşası, saç düzleştirici tarak, tartı, tıraş makinesi, küçük ev aletleri markasıdır. Grundig Intermedia GmbH 2007 yılında Koç Holding’e ait Arçelik A.Ş. tarafından satın alınmıştır. Grundig, dünyada 65’den fazla ülkeye pazarlanmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/G/Grundig-logo-73648EA223-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "General Mobile",
+        "urunAciklamasi": "General Mobile, 2005 yılında kurulmuş olan akıllı telefon, tablet, akıllı cihazlar, genişbant ve aksesuarlar markasıdır. General Mobile, 2012 yılında Telpa Telekomunikasyon A.Ş. tarafından satın alındı. Firma İstanbul merkezlidir. Ürünlerini 30’dan fazla ülkeye ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/G/general-mobile-logo-62043A2BDB-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Luxell",
+        "urunAciklamasi": "Luxell, 1972 yılında kurulan; pişirici, ısıtıcı, elektrikli ısıtıcı, mini ve tam boy fırın, tost makinası, barbekü ve su ısıtıcısı gibi çeşitli ev aletlerini bünyesinde barındıran Kumtel AŞ. markasıdır. Yerli sermayeli firma olan Kumtel AŞ. ürünlerini Kayseri OSB’de üretmektedir ve yüzde 70’ini 5 kıtada 105 ülkeye ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/L/Luxell-logo-D833EBFF8D-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "UFO",
+        "urunAciklamasi": "Ürünün ekonomik ve çevreci bir ısıtma olması nedeni ile faaliyet gösterdiği 14 ülkede büyük ilgi ve beğeni ile karşılanmış ve bunun sonucunda UFO ısıtıcı, vantilatör ve hava temizleme konularında sektöründe standartlar belirleyen marka olmuştur.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/U/Ufo-logo-A24F7D0632-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Piranha",
+        "urunAciklamasi": "2004 yılında Tuğrul Verkaya ve İlban Mataracı tarafından kurulmuş olan Piranha Bilişim Teknolojileri A.Ş. bünyesindeki cep telefonu, tablet, navigasyon, oto aksesuar, ip kamera, web kamera, hoparlör, mouse, klavye, kulaklık, mikrofon, notebook soğutucu, aksiyon kamera, dijital müzik çalar, ses kayıt cihazları, dvd divx oynatıcı, tv taşınabilir dvd divx oynatıcılar, portatif müzik çalar, alarmlı radyolu saat, telsiz, akıllı bileklik, balance scooter, akıllı saat, drone, oyun kolları, müzik aletleri markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/P/piranha-logo-390F7AA45A-seeklogo.com.png"
+    },
+    {
+        "urunAdi": "Sinbo",
+        "urunAciklamasi": "Sinbo 1997 yılında Mehmet Demir tarafından kurulan Depa Elektronik Sanayi ve Ticaret A.Ş. bünyesinde, bir diğer marka Minton ile yer alan elektrikli ve elektriksiz küçük ev ürünleri markalarıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://seeklogo.com/images/S/Sinbo-logo-F33C0B38B8-seeklogo.com.png"
     },
     {
         "urunAdi": "Arzum",
