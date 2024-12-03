@@ -861,7 +861,7 @@
         "ulke": "TR",
         "barkodNo": "8690506 8690586",
         "urunTip": "TEMIZLIK_BAKIM",
-        "urunLogo": "https://www.maycreative.com.tr/web/wp-content/uploads/2023/02/evyap-urunleri-toptan.jpg"
+        "urunLogo": "https://seeklogo.com/images/E/Evyap-logo-1F5EB2F921-seeklogo.com.png"
     },
     {
         "urunAdi": "Hayat",
@@ -1822,5 +1822,29 @@
         "barkodNo": "8698599",
         "urunTip": "ICECEK",
         "urunLogo": "https://files.sikayetvar.com/lg/cmp/14/143534.png"
+	},
+	{
+        "urunAdi": "Uzay Kimya",
+        "urunAciklamasi": "Uzay Kimya Sanayi ve Ticaret A.Ş., 1983 yılında Dr. Sevda Arıkan tarafından kurulmuş bir şirkettir. Şirket, Türkiye'de ev temizlik ürünleri sektöründe faaliyet göstermektedir ve özellikle bulaşık makinesi deterjanı ve mobilya cilası üretimi ile tanınmaktadır. temizlik ürünleri üretiminde uzmanlaşmıştır ve yenilikçi ürünler sunarak uluslararası firmalarla rekabet etmektedir. Şirket, 30 yılı aşkın süredir sektörde faaliyet göstermekte ve tüketicilerin yaşam standartlarını iyileştirmeyi hedeflemektedir. Bünyesindeki markalar: Giz, Uzay, Benim, U Green Clean",
+        "ulke": "TR",
+        "barkodNo": "8690588",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://uzaykimya.com.tr/app/files/1116/5277/4858/uzaykimya-footer-logo.png"
+	},
+	{
+        "urunAdi": "U Green Clean",
+        "urunAciklamasi": "U Green Clean, 1983 yılında Yüksek Kimya Mühendisi Sevda Arıkan tarafından kurulan Uzay Kimya San. ve Tic. A.Ş. bünyesindeki organik ve doğal hammadde içeren çamaşır deterjanı, yumuşatıcı, çamaşır suyu, çok amaçlı temizleyici, likit sabun, bulaşık deterjanı, yağ çözücü, banyo temizleyici markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8690588",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://ugreenclean.com/app/uploads/ugreenclean-logo.png"
+	},
+	{
+        "urunAdi": "Ceremony 7stick",
+        "urunAciklamasi": "7stick, 2013 yılında kurulan Ceremony Gıda Sanayi ve Tic. A.Ş. bünyesinde üretilen şekersiz sakız markasıdır. Gaziantep/Nizip OSB tesislerinde üreten yüzde 100 yerli sermayeli firmadır. Bünyesindeki markalar 7 Stıck, 7Bite, 7Ciklet, 7Fine, Aadent, Aimdent, Benechew, Ceremony, Ciklet 7Stik, Ciklet Seven, No Limit, Saksak, Sevenstick, V Stıck ",
+        "ulke": "TR",
+        "barkodNo": "8681259",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://ideacdn.net/idea/oh/40/themes/selftpl_66191811a9686/assets/uploads/logo.png"
 	}
 ]
