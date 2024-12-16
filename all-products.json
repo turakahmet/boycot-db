@@ -1844,7 +1844,31 @@
         "urunAciklamasi": "7stick, 2013 yılında kurulan Ceremony Gıda Sanayi ve Tic. A.Ş. bünyesinde üretilen şekersiz sakız markasıdır. Gaziantep/Nizip OSB tesislerinde üreten yüzde 100 yerli sermayeli firmadır. Bünyesindeki markalar 7 Stıck, 7Bite, 7Ciklet, 7Fine, Aadent, Aimdent, Benechew, Ceremony, Ciklet 7Stik, Ciklet Seven, No Limit, Saksak, Sevenstick, V Stıck ",
         "ulke": "TR",
         "barkodNo": "8681259",
-        "urunTip": "TEMIZLIK",
+        "urunTip": "GIDA",
         "urunLogo": "https://ideacdn.net/idea/oh/40/themes/selftpl_66191811a9686/assets/uploads/logo.png"
+	},
+	{
+        "urunAdi": "Itır baharat",
+        "urunAciklamasi": "Itır Baharat, Ankara merkezli bir baharat firmasıdır. Gimat Gıda Toptancılar Sitesi'nde yer almaktadır. Firma, çeşitli baharatlar, özel ürünler, kutulu ürünler, soslar ve içecekler gibi geniş bir ürün yelpazesi sunmaktadır. Özellikle soğuk kış günlerinde tarçın ve zencefil gibi ısıtıcı baharatlarıyla bilinir",
+        "ulke": "TR",
+        "barkodNo": "8697428",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.yerlituket.com/images/brand/itir-baharat.jpg"
+	},
+	{
+        "urunAdi": "Saffet Abdullah",
+        "urunAciklamasi": "Saffet Abdullah, 1959 yılında kurulan Saffet Kollektif Şirketi bünyesinde üretilen güllaç markasıdır. Ürünleri mısır nişastası ve buğday unu kullanılarak üretilmektedir. Katkı maddesi içermemektedir.",
+        "ulke": "TR",
+        "barkodNo": "8692473",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.saffetabdullah.com.tr/wp-content/uploads/2021/02/Saffet-Logo.jpg"
+	},
+	{
+        "urunAdi": "Doyum Organik",
+        "urunAciklamasi": "Doyum, 1993 yılında kurulmuş olan Armada Gıda Tic. San. A.Ş. bünyesindeki organik bakliyatlar, organik fasulye, organik köftelik bulgur, organik nohut, organik pilavlık bulgur, organik pirinç, organik yeşil mercimek markasıdır. ISO 9001, ISO 14001, ISO 22000, ISO 27001, ISO 45001, ISO 50001, Helal, Koşer ve Organik belgelerine sahiptir. Bünyesindeki markalar; Armada Foods, Armada Organic, Doyum, Mediterranean Village Organic, Popipop",
+        "ulke": "TR",
+        "barkodNo": "8699409",
+        "urunTip": "GIDA",
+        "urunLogo": "https://armadaorganic.com/img/components/big/doyum_719.png"
 	}
 ]
