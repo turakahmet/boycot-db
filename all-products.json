@@ -1878,5 +1878,85 @@
         "barkodNo": "8683206",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://www.essel.com.tr/assets/img/bg/aqua8.png"
+	},
+	{
+        "urunAdi": "Taha Kimya",
+        "urunAciklamasi": "Taha Kimya Kozmetik ve Tüketim Ürünleri San. Paz. Ltd. Şti., 2008 yılında kurulan kozmetik ve kişisel bakım ürünleri üreticisidir. Gaziantep 1. OSB’de 20 bin metrekarelik arazide bulunan tesisinde temizlik, kozmetik ve kişisel bakım ürünleri üretmektedir. Ayrıca ihtiyacı olan plastik ve pet şişelerini kendi tesislerinde üretmektedir. ISO 9001, ISO 22716, ISO 14001, ISO 45001 belgelerine sahiptir. Bünyesindeki markalar, Biiwipes, Bittol, Bivy, Onno",
+        "ulke": "TR",
+        "barkodNo": "8699182",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://tahakimya.com/Content/images/logo3.png"
+	},
+	{
+        "urunAdi": "Onno",
+        "urunAciklamasi": "Onno, 2008 yılında kurulmuş olan Taha Kimya Kozmetik ve Tüketim Ürünleri San. Paz. Ltd. Şti. bünyesinde üretilen mutfak temizlik ürünleri, ıslak mendil, kişisel temizlik ve bakım ürünleri, genel temizlik ürünleri markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://tahakimya.com/content/images/onno.png"
+	},
+	{
+        "urunAdi": "Bivy",
+        "urunAciklamasi": "Bivy, 2008 yılında kurulan Taha Kimya Kozmetik ve Tüketim Ürünleri San. Paz. Ltd. Şti. bünyesinde üretilen ıslak mendil markasıdır. Taha Kimya bebek ve antibakteriyel ıslak mendil, şampuan, saç kremi, sıvı el sabunları, yüzey temizleyiciler, çamaşır deterjanları, yumuşatıcılar, çamaşır suyu, leke çıkarıcı, halı şampuanı, yağ sökücü gibi ürünlerini Gaziantep 1. Sanayi Bölgesinde bulunan 25 bin metrekarelik fabrikasında üretim yapmaktaıdr.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://tahakimya.com/content/images/bivy.png"
+	},
+	{
+        "urunAdi": "Bii’Wipes",
+        "urunAciklamasi": "Bii’Wipes, 2008 yılında kurulmuş olan Taha Kimya Kozmetik ve Tüketim Ürünleri San. Paz. Ltd. Şti. bünyesinde üretilen ıslak mendil markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://tahakimya.com/content/images/biiwipes.png"
+	},
+	{
+        "urunAdi": "Bittol",
+        "urunAciklamasi": "Bittol, 2008 yılında kurulan Taha Kimya Kozmetik ve Tüketim Ürünleri San. Paz. Ltd. Şti. bünyesinde üretilen ıslak mendil, dezenfektan gibi ürünler markasıdır. ISO 9001 belgesine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://tahakimya.com/content/images/bittol.png"
+	},
+	{
+        "urunAdi": "GREENADA",
+        "urunAciklamasi": "GREENADA, Emtar Gıda Tarım Ürünleri L.t.d Ş.t.i markası bünyesinde 2007 yılında yenilikçi, kaliteli ve sağlıklı üretim anlayışı ile yüzde yüz yerli sermayeli olarak üretim yapmaktadır. Sağlıklı ve taze sebze ve baharat çeşitleriyle üretime destek ve hizmet vermektedir",
+        "ulke": "TR",
+        "barkodNo": "8682484",
+        "urunTip": "GIDA",
+        "urunLogo": "https://static.ticimax.cloud/30597/uploads/editoruploads/logo-site-150.png"
+	},
+	{
+        "urunAdi": "IFF's",
+        "urunAciklamasi": "2015 yılında kurulmuş olan Iffs Gıda Dış Tic. A.Ş. bünyesindeki dondurulmuş ürünler, freeze dried sebze ve meyveler, organik meyveler, konstantreler ve doğal kahvaltılık ürünler markasıdır. Ürünleri ilave şeker, katkı, renklendirici ve koruyucu, GDO içermez. Firma Ankara merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "8684402",
+        "urunTip": "GIDA",
+        "urunLogo": "https://www.iffs.com.tr/wp-content/uploads/2023/09/dondurulmus-dilimlenmis-kiraz.jpg"
+	},
+	{
+        "urunAdi": "Çitlekçi",
+        "urunAciklamasi": "1995 yılında Tunçlar Yatırım Holding çatısı altında kurulmuş olan Çitlekçi Mağazacılık Gıda A.Ş. bünyesindeki kuruyemiş ve atıştırmalık ürünler ile perakende zincir markasıdır. Firma Ankara merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "8697826",
+        "urunTip": "GIDA",
+        "urunLogo": "https://cdn.myikas.com/images/theme-images/5c8ad16a-25e3-42d2-a635-b70cd1742afb/image_1950.jpg"
+	},
+	{
+        "urunAdi": "Ömür Boza",
+        "urunAciklamasi": "2019 yılından itibaren meyveli boza üretimi ile Ömür Boza 4 mevsim tüketilen Türkiye’de ve dünyada pek çok noktada rağbet gören bir içecek olmuştur.Bünyesinde Bozai, Meyveli Boza çeştileri, Siri bubble tea ürünleri bulunur",
+        "ulke": "TR",
+        "barkodNo": "8696881",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://cdn.myikas.com/images/theme-images/5c8ad16a-25e3-42d2-a635-b70cd1742afb/image_1950.jpg"
+	},
+	{
+        "urunAdi": "Önlem Bez",
+        "urunAciklamasi": "Önlem Yetişkin, 2000 yılında kurulan Pakten Sağlık Ürünleri A.Ş. bünyesinde üretilen hasta bezi ve yatak koruyucu markasıdır. Ürünlerinin yüzde 70’ni 32 ülkeye ihraç etmektedir. ISO 9001, ISO 22716, ISO 13485 belgelerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8697405",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://onlem.com.tr/app/assets/images/layout/logo.png"
 	}
 ]
