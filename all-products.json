@@ -1950,5 +1950,13 @@
         "barkodNo": "8697405",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://onlem.com.tr/app/assets/images/layout/logo.png"
+	},
+	{
+        "urunAdi": "Marsu",
+        "urunAciklamasi": "Marsu, 2017 yılında kurulan Marsu Kahramanmaraş Gazlı ve Gazsız İçecekler Su Ürünleri San. ve Tic. A.Ş. bünyesinde üretilen ambalajlı doğal kaynak suyu markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8681812",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/marsu.jpg"
 	}
 ]
