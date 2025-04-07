@@ -1958,5 +1958,13 @@
         "barkodNo": "8681812",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/marsu.jpg"
+	},
+	{
+        "urunAdi": "Gold Harvest",
+        "urunAciklamasi": "Gold Harvest Master Nutx, 2018 yılında kurulmuş olan Gold Harvest Kuruyemiş Gıda ve Tarım Ürünleri San. ve Tic. A.Ş. bünyesindeki tuzlu, kavrulmuş ve özel olarak baharatlandırılmış kuruyemişler markasıdır. Gold Harvest, 2021 yılında OYAK Gıda Tarım Hayvancılık tarafından kurulmuş olan Satem Grup bünyesindedir. Firma Eskişehir merkezlidir. Bünyesindeki markalar; Biri Beni Durdursun, Bu Başka Bir Şey, Goldenpops, Gold Harvest, Kara Bela, Kara Sevda, Master Bar, Master Bites, Master Crunch, Master Farm, Master Fun, Masternut, Masternut International, Master Pieces, Masterpops, Master Potato, Mutluluk Dudaktan Okunur ",
+        "ulke": "TR",
+        "barkodNo": "8683717",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gold_harvest.jpg"
 	}
 ]
