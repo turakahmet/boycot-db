@@ -1966,5 +1966,13 @@
         "barkodNo": "8683717",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gold_harvest.jpg"
+	},
+	{
+        "urunAdi": "Bağlar Meşrubat",
+        "urunAciklamasi": "Bağlar Meşrubat, %100 doğal şeker pancarından üretilen kristal şeker kullanılarak yapılır ve yapay tatlandırıcı içermez. Ürün yelpazesi, 200 ml'den 2,5 litreye kadar değişen pet şişeler ve cam şişelerden oluşur. Bağlar Meşrubat, üç kuşak tarafından işletilen bir aile şirketidir ve 1988 yılında anonim şirket haline getirilmiştir. 2000 yılından bu yana Safranbolu Sanayi Bölgesi'nde modern tesislerinde üretim yapmaktadır",
+        "ulke": "TR",
+        "barkodNo": "1500148",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/baglar_mesrubat.jpg"
 	}
 ]
