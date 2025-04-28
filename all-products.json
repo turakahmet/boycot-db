@@ -1974,5 +1974,13 @@
         "barkodNo": "1500148",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/baglar_mesrubat.jpg"
+	},
+	{
+        "urunAdi": "Desni Su",
+        "urunAciklamasi": "Desni, 2004 yılında kurulan Desni Group Gıda İnşaat Taahhüt Turizm ve Taşımacılık Tic. San. Ltd. Şti. bünyesinde üretilen doğal kaynak suyu markasıdır. Erzurum merkezli firmanın su kaynağı Palandöken bölgesinde yer almaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8697502",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/desnisu.jpg"
 	}
 ]
