@@ -1595,7 +1595,7 @@
         "urunAdi": "Baby Turco",
         "urunAciklamasi": "Baby Turco, 2012 yılında kurulan Puretex Plastik ve Tekstil Ürünleri San. ve Tic. A.Ş. bünyesinde üretilen bebek bezi ve ıslak havlu markasıdır. Bünyesindeki markalar, Baby Turco, Lady Turco ",
         "ulke": "TR",
-        "barkodNo": "",
+        "barkodNo": "8684117",
         "urunTip": "BAKIM",
         "urunLogo": "https://www.babyturco.com.tr/public/upload/71ec707fc86e2afc38d0297d552c1bd2.png"
 	},
@@ -1982,5 +1982,13 @@
         "barkodNo": "8697502",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/desnisu.jpg"
+	},
+	{
+        "urunAdi": "Asel Yumurta",
+        "urunAciklamasi": "Asel Yumurta, Ordu'nun Fatsa ilçesinde 2016 yılında kurulan yerli bir yumurta markasıdır. Kuruluşundan bu yana sağlıklı ve doğal yumurta üretimine odaklanarak, yerel pazarda güvenilir bir marka haline gelmiştir. Asel Yumurta'nın üretim tesisleri Fatsa'da bulunmaktadır ve ürünleri bölgedeki marketlerde satışa sunulmaktadır. Marka, sosyal medya platformlarında da aktif olarak yer almakta ve ürünleri hakkında bilgilendirmeler yapmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aselyumurta.jpg"
 	}
 ]
