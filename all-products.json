@@ -5,7 +5,7 @@
         "ulke": "TR",
         "barkodNo": "8690120 8680181",
         "urunTip": "GIDA",
-        "urunLogo": "https://seeklogo.com/images/T/torku-logo-B85D336F2D-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/torku.jpg"
     },
     {
         "urunAdi": "Bingo",
@@ -13,7 +13,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://seeklogo.com/images/B/bingo-deterjan-logo-3D48FA2FED-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bingo.jpg"
     },
     {
         "urunAdi": "Uludağ",
@@ -21,7 +21,7 @@
         "ulke": "TR",
         "barkodNo": "8690723 8693806 8693364 8693166 8693703",
         "urunTip": "ICECEK",
-        "urunLogo": "https://seeklogo.com/images/U/uludag-logo-193C171582-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/uludag.jpg"
     },
     {
         "urunAdi": "Şölen",
@@ -213,7 +213,7 @@
         "ulke": "TR",
         "barkodNo": "8696415",
         "urunTip": "GIDA",
-        "urunLogo": "https://seeklogo.com/images/S/Sen_Pilic-logo-391F5D0479-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/senpilic.jpg"
     },
     {
         "urunAdi": "Keskinoğlu",
@@ -261,7 +261,7 @@
         "ulke": "TR",
         "barkodNo": "8690146",
         "urunTip": "GIDA",
-        "urunLogo": "https://drive.google.com/uc?id=1Wi5d_3qNhaEIoGxfPfOVO-YHDYxviqu0"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bebeto.jpg"
     },
     {
         "urunAdi": "Öncü",
@@ -277,7 +277,7 @@
         "ulke": "TR",
         "barkodNo": "8690576",
         "urunTip": "GIDA",
-        "urunLogo": "https://seeklogo.com/images/N/Nuh_un_Ankara_Makarnasi-logo-29E7F1CA90-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/nuhunankara.jpg"
     },
     {
         "urunAdi": "Koska",
@@ -501,7 +501,7 @@
         "ulke": "TR",
         "barkodNo": "8693371",
         "urunTip": "GIDA",
-        "urunLogo": "https://karlidag.com.tr/wp-content/uploads/2020/09/header-logo-3.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/karlidag.jpg"
     },
     {
         "urunAdi": "Billur Tuz",
@@ -525,7 +525,7 @@
         "ulke": "TR",
         "barkodNo": "8681161",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.hunnap.com.tr/Data/EditorFiles/%C3%9Cr%C3%BCn%20G%C3%B6rselleri/image_540.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/hunnap.jpg"
     },
     {
         "urunAdi": "Bahçıvan",
@@ -645,7 +645,7 @@
         "ulke": "TR",
         "barkodNo": "8699413 8683280",
         "urunTip": "GIDA",
-        "urunLogo": "https://maidan.com.tr/wp-content/uploads/2021/11/PATISWISS-LOGO-2.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/patiswiss.jpg"
     },
     {
         "urunAdi": "Saray Bisküvi",
@@ -821,7 +821,7 @@
         "ulke": "TR",
         "barkodNo": "8690511",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://drive.google.com/uc?id=1zJs4sF2dKiXrv0WwnjKN_PoshA_0w9nI"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/abc.jpg"
     },
     {
         "urunAdi": "Camsil",
@@ -1013,7 +1013,7 @@
         "ulke": "TR",
         "barkodNo": "8682858",
         "urunTip": "BAKIM",
-        "urunLogo": "https://exponatura.net/b2b/yonet/upload/logo/A430-T-BRUSH.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/tbrush.jpg"
     },
     {
         "urunAdi": "Dk dent",
@@ -1093,7 +1093,7 @@
         "ulke": "TR",
         "barkodNo": "9900100",
         "urunTip": "GIDA",
-        "urunLogo": "https://ogutler.com.tr/wp-content/uploads/2019/09/kendi-ciftligimiz.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ogutler.jpg"
     },
     {
         "urunAdi": "Kocatepe Kahve",
@@ -1301,7 +1301,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "MUTFAK_URUNU",
-        "urunLogo": "https://seeklogo.com/images/G/GURAL_PORSELEN-logo-8126221541-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/guralporselen.jpg"
     },
     {
         "urunAdi": "Kütahya Porselen",
@@ -1541,7 +1541,7 @@
         "ulke": "TR",
         "barkodNo": "8699131",
         "urunTip": "ICECEK",
-        "urunLogo": "https://seeklogo.com/images/S/sultan_su-logo-878080BD03-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sultansu.jpg"
 	},
 	{
         "urunAdi": "Munzur Su",
@@ -1613,7 +1613,7 @@
         "ulke": "TR",
         "barkodNo": "8697463",
         "urunTip": "GIDA",
-        "urunLogo": "https://ideacdn.net/idea/gv/39/themes/selftpl_5f7d79533c205/assets/uploads/logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sadeorganik.jpg"
 	},
 	{
         "urunAdi": "Seyidoğlu Gıda",
@@ -1637,7 +1637,7 @@
         "ulke": "TR",
         "barkodNo": "8694002",
         "urunTip": "GIDA",
-        "urunLogo": "https://ideacdn.net/idea/hr/20/myassets/std_theme_files/tpl-orion/assets/uploads/logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kalaycioglu.jpg"
 	},
 	{
         "urunAdi": "Wefood",
@@ -1717,7 +1717,7 @@
         "ulke": "TR",
         "barkodNo": "8691837",
         "urunTip": "GIDA",
-        "urunLogo": "https://wwwi.globalpiyasa.com/lib/logo/50966/67d29e9509bdce93c82bc1336f062354.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/hastel.jpg"
 	},
 	{
         "urunAdi": "Türkiye Kalkınma Vakfı Arcılık",
@@ -1725,7 +1725,7 @@
         "ulke": "TR",
         "barkodNo": "8690111",
         "urunTip": "GIDA",
-        "urunLogo": "https://ideacdn.net/idea/ca/08/themes/selftpl_63a58ff019e92/assets/uploads/logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/tkvbal.jpg"
 	},
 	{
         "urunAdi": "Kahve Diyarı",
@@ -1773,7 +1773,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "GIDA",
-        "urunLogo": "https://drive.google.com/uc?id=1q-l09NKDKMA83PWWgQHhUxX1uVZGDQK3"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ttkanadoluyag.jpg"
 	},
 	{
         "urunAdi": "Antepsan",
@@ -1949,7 +1949,7 @@
         "ulke": "TR",
         "barkodNo": "8697405",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://onlem.com.tr/app/assets/images/layout/logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/onlembez.jpg"
 	},
 	{
         "urunAdi": "Marsu",
