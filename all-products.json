@@ -1990,5 +1990,13 @@
         "barkodNo": "",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aselyumurta.jpg"
+	},
+	{
+        "urunAdi": "Avoya",
+        "urunAciklamasi": "Türkiye merkezli Gürok Grup tarafından kurulan maden suyu markasıdır. 2024 yılında Burdur’da açılan modern bir üretim tesisiyle piyasaya sunulmuştur. Avoya markası, farklı tat ve içeriklerle zenginleştirilmiş maden suyu çeşitleri sunuyor. Ürün çeşitliliğinde sade, meyveli ve bitkisel Karışımlı maden suları bulunmkata",
+        "ulke": "TR",
+        "barkodNo": "8684458",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/avoya.jpg"
 	}
 ]
