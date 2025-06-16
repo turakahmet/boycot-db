@@ -1998,5 +1998,21 @@
         "barkodNo": "8684458",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/avoya.jpg"
+	},
+	{
+        "urunAdi": "Edo",
+        "urunAciklamasi": "Edo Dondurma, 1956'dan beri Kahramanmaraş'ta faaliyet gösteren, köklü bir Türk dondurma ve tatlı üreticisidir. Gerçek Maraş dondurmasının yanı sıra çeşitli şerbetli tatlılar ve su böreği gibi ürünler sunar. Üretimini yerel kaynaklardan sağladığı salep ve sütle modern tesislerinde gerçekleştirerek hem Türkiye'ye hem de dünyaya lezzetlerini ulaştırmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8697435",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/edo.jpg"
+	},
+	{
+        "urunAdi": "Sarnıç Su",
+        "urunAciklamasi": "2015 yılında kurulmuş olan Dsl Grup İçecek San. ve Tic. A.Ş. bünyesinde üretilen ambalajlı doğal kaynak suyu markasıdır. Firma İstanbul merkezlidir. Ürünlerini Sakarya’da bulunan fabrikasında üretmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8681413",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sarnic.jpg"
 	}
 ]
