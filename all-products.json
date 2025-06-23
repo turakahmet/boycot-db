@@ -19,7 +19,7 @@
         "urunAdi": "Uludağ",
         "urunAciklamasi": "Uludağ, 1931 yılında kurulan Uludağ İçecek Türk A.Ş. bünyesinde üretilen doğal mineralli su, meyveli doğal mineralli su, doğal kaynak suları, doğal maden suyu, meyve aromalı doğal maden suyu, meyve sulu doğal maden suyu, hafif içimli doğal maden suyu, limonata, portakallı gazoz ve az kalorili gazoz gibi içecekler markasıdır.",
         "ulke": "TR",
-        "barkodNo": "8690723 8693806 8693364 8693166 8693703",
+        "barkodNo": "8690723 8693806 8693364 8693166 8693703 1500144",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/uludag.jpg"
     },
@@ -2014,5 +2014,13 @@
         "barkodNo": "8681413",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sarnic.jpg"
+	},
+	{
+        "urunAdi": "Altınkılıç",
+        "urunAciklamasi": "Altınkılıç, 1976 yılında Mehmet Altınkılıç tarafından kurulan Altınkılıç Gıda ve Süt San. Tic A. Ş. bünyesindeki süt ürünleri markasıdır. Doğal ve katkısız ürünleri modern tesislerde, geleneksel yöntemlerle 3 kuşaktır üretmektedir. Şirket, 30 yılı aşkın bir geçmişe sahip olup; Ezine, çeçil, tulum, büyük yaş kaşar, lor, örgü, dil peyniri gibi geleneksel peynir çeşitlerinin yanı sıra, Türkiye'nin ilk endüstriyel kefir üreticisi olarak da bilinir",
+        "ulke": "TR",
+        "barkodNo": "8692886",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/altinkilic.jpg"
 	}
 ]
