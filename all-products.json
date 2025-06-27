@@ -1,5 +1,5 @@
 [
-    {
+     {
         "urunAdi": "Torku",
         "urunAciklamasi": "Torku, 2007 yılında şeker, şekerleme, çikolata, helva, lokum, unlu mamüller, dondurulmuş ürünler, meyve suyu, sirke, şalgam, bulgur, et ve süt ürünleri ile bitkisel yağlardan oluşan ürünleri üretici Konya Şeker’in tek çatı altında topladığı markadır.",
         "ulke": "TR",
@@ -1645,7 +1645,7 @@
         "ulke": "TR",
         "barkodNo": "868174910",
         "urunTip": "GIDA",
-        "urunLogo": "https://wefood.com.tr/cdn/shop/files/162x41_beyaz.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/wefood.jpg"
 	},
 	{
         "urunAdi": "Aldiva",
@@ -1653,7 +1653,7 @@
         "ulke": "TR",
         "barkodNo": "8681270",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.yerlituket.com/images/brand/aldiva.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aldiva.jpg"
 	},
 	{
         "urunAdi": "Delly",
@@ -1661,7 +1661,7 @@
         "ulke": "TR",
         "barkodNo": "8683851",
         "urunTip": "GIDA",
-        "urunLogo": "https://images.migrosone.com/tazedirekt/brand/list/10000000007203/delly-logo-7b469e.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/delly.jpg"
 	},
 	{
         "urunAdi": "Koton",
@@ -1669,7 +1669,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "GIYIM",
-        "urunLogo": "https://seeklogo.com/images/K/Koton-logo-EB44627AE9-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/koton.jpg"
 	},
 	{
         "urunAdi": "Ormanözü",
@@ -1677,7 +1677,7 @@
         "ulke": "TR",
         "barkodNo": "8683382",
         "urunTip": "GIDA",
-        "urunLogo": "https://ormanozu.com.tr/wp-content/uploads/2023/08/logo-son.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ormanozu.jpg"
 	},
 	{
         "urunAdi": "Köycegiz Yöresel",
@@ -1685,7 +1685,7 @@
         "ulke": "TR",
         "barkodNo": "8680030",
         "urunTip": "GIDA",
-        "urunLogo": "https://images.koycegizbali.com/Data/EditorFiles/v4/yoresel-inter.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/koyceyiz.jpg"
 	},
 	{
         "urunAdi": "Zühre Ana",
@@ -1693,7 +1693,7 @@
         "ulke": "TR",
         "barkodNo": "8683655",
         "urunTip": "GIDA",
-        "urunLogo": "https://files.sikayetvar.com/lg/cmp/20/202946.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/zuhreana.jpg"
 	},
 	{
         "urunAdi": "Başkent Süt",
@@ -1701,7 +1701,7 @@
         "ulke": "TR",
         "barkodNo": "8683262",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.baskentsuturunleri.com.tr/wp-content/uploads/2020/08/baskentsutweblogo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/baskentsut.jpg"
 	},
 	{
         "urunAdi": "Kemal Öz Gıda",
@@ -1709,7 +1709,7 @@
         "ulke": "TR",
         "barkodNo": "8680145",
         "urunTip": "GIDA",
-        "urunLogo": "https://kemalozgida.com.tr/Content/Tema/images/logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kemaloz.jpg"
 	},
 	{
         "urunAdi": "Hastel Gıda",
@@ -1733,7 +1733,7 @@
         "ulke": "TR",
         "barkodNo": "8694283",
         "urunTip": "ICECEK",
-        "urunLogo": "https://seeklogo.com/images/K/kahve-diyari-logo-6BF17CA2CB-seeklogo.com.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kahvediyari.jpg"
 	},
 	{
         "urunAdi": "Espressolab",
@@ -1741,7 +1741,7 @@
         "ulke": "TR",
         "barkodNo": "8681990",
         "urunTip": "ICECEK",
-        "urunLogo": "https://images.seeklogo.com/logo-png/53/1/espressolab-logo-png_seeklogo-533965.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/espressolab.jpg"
 	},
 	{
         "urunAdi": "Artukbey Kahve",
@@ -1749,7 +1749,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "ICECEK",
-        "urunLogo": "https://static.ticimax.cloud/2571/uploads/editoruploads/resimlerim/100x100.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/artukbey.jpg"
 	},
 	{
         "urunAdi": "Yaşarbey Kahve",
@@ -1757,7 +1757,7 @@
         "ulke": "TR",
         "barkodNo": "868191732",
         "urunTip": "ICECEK",
-        "urunLogo": "https://www.yasarbey.com/Resimler/9af0b72090003ff7_fotoresim_8.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/yasarbey.jpg"
 	},
 	{
         "urunAdi": "Gua Coffee",
@@ -1765,7 +1765,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "ICECEK",
-        "urunLogo": "https://guacoffeecompany.com/wp-content/uploads/2024/09/gua-logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gua.jpg"
 	},
 	{
         "urunAdi": "Tarım Kredi Anadolu Yağ",
@@ -1781,7 +1781,7 @@
         "ulke": "TR",
         "barkodNo": "8699936",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.antepsan.com/assets/images/logo2-3-564x128.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/antepsan.jpg"
 	},
 	{
         "urunAdi": "Reis Gıda",
@@ -1789,7 +1789,7 @@
         "ulke": "TR",
         "barkodNo": "8690849",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.reisgida.com.tr/Backoffice/UploadFiles/HistoryImages/c1055cff-a770-465d-bd06-10476cd62843.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/reisgida.jpg"
 	},
 	{
         "urunAdi": "Aktaşlar Lezzet Grubu",
@@ -1797,7 +1797,7 @@
         "ulke": "TR",
         "barkodNo": "8681820",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.aktaslarrestaurant.com/images/aktaslarlogo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aktaslar.jpg"
 	},
 	{
         "urunAdi": "Cey Natural Foods",
@@ -1805,7 +1805,7 @@
         "ulke": "TR",
         "barkodNo": "8682476",
         "urunTip": "GIDA",
-        "urunLogo": "https://ideacdn.net/idea/gf/27/myassets/std_theme_files/tpl-marqett/assets/uploads/logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/cey.jpg"
 	},
 	{
         "urunAdi": "Gap Pınar Su",
@@ -1813,7 +1813,7 @@
         "ulke": "TR",
         "barkodNo": "8698599",
         "urunTip": "ICECEK",
-        "urunLogo": "https://files.sikayetvar.com/lg/cmp/14/143534.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gappinar.jpg"
 	},
 	{
         "urunAdi": "Uzay Kimya",
@@ -1821,7 +1821,7 @@
         "ulke": "TR",
         "barkodNo": "8690588",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://uzaykimya.com.tr/app/files/4916/5364/9963/uzay-logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/uzay.jpg"
 	},
 	{
         "urunAdi": "U Green Clean",
@@ -1829,7 +1829,7 @@
         "ulke": "TR",
         "barkodNo": "8690588",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://ugreenclean.com/app/uploads/ugreenclean-logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ugreen.jpg"
 	},
 	{
         "urunAdi": "Ceremony 7stick",
@@ -1837,7 +1837,7 @@
         "ulke": "TR",
         "barkodNo": "8681259",
         "urunTip": "GIDA",
-        "urunLogo": "https://ideacdn.net/idea/oh/40/themes/selftpl_66191811a9686/assets/uploads/logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/yedistick.jpg"
 	},
 	{
         "urunAdi": "Itır baharat",
@@ -1845,7 +1845,7 @@
         "ulke": "TR",
         "barkodNo": "8697428",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.yerlituket.com/images/brand/itir-baharat.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/itir.jpg"
 	},
 	{
         "urunAdi": "Saffet Abdullah",
@@ -1853,7 +1853,7 @@
         "ulke": "TR",
         "barkodNo": "8692473",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.saffetabdullah.com.tr/wp-content/uploads/2021/02/Saffet-Logo.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/saffet.jpg"
 	},
 	{
         "urunAdi": "Doyum Organik",
@@ -1861,7 +1861,7 @@
         "ulke": "TR",
         "barkodNo": "8699409",
         "urunTip": "GIDA",
-        "urunLogo": "https://armadaorganic.com/img/components/big/doyum_719.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/doyum.jpg"
 	},
 	{
         "urunAdi": "Aqua Tuvalet Kağıdı",
@@ -1869,7 +1869,7 @@
         "ulke": "TR",
         "barkodNo": "8683206",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://www.essel.com.tr/assets/img/bg/aqua8.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aqua.jpg"
 	},
 	{
         "urunAdi": "Taha Kimya",
@@ -1877,7 +1877,7 @@
         "ulke": "TR",
         "barkodNo": "8699182",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://tahakimya.com/Content/images/logo3.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/tahakimya.jpg"
 	},
 	{
         "urunAdi": "Onno",
@@ -1885,7 +1885,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://tahakimya.com/content/images/onno.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/onno.jpg"
 	},
 	{
         "urunAdi": "Bivy",
@@ -1893,7 +1893,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://tahakimya.com/content/images/bivy.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bivy.jpg"
 	},
 	{
         "urunAdi": "Bii’Wipes",
@@ -1901,7 +1901,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://tahakimya.com/content/images/biiwipes.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/biiwipes.jpg"
 	},
 	{
         "urunAdi": "Bittol",
@@ -1909,7 +1909,7 @@
         "ulke": "TR",
         "barkodNo": "",
         "urunTip": "TEMIZLIK",
-        "urunLogo": "https://tahakimya.com/content/images/bittol.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bittol.jpg"
 	},
 	{
         "urunAdi": "GREENADA",
@@ -1917,7 +1917,7 @@
         "ulke": "TR",
         "barkodNo": "8682484",
         "urunTip": "GIDA",
-        "urunLogo": "https://static.ticimax.cloud/30597/uploads/editoruploads/logo-site-150.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/greenada.jpg"
 	},
 	{
         "urunAdi": "IFF's",
@@ -1925,7 +1925,7 @@
         "ulke": "TR",
         "barkodNo": "8684402",
         "urunTip": "GIDA",
-        "urunLogo": "https://www.iffs.com.tr/wp-content/uploads/2023/09/dondurulmus-dilimlenmis-kiraz.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/iffs.jpg"
 	},
 	{
         "urunAdi": "Çitlekçi",
@@ -1933,7 +1933,7 @@
         "ulke": "TR",
         "barkodNo": "8697826",
         "urunTip": "GIDA",
-        "urunLogo": "https://cdn.myikas.com/images/theme-images/5c8ad16a-25e3-42d2-a635-b70cd1742afb/image_1950.jpg"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/citlekci.jpg"
 	},
 	{
         "urunAdi": "Ömür Boza",
@@ -1941,7 +1941,7 @@
         "ulke": "TR",
         "barkodNo": "8696881",
         "urunTip": "ICECEK",
-        "urunLogo": "https://omurboza.com/wp-content/uploads/2020/04/omur-bozasi-logo.png"
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/omurboza.jpg"
 	},
 	{
         "urunAdi": "Önlem Bez",
@@ -2022,5 +2022,45 @@
         "barkodNo": "8692886",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/altinkilic.jpg"
+	},
+	{
+        "urunAdi": "Uzungil",
+        "urunAciklamasi": "Uzungil, Ankara merkezli köklü bir gıda markasıdır. Başta akide şekeri, lokum ve helva olmak üzere, geleneksel Türk şekerleme ve tatlılarını üretir. Ayrıca reçel, tahin, pekmez ve meze çeşitleriyle de geniş bir ürün yelpazesi sunar.",
+        "ulke": "TR",
+        "barkodNo": "8691846",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/uzungil.jpg"
+	},
+	{
+        "urunAdi": "Birka",
+        "urunAciklamasi": "Birka, 1953 yılında kurulmuş olan Birka Kimyevi Maddeler San. ve Tic. A.Ş. bünyesinde üretilen çamaşır hijyen ürünleri, çamaşır ve oda parfümleri, cila temizlik ürünleri, diğer yardımcı yıkama maddeleri, elde bulaşık yıkama ürünleri, endüstriyel bulaşık makinası yıkama, gıda ve çiftlik hijyeni, genel temizlik ürünleri, halı temizlik ürünleri, klorlu ağartıcılar, mutfak hijyen ürünleri, oksijenli ağartıcılar, paslanmaz çelik bakım ürünleri, yağ çözücüler, yardımcı yıkama ürünleri, yumuşatıcılar markasıdır. Firma Ankara merkezlidir",
+        "ulke": "TR",
+        "barkodNo": "8690564",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/birka.jpg"
+	},
+	{
+        "urunAdi": "Nazar Kimya",
+        "urunAciklamasi": "Nazar Kimya Sabun ve Deterjan Tic. A.Ş. bünyesinde üretilen, tamamı bitkisel ve organik içeriklerden oluşan çamaşır temizleyici, lavanta yağlı yumuşatıcı, bulaşık makinesi jelive tableti, portakal yağlı bulaşık temizleyici, yüzey ve ahşap temizleyici, cam temizleyici, limon yağlı tuvalet temizleyicisi markasıdır. Bünyesindeki markalar: Just Green Organic, Nazar ve Risel",
+        "ulke": "TR",
+        "barkodNo": "8690756",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/nazar.jpg"
+	},
+	{
+        "urunAdi": "Just Green Organic",
+        "urunAciklamasi": "Just Green, Nazar Kimya Sabun ve Deterjan Tic. A.Ş. bünyesinde üretilen, tamamı bitkisel ve organik içeriklerden oluşan çamaşır temizleyici, lavanta yağlı yumuşatıcı, bulaşık makinesi jelive tableti, portakal yağlı bulaşık temizleyici, yüzey ve ahşap temizleyici, cam temizleyici, limon yağlı tuvalet temizleyicisi markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/justgreenorganic.jpg"
+	},
+	{
+        "urunAdi": "Seba Kimya",
+        "urunAciklamasi": "Seba Kimya San. ve Tic. A.Ş. 1989 yılında kuruldu. Türkiye’de mineralli temizlik kremini üreten ilk yüzde yüz yerli Türk firmasıdır. Seba Kimya, ilk yıllarda endüstriyel olarak krem deterjan, sıvı bulaşık deterjanı, çamaşır suyu ve çamaşır sodası üretimleri yaparak faaliyete başladı. Bünyesindeki Markalar: Sır, Elenor, Pet white, Sır Bio ve Jovirose",
+        "ulke": "TR",
+        "barkodNo": "8693023",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sebakimya.jpg"
 	}
 ]
