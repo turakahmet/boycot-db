@@ -2062,5 +2062,13 @@
         "barkodNo": "8693023",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sebakimya.jpg"
+	},
+	{
+        "urunAdi": "Asya Su",
+        "urunAciklamasi": "Düzce’nin Çilimli ilçesinde,son teknolojiyle donatılmış 5.500 m² kapalı, 18.000 m² toplam alana sahip olan Asya Su, günümüzde 74.000 şişe/saat kapasite ile hizmet vermektedir. 2012 yılında, Gülay ailesine ait Gülay Kollektif Şirketi’nce satın alınmış ve yine aynı aileye ait Cansu Su San.Nak.Tic.Ltd.Şti. tarafından işletilmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8697681",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/asyasu.jpg"
 	}
 ]
