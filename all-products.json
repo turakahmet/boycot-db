@@ -2070,5 +2070,13 @@
         "barkodNo": "8697681",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/asyasu.jpg"
+	},
+	{
+        "urunAdi": "Saray Kahve",
+        "urunAciklamasi": "Nitelikli kahveye gönül vermiş bir kahveseverin, yıllar boyunca kazandığı deneyim, bilgi ve birikimi, kahve keyfi ile harmanlayarak; sizlere en iyi kahve deneyimini sunmak amacıyla, Saray Kahve kuruldu. Geliştirmiş olduğumuz kahve kavurma profilleri ve tekniklerini kullanarak, taze ve nitelikli kahveyi, yeşil kahveden itibaren işliyor, paketliyor ve tanzimini sağlıyoruz. Adıyamanın merkezinde bulunan fabrikamızda, 4 kıta ve 13 ülkeden seçmiş olduğumuz kahveleri, çeşitli demleme metotları kullanarak keyfinize sunuyoruz.",
+        "ulke": "TR",
+        "barkodNo": "8683295",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/saraykahve.jpg"
 	}
 ]
