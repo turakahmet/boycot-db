@@ -19,7 +19,7 @@
         "urunAdi": "Uludağ",
         "urunAciklamasi": "Uludağ, 1931 yılında kurulan Uludağ İçecek Türk A.Ş. bünyesinde üretilen doğal mineralli su, meyveli doğal mineralli su, doğal kaynak suları, doğal maden suyu, meyve aromalı doğal maden suyu, meyve sulu doğal maden suyu, hafif içimli doğal maden suyu, limonata, portakallı gazoz ve az kalorili gazoz gibi içecekler markasıdır.",
         "ulke": "TR",
-        "barkodNo": "8690723 8693806 8693364 8693166 8693703 1500144",
+        "barkodNo": "8690723 8693806 8693364 8693166 8693703",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/uludag.jpg"
     },
@@ -1523,7 +1523,7 @@
         "urunAdi": "Badem Su",
         "urunAciklamasi": "Bademler Şirketler Grubu olarak profesyonel anlamda şirketleşme sürecinde ilk olarak 1950li yıllarda, gazoz üretim tesisi, taş ocak işletmeciliği ve mıcır şantiyeleri ile başlamış olup, ilerleyen süreçte mermer fabrikası, mermer ocakları işletmeciliği ve doğal kaynak su üretimi ile devam etmiştir.",
         "ulke": "TR",
-        "barkodNo": "8699211",
+        "barkodNo": "8699211 1500144",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/badem.jpg"
 	},
