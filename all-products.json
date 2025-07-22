@@ -107,7 +107,7 @@
         "urunAdi": "ÇAYKUR",
         "urunAciklamasi": "ÇAYKUR, Türkiye Cumhuriyeti devletine ait bir çay üretim kuruluşudur. Tam adı 'Çay Sanayi ve Ticaret AŞ' olan ÇAYKUR, 1983 yılında Rize ilinde kurulmuştur. Doğu Karadeniz Bölgesi'nde çay tarımı ve sanayisinde önemli bir rol oynamaktadır. ÇAYKUR'un 45 yaş çay işleme fabrikası, çay paketleme fabrikası, pazarlama ve üretim bölge müdürlükleri, Anatamir Fabrikası ve Atatürk Çay ve Bahçe Kültürleri Araştırma Enstitüsü Müdürlüğü bulunmaktadır. Ayrıca, ÇAYKUR'un 16.500 çalışanı ve 6.600 ton/gün yaş çay işleme kapasitesi ile Türkiye çay sektörünün en büyük ve lider kuruluşlarından biridir.",
         "ulke": "TR",
-        "barkodNo": "8690105 8691020",
+        "barkodNo": "8690105",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/caykur.jpg"
     },
@@ -2078,5 +2078,21 @@
         "barkodNo": "8683295",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/saraykahve.jpg"
+	},
+	{
+        "urunAdi": "Themra Bitkisel Ürünler",
+        "urunAciklamasi": "Türkiye merkezli, doğal içerikli sağlık ve bakım ürünleri sunan bir markadır. 1990 yılında süt ürünleri ile başlayan firma Veysi Topuz ile 2005 yılında Themra Bitkisel Ürünleri kurarak (Macun,Çay,Toz) 2006 yılında Bitkisel Kozmetik Ürünlerini (Krem, Bakım Yağları, Şampuan) faaliyetlerine devam etmiştir.2007 yılında Fiyto Saç Bakım Ürünlerini (Şampuan, Saç Bakım Kremi, Saç Bakım Losyonu, Jöle, Ayak Bakım Ürünü) üretimi ve pazarlaması ile portföyünü genişletmiştir. Bünyesinde Fiyto, dermaderm markaları bulunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8697400",
+        "urunTip": "BAKIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/therma.jpg"
+	},
+	{
+        "urunAdi": "Krsital Kola",
+        "urunAciklamasi": "1994 yılında İhlas Holding bünyesinde faaliyete başladı; 2014’te bağımsızlaşarak günümüzde Kristal Kola ve Meşrubat Sanayi Ticaret A.Ş. adıyla faaliyet sürdürülmektedir. Başta kola olmak üzere gazoz, portakal-kola meyve aromalı içecekler, enerji içeceği, maden ve kaynak suyu, soğuk çay, limonata gibi alkolsüz ürünler sunmaktadır. Türkiye’de dört farklı tesiste (Balıkesir, Edremit, Sapanca, Kırıkkale) üretim yapılmakta.2024–2025 yıllarında Krones firmasından NitroHotfill teknolojili PET dolum hattı kurulmuş; saatlik 30.000 adet 1 L şişe üretim kapasitesine sahiptir. Bünyesindeki markalar; kristal, chat, meyco, Hotline Enerji İçeceği, Youcan, balsa gazoz ",
+        "ulke": "TR",
+        "barkodNo": "8691020",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kristalcola.jpg"
 	}
 ]
