@@ -163,7 +163,7 @@
         "urunAdi": "Pınar",
         "urunAciklamasi": "Pınar, Türkiye'nin köklü gıda markalarından biridir. 1973 yılında kurulan Pınar, süt, et, su ve diğer ürünlerle geniş bir yelpazeye sahiptir. Sağlık, lezzet ve yenilik odaklı çalışmalarıyla tanınan Pınar, Türkiye'de sağlıklı süt ve süt ürünleri kavramını yerleştiren ilk markadır. Aynı zamanda dünyanın çeşitli ülkelerinde tercih edilen bir marka olarak 'Bölgesel Güç' olma yolunda ilerlemektedir. Pınar'ın ürünleri arasında süt, et, su, yoğurt, peynir, kaymak, kefir, krema, çökelek, tereyağı ve daha fazlası bulunmaktadır. Daha fazla bilgi için Pınar resmi web sitesini ziyaret edebilirsiniz.",
         "ulke": "TR",
-        "barkodNo": "8690565 8690525 8692105 8690317 8690310 8690527 8690321 8697413 8692106 8692107",
+        "barkodNo": "8690565 8690525 8692105 8690317 8690310 8690527 8690321 8692106 8692107",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/pinar.jpg"
     },
@@ -867,7 +867,7 @@
         "urunAdi": "Ceysu",
         "urunAciklamasi": "Ceysu, 2003 yılında pet ve damacana üretimi ile ambalajlı su sektörüne adım atmış bir Türk markasıdır. Her geçen gün büyüyen dağıtım ağı ve üretim kapasitesi ile sektörün köklü firmalarından biri haline gelmiştir.",
         "ulke": "TR",
-        "barkodNo": "8697429",
+        "barkodNo": "869742933",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ceysu.jpg"
     },
@@ -2094,5 +2094,37 @@
         "barkodNo": "8691020",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kristalcola.jpg"
+	},
+	{
+        "urunAdi": "Ancora",
+        "urunAciklamasi": "Ancora, 2015 yılında kurulan Forte Gıda San. ve Tar. Ürn. İth. İhr. Ltd. Şti. bünyesindeki meyve özler, meyve suları, ballar, geleneksel şerbetler, tahin ve pekmezler markasıdır. Üretimlerde tüketici sağlığını doğrudan ya da dolaylı olarak etkileyebilecek hiçbir yan madde kullanmamaktadır. Orser Organik Tarım ve Gimdes Helal Belgelerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8699197",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ancora.jpg"
+	},
+	{
+        "urunAdi": "Ancora",
+        "urunAciklamasi": "Ancora, 2015 yılında kurulan Forte Gıda San. ve Tar. Ürn. İth. İhr. Ltd. Şti. bünyesindeki meyve özler, meyve suları, ballar, geleneksel şerbetler, tahin ve pekmezler markasıdır. Üretimlerde tüketici sağlığını doğrudan ya da dolaylı olarak etkileyebilecek hiçbir yan madde kullanmamaktadır. Orser Organik Tarım ve Gimdes Helal Belgelerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8699197",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ancora.jpg"
+	},
+	{
+        "urunAdi": "Turap",
+        "urunAciklamasi": "1969 yılında kurulan Altın Ticaret, 1993 yılından itibaren Yakupoğulları Gıda Sanayi Tic. Tur. Ltd. Şti. olarak faaliyetlerine devam etmektedir. 1995 yılından 2000 yılına kadar çeşitli firmaların distiribütörlüğünü yapmış, 2000 yılından itibaren TURAP ve ALYA markaları adı altında bakliyat ve zeytin üretimine başlamıştır.",
+        "ulke": "TR",
+        "barkodNo": "869919775",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/turap.jpg"
+	},
+	{
+        "urunAdi": "İnci",
+        "urunAciklamasi": "1995 yılında kurulan Unat Yağ Gıda San. ve Tic. A.Ş. bünyesinde üretilen yemeklik yağlar markasıdır. ISO 9001, ISO 22000, OHSAS 18001, Helal ve Kosher belgelerine sahiptir. Firma Mersin merkezlidir. Ürünlerini 3. OSB’de bulunan 40 bin metrekarelik alanda bulunan tesisinde üretmektedir ve 50’den fazla ülkeye ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8697413",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/inciyag.jpg"
 	}
 ]
