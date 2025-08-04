@@ -1112,30 +1112,6 @@
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kumtel.jpg"
     },
     {
-        "urunAdi": "Arçelik",
-        "urunAciklamasi": "Arçelik, 1955 yılında Vehbi Koç ve Lütfi Doruk’un madeni eşya üretmek üzere 1955 yılında kurduğu ortaklıkla doğar. Arçelik A.Ş., Arçelik, Beko, Altus, Elektra Bregenz, Bloomberg, Arctic, Leisure, Flavel ve Tirolia markaları ile yerel ve uluslararası pazarlarda tüm tüketici segmentlerine hitap edecek bir ürün gamına sahiptir.",
-        "ulke": "TR",
-        "barkodNo": "",
-        "urunTip": "TEKNOLOJI",
-        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/arcelik.jpg"
-    },
-    {
-        "urunAdi": "Altus",
-        "urunAciklamasi": "Altus, 1998 yılında Arçelik A.Ş. bünyesinde üretilen beyaz eşya, ankastre cihazlar, elektrikli süpürge, klima, su ısıtıcısı ve küçük ev aletleri markasıdır.",
-        "ulke": "TR",
-        "barkodNo": "",
-        "urunTip": "TEKNOLOJI",
-        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/altus.jpg"
-    },
-    {
-        "urunAdi": "Grundig",
-        "urunAciklamasi": "Grundig 1945 yılında Max Grundig tarafından kurulan Grundig Intermedia GmbH bünyesindeki televizyon, ses sistemleri, beyaz eşya, saç kurutma makinesi, saç düzleştirici, saç maşası, saç düzleştirici tarak, tartı, tıraş makinesi, küçük ev aletleri markasıdır. Grundig Intermedia GmbH 2007 yılında Koç Holding’e ait Arçelik A.Ş. tarafından satın alınmıştır. Grundig, dünyada 65’den fazla ülkeye pazarlanmaktadır.",
-        "ulke": "TR",
-        "barkodNo": "",
-        "urunTip": "TEKNOLOJI",
-        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/grunding.jpg"
-    },
-    {
         "urunAdi": "General Mobile",
         "urunAciklamasi": "General Mobile, 2005 yılında kurulmuş olan akıllı telefon, tablet, akıllı cihazlar, genişbant ve aksesuarlar markasıdır. General Mobile, 2012 yılında Telpa Telekomunikasyon A.Ş. tarafından satın alındı. Firma İstanbul merkezlidir. Ürünlerini 30’dan fazla ülkeye ihraç etmektedir.",
         "ulke": "TR",
@@ -2118,5 +2094,14 @@
         "barkodNo": "8697413",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/inciyag.jpg"
+	},
+	{
+        "urunAdi": "Dp Şampuan Temizlik",
+        "urunAciklamasi": "DP, 1999 yılında Tat Şirketler Grubu’na bağlı olarak kurulan Tat Kimya Sabun ve Gliserin San. Tic. A.Ş. bünyesinde üretilen buğday proteini şampuan, çam terebentin şampuan, pamuk sütü şampuan, çörek otu şampuan, biotin şampuan, keratin şampuan, mentol şampuan, tuzsuz şampuan markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8694965"
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/dpsampuan.jpg"
 	}
+	
 ]
