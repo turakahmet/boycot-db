@@ -2110,6 +2110,22 @@
         "barkodNo": "8693634",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sinangil.jpg"
+	},
+	{
+        "urunAdi": "Anı Bisküvi",
+        "urunAciklamasi": "Anı Bisküvi, 1995 yılında kurulan Anı Bisküvi Gıda San. ve Tic. A.Ş. bünyesindeki bisküvi markasıdır. 65 bin metrekare açık ve 115 bin metrekare kapalı alanda bulunan fabrikasında üretim gerçekleştirmektedir. 90 ülkeye ihracat yapan yerli firma Karaman’da en çok ihracat yapan şirketler sıralamasında bir kaç yıl ilk sırada yer almıştır.",
+        "ulke": "TR",
+        "barkodNo": "8691720",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/anibiskuvi.jpg"
+	},
+	{
+        "urunAdi": "AIC Kimya",
+        "urunAciklamasi": "AIC Kimya A.Ş, temizlik sektöründe fark oluşturmayı amaçlayan ve müşterilere temizlikten daha fazlasını sunmayı hedefleyen bir firmadır. Temizlik ürünleri, gelişmiş formüllerle donatılmış, çevre dostu ve etkili çözümler sunar. Ürünler içerdiği etkili formüller sayesinde temizlikle birlikte tasarruf, sürdürülebilirlik ve sağlık konularına odaklanarak müşterilere günlük yaşamlarını daha iyi bir hale getirmeyi amaçlar.Bünyesindeki markalar, Süpermatik, Perdematik, Halımatik, Tekstilmatik",
+        "ulke": "TR",
+        "barkodNo": "8684474",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aickimya.jpg"
 	}
 	
 ]
