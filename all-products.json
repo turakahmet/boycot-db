@@ -2126,6 +2126,14 @@
         "barkodNo": "8684474",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aickimya.jpg"
-	}
+	},
+	{
+        "urunAdi": "Next Sosyal",
+        "urunAciklamasi": "Next Sosyal, Türkiye Teknoloji Takımı Vakfı (T3 Vakfı) ve Baykar Teknoloji iş birliğiyle geliştirilen yerli bir sosyal medya platformudur. 23 Temmuz 2025'te genel kullanıma açılmıştır. Platformun adı, 'NEXT TEKNOFEST Sosyal' olarak da geçmektedir. Platform, açık kaynak kodlu ve merkeziyetsiz bir sosyal ağ protokolü olan ActivityPub üzerine inşa edilmiş Mastodon yazılımını temel alır. Şu anki sürümünde federasyon desteği kapalı olsa da, yerli veri merkezleri, özgün arayüzü ve T3 AI entegrasyonu gibi özelliklerle özelleştirilmiştir. Next Sosyal'e iOS ve Android uygulamaları üzerinden ya da web sitesi üzerinden erişim sağlanabilir. Platforma katılmak için Teknofest Sosyal sunucusu üzerinden hesap oluşturmak gerekmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "MEDYA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/nextSosyal.jpg"
+    }
 	
 ]
