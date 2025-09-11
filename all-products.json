@@ -2134,6 +2134,14 @@
         "barkodNo": "",
         "urunTip": "MEDYA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/nextSosyal.jpg"
+    },
+	{
+        "urunAdi": "Bip",
+        "urunAciklamasi": "BiP, 2013 yılında Turkcell bünyesinde kurulan BiP İletişim Teknolojileri ve Dijital Servisler A.Ş. tarafından geliştirilen ücretsiz anlık mesajlaşma uygulaması markasıdır. Resmî kaynaklara göre uygulama tamamen Türk mühendisleri tarafından geliştirilmiştir. Uygulama indirilebiliyor ve kullanılabiliyor ücretsiz olarak. Bazı operatör kampanyaları, internet kotasından düşmeme gibi avantajlar sağlanıyor.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "MEDYA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bip.jpg"
     }
 	
 ]
