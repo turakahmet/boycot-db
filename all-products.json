@@ -2142,6 +2142,14 @@
         "barkodNo": "",
         "urunTip": "MEDYA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bip.jpg"
+    },
+	{
+        "urunAdi": "Sarıkız",
+        "urunAciklamasi": "Sarıkız, 1974 yılında kurulan doğal mineralli maden suyu, meyve aromalı maden suyu, gazlı içecekler markasıdır. Manisa Alaşehir Belediyesi’ne ait olan marka ve üretim tesisi 10 yıllık ihale ile firmalara kiralanmaktadır. Alasu Gıda San. ve Tic. Ltd. Şti. tarafından işletilmektedir. ",
+        "ulke": "TR",
+        "barkodNo": "8698980",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sarikiz.jpg"
     }
 	
 ]
