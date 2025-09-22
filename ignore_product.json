@@ -78,3 +78,11 @@
         "urunTip": "TEKNOLOJI",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/grunding.jpg"
     },
+    {
+        "urunAdi": "Sarıyer",
+        "urunAciklamasi": "Sarıyer Gazoz, Türkiye'nin köklü gazoz markalarından biridir. Oğuz Gıda A.Ş. bünyesinde 1997 yılında kurulan bu eşsiz içecek, yıllardır insanların damaklarında unutulmaz bir tat bırakmaktadır. Ürünler, Adana, Sakarya ve Bolu'daki fabrikalarda üretilmektedir . Sarıyer Gazoz, yerli ve geleneksel bir lezzet olarak Türkiye'nin soğuk içecek tercihlerinden biridir. ",
+        "ulke": "TR",
+        "barkodNo": "8698720 8683789",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sariyer.jpg"
+    },
