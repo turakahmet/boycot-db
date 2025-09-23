@@ -2142,6 +2142,14 @@
         "barkodNo": "8698980",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sarikiz.jpg"
+    },
+	{
+        "urunAdi": "Gümüş Su",
+        "urunAciklamasi": "Gümüş Su, 1985 yılında kurulan Aqua Ana A.Ş. bünyesinde üretilen doğal kaynak suyu markasıdır. Pet şişe, cam şişe ve damacana olarak ürünlerini ambalajlamaktadır. Firma Bursa’da dolum yapmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8680304",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gumussu.jpg"
     }
 	
 ]
