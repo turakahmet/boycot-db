@@ -384,14 +384,6 @@
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kaanlar.jpg"
     },
     {
-        "urunAdi": "Pastavilla",
-        "urunAciklamasi": "Pastavilla, 1928 yılında temelleri atılan makarna, irmik, irmikaltı un ve pane unu markasıdır. Ürünleri gluten, mısır, buğday ve katkı maddesi içermez. Helal belgesine sahiptir.",
-        "ulke": "TR",
-        "barkodNo": "8690684",
-        "urunTip": "GIDA",
-        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/pastavilla.jpg"
-    },
-    {
         "urunAdi": "Cumhuriyet Sucukları",
         "urunAciklamasi": "2012 yılında kurulmuş olan Afyon Et Entegre A.Ş. bünyesinde üretilen sucuk ve et ürünleri markasıdır. Ürün yelpazesinde sucuk dışında, kavurma, pastırma, salam ve sosis bulunmaktadır. ISO 9001, TSE ve Helal belgelerine sahiptir. Firma Afyonkarahisar merkezlidir ve Et Entegre Tesisleri’nde üretim yapmaktadır.",
         "ulke": "TR",
@@ -779,7 +771,7 @@
         "urunAdi": "Aroma",
         "urunAciklamasi": "Aroma, Türkiye’nin köklü meyve suyu markalarından biridir. 1968 yılında Bursa’nın Gürsu ilçesinde kurulan Aroma, yılda 20.000 tondan 125.000 tona çıkan işlenen meyve miktarıyla ülkenin önde gelen meyve suyu dolum tesislerinden biri haline gelmiştir. Aroma, %100 meyve suyu üretimiyle yeni bir kategori yaratmış ve Türkiye’de ilk kez multivitaminli karışık meyve suyu üretmiştir. Ayrıca doğal kaynak suyu ve gazlı içecekler de üretmektedir.",
         "ulke": "TR",
-        "barkodNo": "8690690",
+        "barkodNo": "869069017",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aroma.jpg"
     },
@@ -2158,6 +2150,94 @@
         "barkodNo": "8698720",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/juss.jpg"
+    },
+	{
+        "urunAdi": "Eker",
+        "urunAciklamasi": "Eker, 1977 yılında Altan Eker ve Aykut Kutay tarafından kurulan Eker Süt Ürünleri Gıda San. ve Ticaret A.Ş. bünyesindeki ayran, yoğurt, sütlü tatlılar,meyveli süzme yoğurt beyaz peynir, kaşar peyniri, kaymak, tereyağı, kefir, pastörize süt ve UHT süt markasıdır. Eker Süt Ürünleri Gıda San. ve Ticaret A.Ş., 2006 yılında Fransız Andros grubu ile yarı yarıya oranda bir ortaklık gerçekleştirmiştir. %50 Yerliliği olmasından kaynaklı uygulama listesine eklenmiştir.",
+        "ulke": "TR",
+        "barkodNo": "8691316",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/eker.jpg"
+    },
+	{
+        "urunAdi": "Taciroğlu & Peysan",
+        "urunAciklamasi": "Taciroğlu & Peysan, 1936 yılında kurulmuş olan Doğal Tarım Ürünleri Gıda Paz. San. ve Tic. A.Ş. bünyesinde üretilen özel peynirler, beyaz peynirler, eski kaşar, klasik beyaz peynirler, tatlılar, taze kaşarlar, tereyağı markasıdır. BRC FOOF, FSSC ve Helal belgelerine sahiptir. Firma İstanbul merkezlidir ürünlerini Edirne’deki 30 bin metrekarelik aladan bulunan tesisinde üretmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8690614",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/taciroglu.jpg"
+    },
+	{
+        "urunAdi": "Oses",
+        "urunAciklamasi": "Oses, 1993 yılında Osman Yaşar tarafından kurulan Oses Grup Gıda San. ve Tic. Ltd. Şti. bünyesinde üretilen etsiz çiğ köfte markasıdır. Türkiye genelinde 600’e yakın şubesi bulunmaktadır. Türkiye, Almanya ve Çin’de çiğ köfte fabrikası bulunmaktadır. ISO 9001 ve 22000 belgelerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/oses.jpg"
+    },
+	{
+        "urunAdi": "Meyöz",
+        "urunAciklamasi": "Meyöz, 1994 yılında İhsan Nüri Erdoğan tarafından kurulan Meyöz Süt Ürünleri ve Gıda Sanayi A.Ş. bünyesindeki Şeftali Nektarı, Kayısı Nektarı, Vişne Nektarı, Karışık Meyve Nektarı, Portakal Nektarı, Ice Tea Şeftali, Aromalı İçecek, Ice Tea Limon Aromalı İçecek markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "869069002",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/meyoz.jpg"
+    },
+	{
+        "urunAdi": "Baby Goat",
+        "urunAciklamasi": "2017 yılında kurulmuş olan Keçicik Süt Endüstrisi ve Gıda San. Tic. A.Ş. bünyesinde üretilen keçi sütü bazlı bebek sütü markasıdır. Koruyucu madde içermemektedir. Firma İstanbul merkezlidir. Bünyesindeki markalar; Baby Goat, Bewith, Keçicik %100 Doğal, Little Goats, Organik Zeytinyağlı Baby Goat",
+        "ulke": "TR",
+        "barkodNo": "8680972",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/babygoat.jpg"
+    },
+	{
+        "urunAdi": "Arılac",
+        "urunAciklamasi": "Arılac, 1945 yılında kurulmuş olan Arı Gıda San. A.Ş. bünyesinde üretilen ballı irmikli kahvaltı, gece sütlü 7 tahıllı, sütlü muzlu, sütlü pirinçli bebek mamaları markasıdır. Ürünleri GDO, koruyucu katkı maddesi, nişasta, kıvam artırıcı, aroma verici tatlandırıcı içermez. Yağsız süt tozu ve süt proteini konsantresi içermektedir. BRC ve Helal belgelerine sahiptir. Firma İstanbul merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "8696540",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/arilac.jpg"
+    },
+	{
+        "urunAdi": "Yonca Gıda",
+        "urunAciklamasi": "Yonca Gıda 1981 yılında Hasan Türek tarafından kurulan yemeklik yağlar, zeytinyağı, közlenmiş ürünler, turşular, konserve sebze-meyve, domates salçası ve domates ürünleri, ketçap-mayonez ve soslar ile süt ürünleri üreten firmadır. Manisa Organize Sanayi Bölgesi’nde yaklaşık 60 bin metrekarelik alanda kurulu tesisinde bitkisel yemeklik yağlardan zeytinyağına, konserve ürünlerden ketçap – mayoneze, salça ve domates ürünlerinden soslara, turşu çeşitlerinden közlenmiş ürünlere kadar çok sayıda ürünü üreten Türk firmasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8691321",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/yoncagida.jpg"
+    },
+	{
+        "urunAdi": "Beyoğlu Çikolata",
+        "urunAciklamasi": "2018 yılında kurulmuş olan Beyoğlu Çikolata San. Tic. A.Ş. bünyesinde üretilen çikolatalar, bar, gofret, kek, krem çikolata, draje, special çikolatalar markasıdır. Firma Ankara merkezlidir. Ürünlerini toplam 3 fabrikasında üretmektedir ve 70’den fazla ülkeye ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8697288",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/beyogluckt.jpg"
+    },
+	{
+        "urunAdi": "Beyoğlu Gazozu",
+        "urunAciklamasi": "Beyoğlu Gazozu yerli bir firmadır. Ürünlerinin menşeinin ve üretim yerlerinin Türkiye olduğu belirtilmektedir. Aynı zamanda, Türk gazoz tarihinin başlangıç noktası olan İstanbul'un Beyoğlu semtinden ilham alarak kurulmuş bir markadır.  Geleneksel üretim yöntemleri ve yüksek kaliteli malzemeler kullanarak gazozun nostaljik değerini günümüze taşımayı hedeflemektedir. Bazı ürünlerinde sıvı pancar şekeri kullandığı ve koruyucu/katkı maddesi kullanmadığı belirtilmektedir.  Marka, şişe tasarımıyla uluslararası alanda prestijli Red Dot tasarım ödülünü almıştır. Şişenin tasarımında Galata Kulesi'nden ilham aldıklarını belirtmişlerdir.",
+        "ulke": "TR",
+        "barkodNo": "8681227",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/beyoglugazoz.jpg"
+    },
+	{
+        "urunAdi": "Başyazıcı",
+        "urunAciklamasi": "Başyazıcı, 1953 yılında Mahmut Başyazıcıoğlu tarafından kurulan Başyazıcıoğlu Et ve Gıda San. Tic. A.Ş. bünyesinde üretilen pastırma, sucuk, salam, sosis, kavurma, fümedil ve jambon gibi et mamülleri markasıdır. Kendi tesislerinde Kars ve çevresindeki yaylalarda otlayan yerli büyükbaş hayvanları, ürettiği yemlerle beslemekte ve yetiştirdiği hayvanlardan üretim yapmaktadır. Kayseri merkezli firma ISO 9001, ISO 22000 belgelerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8691967",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/basyazici.jpg"
+    },
+	{
+        "urunAdi": "Karadenizbirlik Yağ",
+        "urunAciklamasi": "Kısa adı Karadenizbirlik olan S.S. Karadeniz Yağlı Tohumlar Tarım Satış Kooperatifleri Birliği, faaliyet bölgesindeki yağlı tohum ekimini yaygınlaştırmak ve mübaya ettiği ürünleri değerlendirmek amacıyla kurulmuş olan; Karadeniz, İç Anadolu, Doğu Anadolu ve Güneydoğu Anadolu bölgelerindeki 12 kooperatifi ve alım merkezleri  ile üretici ortaklarına tarımsal destek sağlayan bir kooperatifler üst birliğidir. Birliğin faaliyet konusu olan yağlı tohumlar “Ayçiçeği ve Soya Fasülyesi” dir .",
+        "ulke": "TR",
+        "barkodNo": "8690113",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/karadenizbirlikyag.jpg"
     }
 	
 ]
