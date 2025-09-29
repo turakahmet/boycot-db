@@ -86,3 +86,11 @@
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sariyer.jpg"
     },
+    {
+        "urunAdi": "Pastavilla",
+        "urunAciklamasi": "Pastavilla, 1928 yılında temelleri atılan makarna, irmik, irmikaltı un ve pane unu markasıdır. Ürünleri gluten, mısır, buğday ve katkı maddesi içermez. Helal belgesine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8690684",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/pastavilla.jpg"
+    },
