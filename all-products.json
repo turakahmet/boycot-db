@@ -2150,6 +2150,14 @@
         "barkodNo": "8680304",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gumussu.jpg"
+    },
+	{
+        "urunAdi": "Juss",
+        "urunAciklamasi": "Juss, 1997 yılında kurulan Oğuz Gıda A.Ş. bünyesindeki meyve suyu markasıdır. Oğuz Gıda A.Ş. 2016 yılında Juss meyve suyu markasını tüm üretim makineleri ile birlikte satın aldı. Fabrikalarında, karton kutuda %100 meyve suyu, meyve nektarı, meyveli içecek ve meyve aromalı gazlı meşrubat (kola, portakal, gazoz) üretimini yapmaktadır. Juss ürün çeşitleri; Meyve Nektarı, %100 Meyve Suyu, Parçacıklı Meyveli İçecekler, Doğal Mineralli Gazlı İçecek, Meyveli İçecekler, Ice Tea, Osmanlı Şerbeti ve Limonata’dan oluşuyor. 2010 yılından itibaren faaliyete geçen konsantre tesisleri aracılığıyla, mevsimlik lezzetleri bozulmadan dört mevsim boyunca isteyen herkese ulaştırmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8698720",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/juss.jpg"
     }
 	
 ]
