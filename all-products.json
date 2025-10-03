@@ -2246,6 +2246,14 @@
         "barkodNo": "",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/blumewckagit.jpg"
+    },
+	{
+        "urunAdi": "Öncüller",
+        "urunAciklamasi": "Öncüller, 1975 yılında kurulan Nesil Gıda İmalat San. ve Tic. Ltd. Şti. bünyesinde üretilen katıkısız ve doğal püre, marmelat ürünleri markasıdır. Şekerli ve şekersiz kuşburnu marmelatı ve kızılcık marmelatı, aseptik kutular içerisinde ve cam ambalajlar içerisinde doğallığına müdahale etmeden paketlenerek üretilmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8698655",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/onculler.jpg"
     }
 	
 ]
