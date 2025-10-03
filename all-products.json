@@ -2238,6 +2238,14 @@
         "barkodNo": "8690113",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/karadenizbirlikyag.jpg"
+    },
+	{
+        "urunAdi": "Blume Tuvalet Kağıdı",
+        "urunAciklamasi": "Blume tuvalet kağıdı, 2009 yılında kurulan Turkuvaz AŞ. tarafından BİM adına üretilmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/blumewckagit.jpg"
     }
 	
 ]
