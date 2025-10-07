@@ -2334,6 +2334,102 @@
         "barkodNo": "",
         "urunTip": "GIYIM",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/soley.jpg"
+    },
+	{
+        "urunAdi": "ebebek",
+        "urunAciklamasi": "E-Bebek, 2001 yılında Halil Erdoğmuş tarafından kurulmuş olan Ebebek Mağazacılık A.Ş. bünyesine ait bebek ürünleri sunan mağazalar ve e-ticaret markasıdır. e-bebek.com’un çoğunluk hisseleri 2011 yılından itibaren Topbaş Ailesi’ne aittir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ebebek.jpg"
+    },
+	{
+        "urunAdi": "Çetinkaya",
+        "urunAciklamasi": "Çetinkaya, 1957 yılında kurulan Çgs Çetinkaya Giyim San. ve Tic. A.Ş. bünyesindeki hazır giyim zinciridir. Çetinkaya’nın iki gömlek fabrikası ve 100’e yakın konfeksiyon fabrikaları bulunmaktadır. ÇGS Çetinkaya Giyim Sanayi ve Ticaret A.Ş. ile Çetinkaya Holding arasında herhangi bir bağ bulunmamaktadır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/cetinkaya.jpg"
+    },
+	{
+        "urunAdi": "Damat",
+        "urunAciklamasi": "Damat, 1986 yılında kurulan Orka Holding bünyesindeki erkek hazır giyim markasıdır. ORKA Tekstil San. ve Turizm Ticaret A.Ş.’yi Süleyman Orakçıoğlu kurdu. Orka Group’un azınlık hisseleri 2012 yılında Bahreyn merkezli yatırım şirketi Investcorp’a satıldı. Orka Holding bünyesindeki markalar: D’s Damat, Damat, Tween",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/damatlogo.jpg"
+    },
+	{
+        "urunAdi": "Lescon",
+        "urunAciklamasi": "escon, 1992 yılında Aydın Erbay tarafından kurulan Erbay Pazarlama ve Ticaret A.Ş. şirketi bünyesindeki spor giyim ve spor aksesuarları markasıdır. 1993 yılında Türkiye’nin ilk halı saha ayakkabısı üretildi. 1998 yılında ise tekstil üretimine başlandı. Firma 2005 yılında Alman Eintracht Frankfurt ile sponsorluk anlaşması imzalarken, 2006 yılında FIFA onaylı Lescon futbol topu üretti.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/lescon.jpg"
+    },
+	{
+        "urunAdi": "LittleBig",
+        "urunAciklamasi": "LittleBig (LTB) 1994 yılında kurulan kot ve tekstil markasıdır. Sahibi Çak Şirketler Grubudur. Çak Grup başta tekstil olmak üzere perakende, kimya, enerji, sigorta aracılık hizmetleri, inşaat, online satış hizmet, mobilya ve dekorasyon ürünleri üretimi ve satışı ile ithalat ve ihracat alanlarında faaliyet göstermektedir. LittleBig markasının Türkiye’de 67 mağazası, dünyanın farklı yerlerinde 18 mağazası bulunurken, yılda 17 milyon tekstil ürünü üretmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/littlebig.jpg"
+    },
+	{
+        "urunAdi": "Sarar",
+        "urunAciklamasi": "Sarar, 1944 yılında Abdurrahman Sarar tarafından kurulan giyim markasıdır. Türk markası Sarar’ın tekstil dışı yatırımları bulunuyor.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sarar.jpg"
+    },
+	{
+        "urunAdi": "Kip",
+        "urunAciklamasi": "Kip, 1978 yılında kurulan erkek giyim markasıdır. 1998 yılında Gürmen Group bünyesine geçti. 1970’li yıllarda İngiltere’de kurulan Gürmen Group, üretimle birlikte 1980’li yıllarda Türkiye’ye taşınmıştır. Kastamonu ve Karabük yöresinde yer alan fabrikaları kapasite bakımından Avrupa’nın ilk 5 büyük üreticisi arasında. Gürmen Group, 25 ülkeye de ihracat yapıyor. Gürmen Group bünyesindeki markalar: Ramsey, KİP",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/kipgiyim.jpg"
+    },
+	{
+        "urunAdi": "Oxxo",
+        "urunAciklamasi": "Oxxo kadın giyim sektöründe faaliyet gösteren yerli bir markadır. A ve A Tekstil Sanayi ve Pazarlama Limited Şirketi'nin bir markası olan Oxxo İstanbul, Ankara, Bursa, İzmir gibi şehirlerde 20'yi aşkın mağazaya sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/oxxogiyim.jpg"
+    },
+	{
+        "urunAdi": "Hammer Jack",
+        "urunAciklamasi": "Hammer Jack, 1925 yılında kurulan Eren Otelcilik San. Tic. A.Ş. bünyesindeki su geçirmez, outdoor, erkek, kadın, çocuk ayakkabı ve botlar, tamamlayıcı aksesuarlar markasıdır. Şirketi 3 nesildir URGAN Ailesi yönetmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/hammerjack.jpg"
+    },
+	{
+        "urunAdi": "Jump",
+        "urunAciklamasi": "Jump, 1987 yılında kurulan Genmar İç ve Dış Tic. A.Ş. bünyesindeki spor, deri ayakkabı, çocuk ayakkabısı, bay-bayan bot, bayan çizme, bay-bayan terlik, ayakkabı bakım ürünleri kemer, çanta cüzdan ve çeşitli aksesuarlar markasıdır. İstanbul merkezli firma ürünlerini 25’ten fazla ülkeye ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/jump.jpg"
+    },
+	{
+        "urunAdi": "Greyder",
+        "urunAciklamasi": "Greyder, 1956 yılında kurulan Kavsan Ayakkabı Sanayi ve Ticaret A.Ş. bünyesinde 1994 yılında kurulan ağır bot ayakkabı markasıdır. Kavsan Ayakkabı yerli sermayeli bir firmadır ve ürünlerinin yüzde 20’den fazlasını ihraç etmektedir. Çorum-İskilip’te 10 bin metrekarelik kapalı bir alanda fabrikası bulunmaktadır. Erkek, kadın ve çocuklar için casual, tracking, spor ayakkabı ve botlar üretmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/greyder.jpg"
+    },
+	{
+        "urunAdi": "Civil",
+        "urunAciklamasi": "Civil, 1996 yılında kurulan Civil Mağazacılık A.Ş. bünyesindeki 0-14 yaş çocuk tekstili perakende satış mağazası markasıdır. Ürün yelpazesi hamile elbisesi, hastane çıkışı, anne ve çocuk ile 14 yaşına kadar ihtiyacı olacak olan tüm tekstil, beslenme gereçleri ve taşıma gruplarını içermektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/civil.jpg"
     }
 	
 ]
