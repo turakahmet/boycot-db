@@ -2262,6 +2262,78 @@
         "barkodNo": "8698655",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/onculler.jpg"
+    },
+	{
+        "urunAdi": "Gecek Su",
+        "urunAciklamasi": "Gecek Su, kaynağını Eskişehir’in Günyüzü ilçesindeki doğal membalardan alan yerli bir içme suyu markasıdır. Tamamen yerli sermaye ile faaliyet gösteren firma, Gecek Su Sanayi ve Ticaret A.Ş. çatısı altında üretim yapmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8684382",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/qeceksu.jpg"
+    },
+	{
+        "urunAdi": "ERCN Kimya",
+        "urunAciklamasi": "ERCN Kimya ve Kozmetik Gıda ve İnş. Ltd. Şti. bünyesinde üretilen antibakteriyel el jeli, arap sabunu, bulaşık deterjanı, cam temizleyici, cep mendil, çamaşır makinesi deterjanı ve çeşitli temizlik ürünleri üreten bir firmadır. Bünyesindeki markalar, Aysil, Vatan, Vietol",
+        "ulke": "TR",
+        "barkodNo": "8698623",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ercnkimya.jpg"
+    },
+	{
+        "urunAdi": "Vatan Deterjan",
+        "urunAciklamasi": "Vatan Deterjan, ERCN Kimya ve Kozmetik Gıda ve İnş. Ltd. Şti. bünyesinde üretilen antibakteriyel bulaşık deterjanı, çamaşır makinesi deterjanı ve çeşitli temizlik ürünleri markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/vatandeterjan.jpg"
+    },
+	{
+        "urunAdi": "Aysil Deterjan",
+        "urunAciklamasi": "Aysil Deterjan, ERCN Kimya ve Kozmetik Gıda ve İnş. Ltd. Şti. bünyesinde üretilen antibakteriyel el jeli, arap sabunu, bulaşık deterjanı, cam temizleyici, çamaşır makinesi deterjanı, yumuşatıcı, tuvalet kağıdı ve çeşitli temizlik ürünleri markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aysildeterjan.jpg"
+    },
+	{
+        "urunAdi": "Vietol",
+        "urunAciklamasi": "Vietol, ERCN Kimya ve Kozmetik Gıda ve İnş. Ltd. Şti. bünyesinde üretilen antibakteriyel el dezenfektanı, kolonya ve çeşitli temizlik ürünleri markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/vietoldeterjan.jpg"
+    },
+	{
+        "urunAdi": "Rebul",
+        "urunAciklamasi": "Rebul 1895 yılında Fransız eczacı Jean Cesar Reboul tarafından La Grande Pharmacie Parisienne (Büyük Paris Eczanesi) adıyla açılan Türkiye’nin ilk eczanesidir. Kozmetik ürünleri üretmektedir. 1939 yılında Mr. Reboul, eczaneyi Kemal Müderrisoğlu’na bırakarak ülkesine döndü. Eczanenin adı Rebul olarak değiştirildi. Eczaneyi günümüzde oğlu Mehmet Müderrisoğlu işletiyor. ATELIER REBUL, exclusive Mağazacılık markasıdır. Kerim Müderrisoğlu ve iki ortağı Nuket Filiba ve Korel Bingöl, Atelier Rebul bünyesinde gerçekleştirmek için adım atmıştır. Atelier Rebul’un ilk mağazası 2013 yılında İstanbul’da açmıştır. Türkiye genelinde 15, dünya genelinde ise 22 mağazası bulunmaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8691226",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/rebul.jpg"
+    },
+	{
+        "urunAdi": "Jakamen",
+        "urunAciklamasi": "Jakamen 1976 yılında tekstil üretim alanında bir aile kuruluşu olan Ayan Giyim bünyesindeki bir markadır. Yerli ve Milli duruşu olan bir markadır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/jakamen.jpg"
+    },
+	{
+        "urunAdi": "Brillant",
+        "urunAciklamasi": "Brillant, 2008 yılında kurulan Eymes Tekstil A.Ş. bünyesindeki; halı, yatak örtüsü, battaniye, çeyiz seti, banyo paspası ve ev tekstili markasıdır. Eymes Tekstil A.Ş. yerli sermayeli bir firmadır ve ürünlerini Türkiye’de üretmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/brillant.jpg"
+    },
+	{
+        "urunAdi": "Soley",
+        "urunAciklamasi": "Soley, 1953 yılında kurulan Birlik Mensucat A.Ş. bünyesinde üretilen havlu, bornoz, ev tekstili, perde, yatak, baza grubu ürünleri ile gabardin ve poplin markasıdır. Firma Kayseri merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/soley.jpg"
     }
 	
 ]
