@@ -931,7 +931,7 @@
         "urunAdi": "Parex",
         "urunAciklamasi": "Parex, 2011 yılında kurulan Provel San. ve Tic. A.Ş. bünyesinde üretilen sünger, temizlik bezi, mikrofiber bez, ovma ürünleri, çöp torbası, streç film, alüminyum folyo, fırın torbası, yağlı pişirme kağıdı, buzdolabı poşeti, fırça, süpürge, tüy toplayıcı markasıdır.",
         "ulke": "TR",
-        "barkodNo": "8699971",
+        "barkodNo": "8699971 8680895",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/parex.jpg"
     },
@@ -2438,6 +2438,14 @@
         "barkodNo": "",
         "urunTip": "MEDYA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/brolyz.jpg"
+    },
+	{
+        "urunAdi": "CNG Kimya",
+        "urunAciklamasi": "CNG Kimya, Samsun’un Çakallı mevkiinde üretim tesisine sahip yerli bir temizlik ürünleri firmasıdır. SEA markasıyla deterjan ve temizlik ürünleri üretmektedir. %100 yerli sermayeyle kurulmuş olup tüm üretimini Türkiye’de gerçekleştirmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8684266",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/cng_logo.jpg"
     }
 	
 ]
