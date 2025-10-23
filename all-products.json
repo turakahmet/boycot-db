@@ -1803,7 +1803,7 @@
         "urunAdi": "Ceremony 7stick",
         "urunAciklamasi": "7stick, 2013 yılında kurulan Ceremony Gıda Sanayi ve Tic. A.Ş. bünyesinde üretilen şekersiz sakız markasıdır. Gaziantep/Nizip OSB tesislerinde üreten yüzde 100 yerli sermayeli firmadır. Bünyesindeki markalar 7 Stıck, 7Bite, 7Ciklet, 7Fine, Aadent, Aimdent, Benechew, Ceremony, Ciklet 7Stik, Ciklet Seven, No Limit, Saksak, Sevenstick, V Stıck ",
         "ulke": "TR",
-        "barkodNo": "8681259",
+        "barkodNo": "8681259 868420781",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/yedistick.jpg"
 	},
@@ -2454,6 +2454,14 @@
         "barkodNo": "3600551",
         "urunTip": "BAKIM",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ipek.jpg"
+    },
+	{
+        "urunAdi": "Fellas",
+        "urunAciklamasi": "Fellas 2015 yılında Mustafa Can Gider ve Gamze Kavaz tarafından kurulan FELLAS Gıda ve Sağlık Ürünleri San. ve Tic. A.Ş. bünyesindeki atıştırmalık kuru et ve fonksiyonel atıştırmalık bar ürünleri markasıdır. Yerli sermayeli şirketin ürünleri yüzde 100 doğal, katkısız, koruyucusuz, şekersiz ve glutensiz olarak üretiliyor.",
+        "ulke": "TR",
+        "barkodNo": "868420769",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/fellas.jpg"
     }
 	
 ]
