@@ -2462,6 +2462,54 @@
         "barkodNo": "868420769",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/fellas.jpg"
+    },
+	{
+        "urunAdi": "Alpedo",
+        "urunAciklamasi": "Alpedo Gıda San. ve Tic. A.Ş. bünyesinde üretilen dondurmalar, tatlılar, yöresel ürünler markasıdır. Ürünleri katkı ve koruyucu madde içermez. Firma Kahramanmaraş merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "8697465",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/alpedo.jpg"
+    },
+	{
+        "urunAdi": "Untad",
+        "urunAciklamasi": "Untad, 1960 yılında temelleri atılan Aksaray Unlu Mamülleri Gıda San. ve Tic. Ltd. Şti. bünyesinde üretilen gurme ekşi mayalı ekmek, form ekmek, tost ekmeği, tam buğday ekmeği, lavaş, pasta altı, çay gevreği ürünleri markasıdır. TES-ISO 9000 kalite belgesine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8696292",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/untad.jpg"
+    },
+	{
+        "urunAdi": "Buremis",
+        "urunAciklamasi": "Buremis Gıda faaliyetlerine ilk olarak 1986 yılında 100 m² bir dükkanda peynir ve kemalpaşa tatlısı üreterek başlamıştır. Bugün 12.000 m² açık alan üzerine kurulu 5.000 m² kapalı alanda faaliyet gösteren şirket kemalpaşa tatlısı, peynir tatlısı, şekerpare, güllaç ve galete unu üretimi konusunda Türkiye'nin önde gelen gıda işletmelerindendir. Merkezi Burdur ilimizdedir.",
+        "ulke": "TR",
+        "barkodNo": "8690877",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/buremis.jpg"
+    },
+	{
+        "urunAdi": "Mayalıhane",
+        "urunAciklamasi": "Firma glutensiz ve düşük proteinli; günlük taze ekmekler, makarnalar, un karışımları, atıştırmalıklar, çikolatalar ve ikame ürünler (yumurta, pirinç, irmik), Ketojenik diyet ürünleri üretimi konusunda çalışmaktadır. Şu an için üretilen ürünlerini “Mayalı Hane” “Ketoren” ve “Protemin” markalarıyla pazara sunmaktadır. Firma helal gıda sertifikasına sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8682109",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/mayalihane.jpg"
+    },
+	{
+        "urunAdi": "El-Ruha",
+        "urunAciklamasi": "El-Ruha, 2017 yılında kurulan Akbey Tarım Gıda Şti. bünyesindeki ithal çay, yaprak çay, ince taneli çay, yeşil çay, ithal ve yerli sallama çay, papatya çayı, coffee gold, Türk kahvesi, kakao markasıdır. ISO 22000 belgesine sahip firma ürünlerini Şanlıurfa OSB’de bulunan fabrikasında ambalajlamaktadır.",
+        "ulke": "TR",
+        "barkodNo": "8680331",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/elruha.jpg"
+    },
+	{
+        "urunAdi": "Mahbuba",
+        "urunAciklamasi": "Mahbuba, 1970 yılında faaliyete başlayan Aktürk Grup bünyesindeki çay, kahve, pirinç ve gıda markasıdır.",
+        "ulke": "TR",
+        "barkodNo": "8699415",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/mahbuba.jpg"
     }
 	
 ]
