@@ -2518,6 +2518,54 @@
         "barkodNo": "8682022",
         "urunTip": "TEMIZLIK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/sektorkimya.jpg"
+    },
+	{
+        "urunAdi": "Boyner",
+        "urunAciklamasi": "Boyner, 1981 yılında Boyner Holding bünyesinde kurulan Boyner Büyük Mağazacılık A. Ş. bünyesindeki tekstil ürünleri satılan perakende markasıdır. 2012 yılında YKM ile birleşen Boyner, spor giyim, ayakkabı ve aksesuar, kozmetik, ev dekorasyon ürünleri gibi farklı kategorideki yerli ve yabancı markaları bir arada sunmaktadır. Boyner Holding A.Ş.’nin yüzde 42,80’i Boyner Ailesine, yüzde 42,68’i Katar merkezli Mayhoola for Investments LLC yatırım firmasına aittir kalan yüzde 14,52 hissesi ise Diğer Ortaklar ve Halka Açıktır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/boyner.jpg"
+    },
+	{
+        "urunAdi": "Altınyıldız Classics",
+        "urunAciklamasi": "Altınyıldız Classics, Boyner Grup şirketlerinden AY Marka Mağazacılık A.Ş. çatısı altında faaliyet gösteren erkek giyim markasıdır. Takım elbise, gömlek ve aksesuarlar üretmektedir. Altınyıldız, 1992 yılında Türkiye’de ISO 9001 Kalite Belgesi’ni alan ilk tekstil firmasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/altinyidlzic.jpg"
+    },
+	{
+        "urunAdi": "Avva",
+        "urunAciklamasi": "AVVA, 2000 yılında Dido Group tarafından kurulan erkek giyim markasıdır. Dido Group 1983 yılında İstanbul’da kuruldu. AVVA dünyada 120 ülkede tescillenmiş bir Türk markasıdır. AVVA’nın Türkiye’de 60, yurtdışında ise 20 mağazası bulunuyor.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/avva.jpg"
+    },
+	{
+        "urunAdi": "YDS",
+        "urunAciklamasi": "YDS, 1927 yılında kurulan Yakupoğlu A.Ş. bünyesinde üretilen ayakkabı, bot, teknik tekstil, saraciye ve endüstriyel çadır gibi ürünlerin markasıdır. EN ISO 20345 /20347, ISO 9001, OHSAS 18001 belgelerine sahiptir. Ankara’da 3 fabrikasında toplam 100 bin metrekarelik kapalı alanda üretim yapmaktadır. Ürünlerini 40’tan fazla ülkeye ihraç etmektedir. Bünyesindeki markalar; Goliath, YDS",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ydsshop.jpg"
+    },
+	{
+        "urunAdi": "İpekyol Giyim",
+        "urunAciklamasi": "Ipekyol, 1986 yılında Yalçın Ayaydın tarafından kurulan İpekyol Giyim San. Pazarlama ve Tic. A.Ş. bünyesindeki kadın giyim, ayakkabı ve aksesuar markasıdır. Şirket 2008 yılında kurulan Türk-İtalyan ortaklığındaki Ayaydın-Miroglio Grup çatısı altındadır. Bünyesindeki markalar; Ipekyol, Machka, Twist",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/ipekyolgiyim.jpg"
+    },
+	{
+        "urunAdi": "Gezer",
+        "urunAciklamasi": "Gezer, 1968 yılında kurulan Gezer Ayakkabı Deri San. ve Tic. A.Ş. bünyesinde üretilen terlik ve ayakkabı markasıdır. Ürünlerini Bolu’da bulunan 100 bin metrekarelik kapalı alanda üretmektedir. ISO 9001 belgesine sahiptir. Üretiminin yüzde 25’ini 30 ülkeye ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gezer.jpg"
     }
 	
 ]
