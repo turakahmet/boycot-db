@@ -2566,6 +2566,30 @@
         "barkodNo": "",
         "urunTip": "GIYIM",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gezer.jpg"
+    },
+	{
+        "urunAdi": "Arı Bebek Maması",
+        "urunAciklamasi": "Arı Mama Bebek Maması 1945 yılında Sultan Yıldız tarafından kurulan Sultanlar Grup bünyesindeki Türkiye’nin ilk yerli bebek maması markasıdır. Yüzde 100 Türk sermayeli kuruluşun ürünlerinde helal sertifikası bulunuyor.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/aribebekmama.jpg"
+    },
+	{
+        "urunAdi": "Bebevit",
+        "urunAciklamasi": "2020 yılında kurulmuş olan Kulalac Bebek Mamaları San. ve Tic. Ltd. Şti. bünyesinde üretilen bebek sütü ve çocuk devam sütü markasıdır. Firma İstanbul merkezlidir. Ürünlerini Manisa’da bulunan fabrikasında üretmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8683125",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bebevit.jpg"
+    },
+	{
+        "urunAdi": "Bebehum",
+        "urunAciklamasi": "Bebehum, 2015 yılında kurulmuş olan Gürler Global Mağazacılık San. ve Tic. A.Ş. bünyesinde üretilen bebek ve çocuk ürünleri, hazır giyim, bebek maması ve bebek devam sütü markasıdır. Firma Düzce merkezlidir. Ürünlerini 50’den fazla ülkeye ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8683979",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bebehum.jpg"
     }
 	
 ]
