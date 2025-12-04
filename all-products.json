@@ -2590,6 +2590,14 @@
         "barkodNo": "8683979",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/bebehum.jpg"
+    },
+	{
+        "urunAdi": "Granio",
+        "urunAciklamasi": "2020 yılında kurulmuş olan Granio Gıda San. Tic. Ltd. Şti. bünyesinde üretilen tahıllı barlar, mısır ve pirinç patlakları, meyveli barlar markasıdır. Firma Konya merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "8682835",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/granio.jpg"
     }
 	
 ]
