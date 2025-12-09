@@ -2598,6 +2598,14 @@
         "barkodNo": "8682835",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/granio.jpg"
+    },
+	{
+        "urunAdi": "Fatoş Turşu",
+        "urunAciklamasi": "Fatoş Turşu, Şen içecek bünyesinde 1990 yılında küçük bir aile şirketi olarak faaliyete başlamıştır. 2010 yılından itibaren tamamen geleneksel yöntemlerle Şalgam Suyu üretmeye başlamıştır. Günümüzde elma üzüm sirkeleri ve karışık turşu çeşitleri üretmektedir. Firma Manisa merkezlidir. ",
+        "ulke": "TR",
+        "barkodNo": "8699277",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/fatostursu.jpg"
     }
 	
 ]
