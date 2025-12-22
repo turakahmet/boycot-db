@@ -2606,6 +2606,14 @@
         "barkodNo": "8699277",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/fatostursu.jpg"
+    },
+	{
+        "urunAdi": "Güngör Su",
+        "urunAciklamasi": "GÜNGÖR SU / Alfaaqua, 2024 yılında su sektörüne yenilikçi bir vizyonla giriş yapmıştır. Fabrika, Uludağın eteklerinde 60.000 m² fabrika alanı ve 12.000 m2si kapalı alan olmak üzere hizmet vermektedir. Firma İnegöl/ Bursa merkezlidir.",
+        "ulke": "TR",
+        "barkodNo": "8684730",
+        "urunTip": "ICECEK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gungorsu.jpg."
     }
 	
 ]
