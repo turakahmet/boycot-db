@@ -2614,6 +2614,14 @@
         "barkodNo": "8684730",
         "urunTip": "ICECEK",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/gungorsu.jpg"
+    },
+	{
+        "urunAdi": "Arnica",
+        "urunAciklamasi": "Arnica, 1962 yılında küçük elektrikli ev aletleri sektöründe hizmet vermek amacıyla kurulan SENUR A.Ş. bünyesindeki; ev temizliği, mutfak gereçleri, kişisel bakım, banyo, banyo gereçleri, ev gereçleri markasıdır. Türkiye’nin ilk narenciye sıkacağı, ilk katı meyve sıkacağı, ilk mutfak robotu, ilk halı yıkama makinesi, ilk et kıyma makinesi ve ilk et kıymalı mutfak robotunu üreten Türk firmasıdır.",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/arnica.jpg"
     }
 	
 ]
