@@ -2622,6 +2622,14 @@
         "barkodNo": "",
         "urunTip": "TEKNOLOJI",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/arnica.jpg"
+    },
+	{
+        "urunAdi": "Tat Gıda",
+        "urunAciklamasi": "Tat, 1967 yılında kurulmuş olan Tat Gıda San. A.Ş. bünyesinde üretilen salça, konserve, domatesli ürünler, ketçap, mayonez, hardal, haşlanmış ürünler, hazır yemekler, sos ve harç, reçel, turşu, meyve suyu, sebze suyu, sebze ve meyve suyu markasıdır. ISO 9002 ve Helal belgelerine sahiptir.",
+        "ulke": "TR",
+        "barkodNo": "8690635",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/tatgida.jpg"
     }
 	
 ]
