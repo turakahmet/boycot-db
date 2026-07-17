@@ -2630,6 +2630,14 @@
         "barkodNo": "8690635",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/tatgida.jpg"
+    },
+	{
+        "urunAdi": "Metin Helva ve Reçelleri",
+        "urunAciklamasi": "Metin Helva ve Reçelleri, 1970 yılında Metin Boztoprak tarafından kurulan Boztoprak Gıda San. ve Tic. A.Ş. bünyesinde üretilen helva ve reçel çeşitleri markasıdır. Ürünlerinde glikoz şurubu kullanılmamaktadır. HACCP ve ISO 9002 ve TSE belgelerine sahiptir. Reçel, Tahin, Kakao, Krema ve Pekmez gibi ürünlerini Afyon’da bulunan 15 bin metrekarelik açık, 7 bin 200 metrekarelik kapalı alanda üretmektedir. Ürünlerini Almanya, Belçika, ABD, Fransa, İngiltere, Danimarka, Norveç, Libya, Cezayir gibi ülkelere ihraç etmektedir.",
+        "ulke": "TR",
+        "barkodNo": "8690799",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/metinhelva.jpg"
     }
 	
 ]
