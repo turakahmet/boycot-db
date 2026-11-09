@@ -16,11 +16,30 @@ Kullanıcı ─► Form sayfası ─► Cloudflare Worker ─► GitHub API ─�
 - Spam koruması: Cloudflare Turnstile + aynı anda en fazla 15 bekleyen form PR'ı.
 - Maliyet: Cloudflare Workers ve Turnstile ücretsiz planları yeterli (Workers: günde 100.000 istek).
 
+## Barkod → firma kodu kuralları
+
+Katkıcı paketteki **13 haneli barkodun tamamını** girer (kontrol hanesi doğrulanır). Listeye barkodun kendisi değil, firmayı temsil eden **önek** eklenir:
+
+| Durum | Eklenen | Örnek |
+|---|---|---|
+| İlk 7 hane listede yok | **7 hane** (firmanın tüm ürünleri) | `8699999…` → `8699999` |
+| İlk 7 hanenin içinde 9 haneli kodlar var (küçük firmalara dağıtılmış blok) | **9 hane** | `8697403…` → `869740312` (Danet `869740389` aynı blokta) |
+| İlk 7 hane başka bir markada kayıtlı | **9 hane** | `8690120…` → `869012055` (Torku `8690120`) |
+| Seçilen kod başka bir üründe birebir kayıtlı | **eklenmez**, PR'da ⚠️ olarak listelenir | `869740389…` → Danet'te kayıtlı |
+| Aynı ürünün başka barkodu zaten kapsıyor | tekrar eklenmez | |
+
+- Katkıcı formda her barkodun ne olacağını göndermeden önce görür. Asıl kararı Worker, güncel `main` verisine göre verir.
+- 868/869 dışında başlayan barkodlar eklenir ama PR'da 🌐 olarak işaretlenir.
+- Doğrulama iş akışı yeni eklenen kodlarda şunları reddeder: 7 veya 9 hane dışı kod, başka üründe birebir bulunan kod, başka ürünün 9 haneli kodunu kapsayan 7 haneli kod. Mevcut kayıtlardaki eski çakışmalara dokunmaz.
+- **Uygulama tarafı:** Bu yapının doğru çalışması için uygulamanın okutulan barkoda **en uzun eşleşen kodu** seçmesi gerekir (önce 9 hane, yoksa 7 hane).
+- Kurallar `public/barkod.js` dosyasındadır. Form ve Worker aynı dosyayı kullanır.
+
 ## Dosyalar
 
 | Dosya | Görev |
 |---|---|
 | `public/index.html` | Form sayfası |
+| `public/barkod.js` | Barkod → firma kodu kuralları (form + Worker ortak) |
 | `src/index.js` | Worker: doğrulama, commit, PR açma |
 | `wrangler.jsonc` | Cloudflare ayarları (gizli anahtar içermez) |
 

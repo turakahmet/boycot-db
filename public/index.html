@@ -89,6 +89,14 @@
   .done h2 { margin: 0 0 8px; }
   .done p { color: var(--muted); }
   .hidden { display: none !important; }
+  .barkod-onizleme { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; }
+  .barkod-onizleme:empty { display: none; }
+  .barkod-onizleme li { font-size: 12.5px; padding: 6px 9px; border-radius: 8px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .barkod-onizleme code { font: 600 12.5px ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .barkod-onizleme .ok { background: var(--ok-soft); color: var(--ok); }
+  .barkod-onizleme .info { background: var(--bg); color: var(--muted); }
+  .barkod-onizleme .warn { background: var(--warn-soft); color: var(--warn); }
+  .barkod-onizleme .err { background: var(--err-soft); color: var(--err); }
   .count { font-size: 13px; color: var(--muted); }
 </style>
 </head>
@@ -168,13 +176,14 @@
           <div class="hint"><span>Kısa ve bilgilendirici olsun.</span><span class="len"></span></div>
           <div class="field-msg err m-urunAciklamasi"></div>
         </div>
-        <div>
-          <label>Barkod önekleri <span class="opt">(isteğe bağlı)</span></label>
-          <input type="text" class="f-barkodNo" inputmode="numeric" placeholder="8690120 8680181">
-          <div class="hint">Birden fazlaysa boşlukla ayırın.</div>
-          <div class="field-msg err m-barkodNo"></div>
+        <div class="full">
+          <label>Barkodlar <span class="opt">(önerilir)</span></label>
+          <input type="text" class="f-barkodlar" inputmode="numeric" placeholder="8690120123457">
+          <div class="hint"><span>Paketteki 13 haneli barkodun tamamını girin. Farklı ürün gruplarından birkaç tane varsa boşlukla ayırın; firma kodunu sistem çıkarır.</span></div>
+          <ul class="barkod-onizleme"></ul>
+          <div class="field-msg err m-barkodlar"></div>
         </div>
-        <div>
+        <div class="full">
           <label>Kaynak linki <span class="opt">(önerilir)</span></label>
           <input type="url" class="f-kaynak" placeholder="https://...">
           <div class="field-msg err m-kaynak"></div>
@@ -184,7 +193,8 @@
   </section>
 </template>
 
-<script>
+<script type="module">
+import { barkodlariAyikla, gonderimKararlari } from './barkod.js';
 (() => {
   const TIP_ADLARI = {
     GIDA: 'Gıda', ICECEK: 'İçecek', TEMIZLIK: 'Temizlik', GIYIM: 'Giyim', BAKIM: 'Kişisel bakım',
@@ -201,6 +211,7 @@
 
   let cfg = null;              // /api/config
   let existing = new Set();    // mevcut ürün adları (normalleştirilmiş)
+  let existingProducts = [];   // barkod önizlemesi için mevcut liste
   let token = null;            // Turnstile
   let widgetId = null;
   const items = [];            // { el, logo }
@@ -223,7 +234,7 @@
       urunAdi: clean($('.f-urunAdi', el).value),
       urunTip: $('.f-urunTip', el).value,
       urunAciklamasi: clean($('.f-urunAciklamasi', el).value),
-      barkodNo: clean($('.f-barkodNo', el).value),
+      barkodlar: $('.f-barkodlar', el).value.trim(),
       kaynak: clean($('.f-kaynak', el).value),
     };
   }
@@ -240,7 +251,7 @@
     $('.f-urunAdi', el).value = data.urunAdi || '';
     sel.value = data.urunTip || '';
     ta.value = data.urunAciklamasi || '';
-    $('.f-barkodNo', el).value = data.barkodNo || '';
+    $('.f-barkodlar', el).value = data.barkodlar || '';
     $('.f-kaynak', el).value = data.kaynak || '';
 
     const item = { el, logo: data.logo || '' };
@@ -354,7 +365,7 @@
       const errs = {
         '.m-urunTip': f.urunTip ? '' : 'Ürün tipi seçin.',
         '.m-urunAciklamasi': f.urunAciklamasi.length >= L.DESC_MIN ? '' : `En az ${L.DESC_MIN} karakter yazın.`,
-        '.m-barkodNo': !f.barkodNo || /^\d{3,13}( \d{3,13})*$/.test(f.barkodNo) ? '' : 'Yalnızca rakam ve boşluk kullanın.',
+        '.m-barkodlar': barkodHatasi(f.barkodlar),
         '.m-kaynak': !f.kaynak || /^https?:\/\/\S+\.\S+$/i.test(f.kaynak) ? '' : 'Geçerli bir link girin (https://...).',
       };
       if (!it.logo) errs['.m-logo'] = 'Logo seçin.';
@@ -364,6 +375,7 @@
       const nameMsg = $('.m-urunAdi', it.el);
       if (!f.urunAdi) { cardOk = false; if (showErrors) { nameMsg.className = 'field-msg err m-urunAdi'; nameMsg.textContent = 'Ürün adı girin.'; } }
       if (nameMsg.classList.contains('err') && nameMsg.textContent) cardOk = false;
+      if (it.hasInvalidBarcode) { cardOk = false; if (showErrors) $('.m-barkodlar', it.el).textContent = 'Hatalı barkodları düzeltin veya silin.'; }
       it.el.classList.toggle('has-error', showErrors && !cardOk);
       if (!cardOk) ok = false;
     });
@@ -371,12 +383,40 @@
   }
 
   function refresh() {
+    renderBarcodes();
     const n = items.length, max = cfg.limits.MAX_PRODUCTS;
     addBtn.disabled = n >= max;
     addBtn.textContent = n >= max ? `En fazla ${max} ürün` : '+ Ürün ekle';
     $('#count').textContent = `${n} ürün · tek seferde en fazla ${max}`;
     submitBtn.textContent = n > 1 ? `${n} ürünü gönder` : 'Gönder';
     submitBtn.disabled = !(n > 0 && token && $('#consent').checked);
+  }
+
+  function barkodHatasi(metin) {
+    const list = barkodlariAyikla(metin);
+    if (list.length > cfg.limits.MAX_BARKOD) return `En fazla ${cfg.limits.MAX_BARKOD} barkod girebilirsiniz.`;
+    return '';
+  }
+
+  // Her barkodun hangi firma koduyla ekleneceğini canlı gösterir (asıl karar sunucuda verilir)
+  function renderBarcodes() {
+    const urunler = items.map((it) => ({ urunAdi: clean($('.f-urunAdi', it.el).value), barkodlar: barkodlariAyikla($('.f-barkodlar', it.el).value) }));
+    const sonuc = gonderimKararlari(existingProducts, urunler);
+    const SINIF = { yeni7: 'ok', blok9: 'ok', firma9: 'ok', kapsaniyor: 'info', cakisma: 'warn', gecersiz: 'err' };
+    items.forEach((it, i) => {
+      const ul = $('.barkod-onizleme', it.el);
+      ul.replaceChildren(...sonuc[i].kararlar.map((k) => {
+        const li = document.createElement('li');
+        li.className = SINIF[k.durum] || 'info';
+        const code = document.createElement('code');
+        code.textContent = k.barkod;
+        const span = document.createElement('span');
+        span.textContent = (k.durum === 'cakisma' ? '⚠ ' : '') + k.mesaj + (k.yabanci && k.durum !== 'gecersiz' ? ' · Türkiye dışı barkod' : '');
+        li.append(code, span);
+        return li;
+      }));
+      it.hasInvalidBarcode = sonuc[i].kararlar.some((k) => k.durum === 'gecersiz');
+    });
   }
 
   function showAlert(type, html) {
@@ -444,7 +484,7 @@
     // Tekrar kontrolü için mevcut liste (herkese açık dosya)
     fetch(`https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/refs/heads/${cfg.branch}/all-products.json`, { cache: 'no-store' })
       .then((r) => r.json())
-      .then((arr) => { existing = new Set(arr.map((p) => slugify(String(p.urunAdi || '')))); items.forEach(checkName); })
+      .then((arr) => { existingProducts = arr; existing = new Set(arr.map((p) => slugify(String(p.urunAdi || '')))); items.forEach(checkName); renderBarcodes(); })
       .catch(() => { /* kontrol sunucuda da yapılıyor */ });
 
     const draft = loadDraft();

@@ -12,6 +12,8 @@
  *   GITHUB_OWNER, GITHUB_REPO, BASE_BRANCH, TURNSTILE_SITE_KEY
  */
 
+import { barkodlariAyikla, ean13Gecerli, gonderimKararlari, MAX_BARKOD } from '../public/barkod.js';
+
 export const LIMITS = {
   MAX_PRODUCTS: 10,          // tek gönderimde en fazla ürün
   MAX_OPEN_PRS: 15,          // bekleyen form PR'ı bu sayıyı geçerse yeni gönderim alınmaz
@@ -70,7 +72,7 @@ export function validateProduct(p, index) {
 
   const urunAdi = clean(p.urunAdi);
   const urunAciklamasi = clean(p.urunAciklamasi);
-  const barkodNo = clean(p.barkodNo);
+  const barkodlar = barkodlariAyikla(p.barkodlar);
   const urunTip = clean(p.urunTip);
   const kaynak = clean(p.kaynak);
   const logo = typeof p.logo === 'string' ? p.logo.replace(/^data:image\/jpeg;base64,/, '') : '';
@@ -79,8 +81,9 @@ export function validateProduct(p, index) {
   if (!slugify(urunAdi)) return { ok: false, error: `${no}: ürün adında harf veya rakam olmalı` };
   if (urunAciklamasi.length < LIMITS.DESC_MIN || urunAciklamasi.length > LIMITS.DESC_MAX)
     return { ok: false, error: `${no}: açıklama ${LIMITS.DESC_MIN}-${LIMITS.DESC_MAX} karakter olmalı` };
-  if (barkodNo && !/^\d{3,13}( \d{3,13})*$/.test(barkodNo))
-    return { ok: false, error: `${no}: barkod önekleri yalnızca rakam olmalı, birden fazlaysa boşlukla ayrılmalı` };
+  if (barkodlar.length > MAX_BARKOD) return { ok: false, error: `${no}: en fazla ${MAX_BARKOD} barkod girilebilir` };
+  const hatali = barkodlar.find((b) => !ean13Gecerli(b));
+  if (hatali) return { ok: false, error: `${no}: "${hatali.slice(0, 20)}" geçerli bir 13 haneli barkod değil` };
   if (!URUN_TIPLERI.includes(urunTip)) return { ok: false, error: `${no}: geçersiz ürün tipi` };
   if (kaynak && (kaynak.length > LIMITS.SOURCE_MAX || !/^https?:\/\/[^\s]+\.[^\s]+$/i.test(kaynak)))
     return { ok: false, error: `${no}: kaynak geçerli bir http(s) bağlantısı olmalı` };
@@ -88,7 +91,7 @@ export function validateProduct(p, index) {
     return { ok: false, error: `${no}: logo JPEG olarak yüklenemedi, lütfen tekrar seçin` };
   if (b64Bytes(logo) > LIMITS.LOGO_MAX_BYTES) return { ok: false, error: `${no}: logo çok büyük` };
 
-  return { ok: true, value: { urunAdi, urunAciklamasi, barkodNo, urunTip, kaynak, logo } };
+  return { ok: true, value: { urunAdi, urunAciklamasi, barkodlar, urunTip, kaynak, logo } };
 }
 
 /** Bir ürün kaydını dosyadaki biçimle (4/8 boşluk girinti) yazar */
@@ -122,19 +125,28 @@ export function buildPrBody(items, commitSha, env) {
   const raw = `https://raw.githubusercontent.com/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/${commitSha}`;
   const rows = items.map((it, i) =>
     `| ${i + 1} | <img src="${raw}/${IMG_DIR}/${it.file}" width="64"> | ${mdCell(it.urunAdi)} | ${mdCell(it.urunTip)} | ${mdCell(it.barkodNo || '-')} | ${it.kaynak ? `[kaynak](${encodeURI(it.kaynak).replace(/\)/g, '%29')})` : '-'} |`);
+  const IKON = { yeni7: '✅', blok9: '🔷', firma9: '🔷', kapsaniyor: '➖', cakisma: '⚠️' };
+  const barkodSatirlari = items.flatMap((it) => it.kararlar.map((k) =>
+    `| ${mdCell(it.urunAdi)} | \`${k.barkod}\` | ${k.onek ? `\`${k.onek}\`` : '-'} | ${IKON[k.durum] || ''} ${mdCell(k.mesaj.replace('eklenmeyecek', 'eklenmedi').replace('eklenecek', 'eklendi'))}${k.yabanci ? ' · 🌐 Türkiye (868/869) dışı GS1 kodu' : ''} |`));
+  const cakismalar = items.flatMap((it) => it.kararlar.filter((k) => k.durum === 'cakisma').map((k) => `- **${mdCell(it.urunAdi)}**: ${mdCell(k.mesaj.replace('eklenmeyecek', 'eklenmedi'))}`));
+  const yabancilar = items.flatMap((it) => it.kararlar.filter((k) => k.yabanci && k.durum !== 'cakisma').map((k) => `\`${k.barkod}\` (${mdCell(it.urunAdi)})`));
   const details = items.map((it, i) => `**${i + 1}. ${mdCell(it.urunAdi)}**\n> ${mdCell(it.urunAciklamasi)}`);
   return [
     'Bu PR web formu üzerinden otomatik oluşturuldu. Gönderen kişiye ait kişisel veri tutulmamaktadır.',
     '',
-    '| # | Logo | Ürün | Tip | Barkod | Kaynak |',
+    '| # | Logo | Ürün | Tip | Firma kodu | Kaynak |',
     '|---|---|---|---|---|---|',
     ...rows,
     '',
+    ...(cakismalar.length ? ['### ⚠️ Eklenmeyen barkodlar (çakışma)', 'Bu barkodların firma kodu başka bir üründe kayıtlı olduğu için listeye eklenmedi. Gerekirse elle düzenleyin.', ...cakismalar, ''] : []),
+    ...(yabancilar.length ? ['### 🌐 Türkiye dışı GS1 kodları', `Şu barkodlar 868/869 ile başlamıyor, firmanın gerçekten yerli olduğunu kontrol edin: ${yabancilar.join(', ')}`, ''] : []),
+    ...(barkodSatirlari.length ? ['### Barkod → firma kodu', '| Ürün | Girilen barkod | Eklenen kod | Açıklama |', '|---|---|---|---|', ...barkodSatirlari, ''] : []),
     '### Açıklamalar',
     ...details,
     '',
     '### İnceleme kontrol listesi',
     '- [ ] Ürünler gerçekten listeye uygun mu? (kaynak kontrol edildi)',
+    '- [ ] Barkod firma kodları doğru firmaya mı ait?',
     '- [ ] Logolar doğru ve uygun mu?',
     '- [ ] Açıklamalarda hata / uygunsuz içerik yok',
   ].join('\n');
@@ -237,6 +249,10 @@ export async function handleSubmit(request, env) {
     items.push({ ...p, file });
   }
 
+  // Barkod -> firma kodu (güncel main verisine göre; tarayıcıdaki önizleme değil, bu karar geçerlidir)
+  const kararlar = gonderimKararlari(existing, items);
+  items.forEach((it, i) => { it.kararlar = kararlar[i].kararlar; it.barkodNo = kararlar[i].onekler.join(' '); });
+
   const logoBase = `https://raw.githubusercontent.com/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/refs/heads/${baseBranch}/${IMG_DIR}`;
   const entries = items.map((it) => ({
     urunAdi: it.urunAdi,
@@ -308,7 +324,7 @@ export default {
         owner: env.GITHUB_OWNER,
         repo: env.GITHUB_REPO,
         branch: env.BASE_BRANCH || 'main',
-        limits: LIMITS,
+        limits: { ...LIMITS, MAX_BARKOD },
         urunTipleri: URUN_TIPLERI,
       });
     }
