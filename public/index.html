@@ -139,7 +139,6 @@
   <section class="card done hidden" id="doneArea">
     <h2>Teşekkürler!</h2>
     <p id="doneText"></p>
-    <p><a href="#" id="doneLink" target="_blank" rel="noopener">Gönderimin durumunu gör</a></p>
     <button type="button" class="primary" id="againBtn">Yeni gönderim yap</button>
   </section>
 </div>
@@ -450,7 +449,6 @@ import { barkodlariAyikla, gonderimKararlari } from './barkod.js';
       $('#doneText').textContent = data.count > 1
         ? `${data.count} ürün incelemeye gönderildi. Onaylandıktan sonra listede görünecek.`
         : 'Ürün incelemeye gönderildi. Onaylandıktan sonra listede görünecek.';
-      $('#doneLink').href = data.prUrl;
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (err) {
       showAlert('err', '');

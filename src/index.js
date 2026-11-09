@@ -309,7 +309,9 @@ export async function handleSubmit(request, env) {
     await api(`/issues/${pr.number}/labels`, { method: 'POST', body: { labels: [PR_LABEL] } });
   } catch { /* etiket isteğe bağlı */ }
 
-  return { prUrl: pr.html_url, prNumber: pr.number, count: items.length };
+  // PR adresi kullanıcıya gönderilmez; yalnızca loglarda görünür
+  console.log('Form PR açıldı', pr.html_url);
+  return { count: items.length };
 }
 
 function json(data, status = 200) {
