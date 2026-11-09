@@ -1,12 +1,10 @@
 name: Ürün doğrulama
 
 on:
+  # Zorunlu kontrol olduğu için her PR'da çalışır (yol filtresi olursa
+  # diğer dosyaları değiştiren PR'lar kontrol beklerken takılı kalır).
   pull_request:
     branches: [main]
-    paths:
-      - "all-products.json"
-      - "b_img/**"
-      - ".github/**"
   push:
     branches: [main]
     paths:
