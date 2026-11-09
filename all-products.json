@@ -2638,6 +2638,14 @@
         "barkodNo": "8690799",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/metinhelva.jpg"
+    },
+    {
+        "urunAdi": "test 2",
+        "urunAciklamasi": "yeni ürünler asdasd asda sdasd as",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEKNOLOJI",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/test2.jpg"
     }
 	
 ]
