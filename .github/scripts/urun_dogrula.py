@@ -27,6 +27,7 @@ URUN_TIPLERI = {
 BARKOD_RE = re.compile(r"^\s*\d{3,13}(\s+\d{3,13})*\s*$")  # fazla boşluklar tolere edilir
 LOGO_RE = re.compile(r"^https://raw\.githubusercontent\.com/[^/]+/[^/]+/refs/heads/main/b_img/([a-z0-9]+\.jpg)$")
 MAX_IMG_BYTES = 300 * 1024
+ONEK_UZUNLUKLARI = {7, 9}  # firma kodu: 7 hane, çakışmada 9 hane
 FORM_BRANCH_PREFIX = "katki/"
 
 hatalar, uyarilar = [], []
@@ -110,6 +111,30 @@ def yeni_kayit_kontrol(i, u):
         hata(f"{etiket}: logo dosyası bulunamadı: {yol}")
 
 
+def onekler(u):
+    return [o for o in str(u.get("barkodNo", "")).split() if o] if isinstance(u, dict) else []
+
+
+def onek_kontrol(taban, veri):
+    """Yeni eklenen firma kodlarını (barkod öneklerini) kontrol eder.
+    Mevcut (tabanda olan) kodlara dokunulmaz; eski çakışmalar ayrıca düzeltilecek."""
+    eski = {(u.get("urunAdi"), o) for u in taban if isinstance(u, dict) for o in onekler(u)}
+    tum = [(u.get("urunAdi"), o) for u in veri if isinstance(u, dict) for o in onekler(u)]
+    for ad, o in tum:
+        if (ad, o) in eski:
+            continue
+        etiket = f"{ad!r} ürününün yeni firma kodu {o}"
+        if len(o) not in ONEK_UZUNLUKLARI:
+            hata(f"{etiket}: 7 veya 9 hane olmalı")
+        for ad2, o2 in tum:
+            if ad2 == ad:
+                continue
+            if o2 == o:
+                hata(f"{etiket}: aynı kod {ad2!r} ürününde de var")
+            elif o2.startswith(o):
+                hata(f"{etiket}: {ad2!r} ürününün {o2} kodunu kapsıyor; 9 haneli kod kullanılmalı")
+
+
 def gorsel_kontrol(yol):
     if not re.fullmatch(r"b_img/[a-z0-9]+\.jpg", yol):
         hata(f"{yol}: görsel adı yalnızca küçük harf/rakam içermeli ve .jpg ile bitmeli")
@@ -181,6 +206,8 @@ def main():
         mevcut = [json.dumps(u, sort_keys=True, ensure_ascii=False) for u in veri[:len(taban_kayitlar)]]
         if mevcut != taban_kayitlar:
             hata("Form PR'ı mevcut ürünleri değiştiremez veya silemez, yalnızca sona ekleme yapabilir")
+
+    onek_kontrol(taban, veri)
 
     print(f"Yeni/değişen kayıt: {len(yeni)} | Değişen dosya: {len(degisen)}")
     if yeni:
