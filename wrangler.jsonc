@@ -1,0 +1,20 @@
+{
+  // Cloudflare Worker ayarları. Gizli anahtarlar burada DEĞİL,
+  // `npx wrangler secret put GITHUB_TOKEN` ve `npx wrangler secret put TURNSTILE_SECRET_KEY` ile girilir.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "urun-katki-formu",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "observability": { "enabled": true },
+  "vars": {
+    "GITHUB_OWNER": "turakahmet",
+    "GITHUB_REPO": "boycot-db",
+    "BASE_BRANCH": "main",
+    // Turnstile site anahtarı herkese açıktır, buraya yazılabilir
+    "TURNSTILE_SITE_KEY": "BURAYA_TURNSTILE_SITE_KEY"
+  }
+}

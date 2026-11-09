@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ürün Öner</title>
+<meta name="description" content="Listeye eklenmesini istediğiniz yerli ürünleri önerin. Gönderimler incelendikten sonra yayınlanır.">
+<meta name="robots" content="noindex">
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+<style>
+  :root {
+    --bg: #f6f5f2; --surface: #ffffff; --ink: #1d1d1b; --muted: #6b6a66; --line: #e4e2dc;
+    --accent: #b8321f; --accent-ink: #ffffff; --accent-soft: #fbeae6;
+    --ok: #1f7a4a; --ok-soft: #e5f4ec; --warn: #9a5b00; --warn-soft: #fdf1dc; --err: #b42318; --err-soft: #fdecea;
+    --radius: 14px; --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141413; --surface: #1e1e1c; --ink: #ecebe7; --muted: #a09f99; --line: #33322f;
+      --accent: #e0563f; --accent-ink: #ffffff; --accent-soft: #3a211c;
+      --ok: #5fc58e; --ok-soft: #17301f; --warn: #e6a948; --warn-soft: #33270f; --err: #f2766a; --err-soft: #3a1a17;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 120px; }
+  header h1 { font-size: clamp(26px, 5vw, 34px); line-height: 1.15; margin: 0 0 8px; letter-spacing: -.01em; }
+  header p { margin: 0; color: var(--muted); }
+  .note { margin: 20px 0 24px; padding: 14px 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+  .note strong { color: var(--ink); }
+  .note ul { margin: 6px 0 0; padding-left: 18px; }
+
+  .card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; margin-bottom: 14px; box-shadow: var(--shadow); }
+  .card.has-error { border-color: var(--err); }
+  .card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+  .card-head h2 { font-size: 15px; margin: 0; font-weight: 600; color: var(--muted); }
+  .card-head h2 b { color: var(--ink); }
+  .remove { border: 0; background: none; color: var(--muted); font-size: 14px; cursor: pointer; padding: 6px 8px; border-radius: 8px; }
+  .remove:hover { background: var(--err-soft); color: var(--err); }
+
+  .grid { display: grid; grid-template-columns: 112px 1fr; gap: 16px; }
+  @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+  .fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .fields .full { grid-column: 1 / -1; }
+  @media (max-width: 560px) { .fields { grid-template-columns: 1fr; } }
+
+  label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+  label .opt { font-weight: 400; color: var(--muted); }
+  input[type=text], input[type=url], select, textarea {
+    width: 100%; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+    border-radius: 10px; padding: 9px 11px; outline: none; transition: border-color .15s, box-shadow .15s;
+  }
+  textarea { min-height: 92px; resize: vertical; }
+  input:focus, select:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 3px; display: flex; justify-content: space-between; gap: 8px; }
+  .field-msg { font-size: 12px; margin-top: 4px; }
+  .field-msg.err { color: var(--err); }
+  .field-msg.warn { color: var(--warn); }
+
+  .logo-box { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .logo-drop {
+    width: 112px; height: 112px; border-radius: 12px; border: 1.5px dashed var(--line); background: var(--bg);
+    display: grid; place-items: center; cursor: pointer; overflow: hidden; color: var(--muted); font-size: 12px; text-align: center; padding: 6px;
+  }
+  .logo-drop:hover { border-color: var(--accent); }
+  .logo-drop img { width: 100%; height: 100%; object-fit: contain; background: #fff; }
+  .logo-box input { display: none; }
+  .logo-meta { font-size: 11px; color: var(--muted); }
+
+  .add { width: 100%; padding: 14px; border-radius: var(--radius); border: 1.5px dashed var(--line); background: transparent; color: var(--ink); font: inherit; font-weight: 600; cursor: pointer; }
+  .add:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .add:disabled { opacity: .5; cursor: not-allowed; }
+
+  .submit-bar { margin-top: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+  .submit-bar .row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; }
+  .consent { font-size: 13px; color: var(--muted); display: flex; gap: 8px; align-items: flex-start; margin-bottom: 14px; }
+  .consent input { margin-top: 3px; }
+  .primary { background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 12px; padding: 12px 22px; font: inherit; font-weight: 700; cursor: pointer; min-width: 180px; }
+  .primary:disabled { opacity: .55; cursor: not-allowed; }
+  .alert { margin-top: 14px; padding: 12px 14px; border-radius: 10px; font-size: 14px; display: none; }
+  .alert.show { display: block; }
+  .alert.err { background: var(--err-soft); color: var(--err); }
+  .alert.ok { background: var(--ok-soft); color: var(--ok); }
+  .alert a { color: inherit; font-weight: 700; }
+
+  .done { text-align: center; padding: 40px 18px; }
+  .done h2 { margin: 0 0 8px; }
+  .done p { color: var(--muted); }
+  .hidden { display: none !important; }
+  .count { font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Ürün öner</h1>
+    <p>Listede olmayan yerli ürünleri bize bildirin. Birden fazla ürünü tek seferde gönderebilirsiniz.</p>
+  </header>
+
+  <div class="note">
+    <strong>Nasıl çalışır?</strong>
+    <ul>
+      <li>Gönderdiğiniz ürünler doğrudan yayınlanmaz, önce incelenir.</li>
+      <li>Ad, e-posta gibi <strong>kişisel bilgi istemiyoruz</strong>. Ürün bilgileri onaylanırsa herkese açık listede yer alır.</li>
+      <li>Ürünün yerli olduğunu gösteren bir kaynak linki eklemeniz onay sürecini hızlandırır.</li>
+    </ul>
+  </div>
+
+  <main id="formArea">
+    <div id="list"></div>
+    <button type="button" class="add" id="addBtn">+ Ürün ekle</button>
+
+    <div class="submit-bar">
+      <label class="consent">
+        <input type="checkbox" id="consent">
+        <span>Gönderdiğim bilgilerin doğru olduğunu ve onaylanırsa herkese açık olarak yayınlanabileceğini kabul ediyorum.</span>
+      </label>
+      <div class="row">
+        <div id="ts-widget"></div>
+        <div>
+          <div class="count" id="count"></div>
+          <button type="button" class="primary" id="submitBtn" disabled>Gönder</button>
+        </div>
+      </div>
+      <div class="alert" id="alert" role="alert"></div>
+    </div>
+  </main>
+
+  <section class="card done hidden" id="doneArea">
+    <h2>Teşekkürler!</h2>
+    <p id="doneText"></p>
+    <p><a href="#" id="doneLink" target="_blank" rel="noopener">Gönderimin durumunu gör</a></p>
+    <button type="button" class="primary" id="againBtn">Yeni gönderim yap</button>
+  </section>
+</div>
+
+<template id="cardTpl">
+  <section class="card">
+    <div class="card-head">
+      <h2><b class="no"></b>. ürün</h2>
+      <button type="button" class="remove">Kaldır</button>
+    </div>
+    <div class="grid">
+      <div class="logo-box">
+        <label class="logo-drop" tabindex="0">
+          <span class="ph">Logo seç<br>(PNG / JPG)</span>
+          <input type="file" accept="image/png,image/jpeg,image/webp" class="f-logo">
+        </label>
+        <div class="logo-meta"></div>
+        <div class="field-msg err m-logo"></div>
+      </div>
+      <div class="fields">
+        <div>
+          <label>Ürün / marka adı</label>
+          <input type="text" class="f-urunAdi" autocomplete="off">
+          <div class="field-msg m-urunAdi"></div>
+        </div>
+        <div>
+          <label>Ürün tipi</label>
+          <select class="f-urunTip"><option value="">Seçin</option></select>
+          <div class="field-msg err m-urunTip"></div>
+        </div>
+        <div class="full">
+          <label>Açıklama</label>
+          <textarea class="f-urunAciklamasi" placeholder="Marka ne zaman, kim tarafından kuruldu, hangi ürünleri üretiyor, merkezi nerede?"></textarea>
+          <div class="hint"><span>Kısa ve bilgilendirici olsun.</span><span class="len"></span></div>
+          <div class="field-msg err m-urunAciklamasi"></div>
+        </div>
+        <div>
+          <label>Barkod önekleri <span class="opt">(isteğe bağlı)</span></label>
+          <input type="text" class="f-barkodNo" inputmode="numeric" placeholder="8690120 8680181">
+          <div class="hint">Birden fazlaysa boşlukla ayırın.</div>
+          <div class="field-msg err m-barkodNo"></div>
+        </div>
+        <div>
+          <label>Kaynak linki <span class="opt">(önerilir)</span></label>
+          <input type="url" class="f-kaynak" placeholder="https://...">
+          <div class="field-msg err m-kaynak"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+(() => {
+  const TIP_ADLARI = {
+    GIDA: 'Gıda', ICECEK: 'İçecek', TEMIZLIK: 'Temizlik', GIYIM: 'Giyim', BAKIM: 'Kişisel bakım',
+    TEKNOLOJI: 'Teknoloji', MUTFAK_URUNU: 'Mutfak ürünü', KIRTASIYE: 'Kırtasiye', TEMIZLIK_BAKIM: 'Temizlik & bakım', MEDYA: 'Medya',
+  };
+  const DRAFT_KEY = 'urunKatkiTaslak.v1';
+  const TR_MAP = { 'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u', 'â': 'a', 'î': 'i', 'û': 'u' };
+  const slugify = (s) => s.toLocaleLowerCase('tr').replace(/[çğıöşüâîû]/g, (c) => TR_MAP[c] || c)
+    .normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+  const clean = (s) => (s || '').replace(/\s+/g, ' ').trim();
+
+  const $ = (sel, el = document) => el.querySelector(sel);
+  const list = $('#list'), addBtn = $('#addBtn'), submitBtn = $('#submitBtn'), alertBox = $('#alert');
+
+  let cfg = null;              // /api/config
+  let existing = new Set();    // mevcut ürün adları (normalleştirilmiş)
+  let token = null;            // Turnstile
+  let widgetId = null;
+  const items = [];            // { el, logo }
+
+  // ----------------------------------------------------------- taslak
+  function saveDraft() {
+    const data = items.map((it) => ({ ...readFields(it.el), logo: it.logo || '' }));
+    try { localStorage.setItem(DRAFT_KEY, JSON.stringify(data)); }
+    catch { try { localStorage.setItem(DRAFT_KEY, JSON.stringify(data.map((d) => ({ ...d, logo: '' })))); } catch {} }
+  }
+  function loadDraft() {
+    try { const d = JSON.parse(localStorage.getItem(DRAFT_KEY) || '[]'); return Array.isArray(d) ? d : []; }
+    catch { return []; }
+  }
+  function clearDraft() { try { localStorage.removeItem(DRAFT_KEY); } catch {} }
+
+  // ----------------------------------------------------------- kartlar
+  function readFields(el) {
+    return {
+      urunAdi: clean($('.f-urunAdi', el).value),
+      urunTip: $('.f-urunTip', el).value,
+      urunAciklamasi: clean($('.f-urunAciklamasi', el).value),
+      barkodNo: clean($('.f-barkodNo', el).value),
+      kaynak: clean($('.f-kaynak', el).value),
+    };
+  }
+
+  function addCard(data = {}) {
+    if (items.length >= cfg.limits.MAX_PRODUCTS) return;
+    const el = $('#cardTpl').content.firstElementChild.cloneNode(true);
+    const sel = $('.f-urunTip', el);
+    cfg.urunTipleri.forEach((t) => sel.add(new Option(TIP_ADLARI[t] || t, t)));
+    const ta = $('.f-urunAciklamasi', el);
+    ta.maxLength = cfg.limits.DESC_MAX;
+    $('.f-urunAdi', el).maxLength = cfg.limits.NAME_MAX;
+
+    $('.f-urunAdi', el).value = data.urunAdi || '';
+    sel.value = data.urunTip || '';
+    ta.value = data.urunAciklamasi || '';
+    $('.f-barkodNo', el).value = data.barkodNo || '';
+    $('.f-kaynak', el).value = data.kaynak || '';
+
+    const item = { el, logo: data.logo || '' };
+    items.push(item);
+    list.appendChild(el);
+    if (item.logo) showLogo(item, item.logo);
+
+    const updateLen = () => { $('.len', el).textContent = `${ta.value.length} / ${cfg.limits.DESC_MAX}`; };
+    updateLen();
+
+    el.addEventListener('input', (e) => {
+      if (e.target === ta) updateLen();
+      if (e.target.classList.contains('f-urunAdi')) checkName(item);
+      saveDraft();
+      refresh();
+    });
+    el.addEventListener('change', () => { saveDraft(); refresh(); });
+    $('.remove', el).addEventListener('click', () => {
+      items.splice(items.indexOf(item), 1);
+      el.remove();
+      saveDraft(); renumber(); refresh();
+      items.forEach(checkName);
+    });
+    $('.f-logo', el).addEventListener('change', async (e) => {
+      const file = e.target.files && e.target.files[0];
+      e.target.value = '';
+      if (!file) return;
+      $('.m-logo', el).textContent = 'İşleniyor…';
+      try {
+        const dataUrl = await processLogo(file, cfg.limits.LOGO_MAX_BYTES);
+        item.logo = dataUrl;
+        showLogo(item, dataUrl);
+        $('.m-logo', el).textContent = '';
+        saveDraft(); refresh();
+      } catch (err) {
+        $('.m-logo', el).textContent = err.message || 'Görsel okunamadı';
+      }
+    });
+    $('.logo-drop', el).addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); $('.f-logo', el).click(); }
+    });
+
+    renumber(); refresh();
+    if (data.urunAdi) checkName(item);
+    return item;
+  }
+
+  function showLogo(item, dataUrl) {
+    const drop = $('.logo-drop', item.el);
+    drop.querySelector('.ph')?.remove();
+    drop.querySelector('img')?.remove();
+    const img = new Image();
+    img.alt = 'Logo önizleme';
+    img.src = dataUrl;
+    drop.prepend(img);
+    const kb = Math.round((dataUrl.length - 23) * 3 / 4 / 1024);
+    $('.logo-meta', item.el).textContent = `${kb} KB · değiştirmek için tıklayın`;
+  }
+
+  function renumber() { items.forEach((it, i) => { $('.no', it.el).textContent = i + 1; }); }
+
+  function checkName(item) {
+    const msg = $('.m-urunAdi', item.el);
+    const name = clean($('.f-urunAdi', item.el).value);
+    const key = slugify(name);
+    msg.className = 'field-msg m-urunAdi';
+    msg.textContent = '';
+    if (!key) return;
+    if (existing.has(key)) { msg.classList.add('err'); msg.textContent = 'Bu ürün zaten listede.'; return; }
+    const dup = items.some((o) => o !== item && slugify(clean($('.f-urunAdi', o.el).value)) === key);
+    if (dup) { msg.classList.add('err'); msg.textContent = 'Bu ürünü bu gönderimde iki kez eklediniz.'; }
+  }
+
+  // ----------------------------------------------------------- logo
+  async function processLogo(file, maxBytes) {
+    if (file.size > 10 * 1024 * 1024) throw new Error('Dosya 10 MB\'tan büyük olamaz');
+    const url = URL.createObjectURL(file);
+    try {
+      const img = await new Promise((res, rej) => {
+        const i = new Image();
+        i.onload = () => res(i);
+        i.onerror = () => rej(new Error('Görsel açılamadı'));
+        i.src = url;
+      });
+      for (const size of [400, 320, 240]) {
+        const scale = Math.min(1, size / Math.max(img.naturalWidth, img.naturalHeight));
+        const w = Math.max(1, Math.round(img.naturalWidth * scale));
+        const h = Math.max(1, Math.round(img.naturalHeight * scale));
+        const c = document.createElement('canvas');
+        c.width = w; c.height = h;
+        const ctx = c.getContext('2d');
+        ctx.fillStyle = '#ffffff';              // şeffaf PNG'ler beyaz zemine
+        ctx.fillRect(0, 0, w, h);
+        ctx.drawImage(img, 0, 0, w, h);
+        for (const q of [0.88, 0.8, 0.7, 0.6]) {
+          const d = c.toDataURL('image/jpeg', q);
+          if ((d.length - 23) * 3 / 4 <= maxBytes * 0.85) return d;
+        }
+      }
+      throw new Error('Görsel yeterince küçültülemedi, daha sade bir logo deneyin');
+    } finally { URL.revokeObjectURL(url); }
+  }
+
+  // ----------------------------------------------------------- doğrulama
+  function validateAll(showErrors) {
+    let ok = true;
+    const L = cfg.limits;
+    items.forEach((it) => {
+      const f = readFields(it.el);
+      const set = (cls, text) => { if (showErrors || !text) $(cls, it.el).textContent = text; };
+      const errs = {
+        '.m-urunTip': f.urunTip ? '' : 'Ürün tipi seçin.',
+        '.m-urunAciklamasi': f.urunAciklamasi.length >= L.DESC_MIN ? '' : `En az ${L.DESC_MIN} karakter yazın.`,
+        '.m-barkodNo': !f.barkodNo || /^\d{3,13}( \d{3,13})*$/.test(f.barkodNo) ? '' : 'Yalnızca rakam ve boşluk kullanın.',
+        '.m-kaynak': !f.kaynak || /^https?:\/\/\S+\.\S+$/i.test(f.kaynak) ? '' : 'Geçerli bir link girin (https://...).',
+      };
+      if (!it.logo) errs['.m-logo'] = 'Logo seçin.';
+      else if ($('.m-logo', it.el).textContent === 'Logo seçin.') $('.m-logo', it.el).textContent = '';
+      let cardOk = true;
+      Object.entries(errs).forEach(([cls, text]) => { set(cls, text); if (text) cardOk = false; });
+      const nameMsg = $('.m-urunAdi', it.el);
+      if (!f.urunAdi) { cardOk = false; if (showErrors) { nameMsg.className = 'field-msg err m-urunAdi'; nameMsg.textContent = 'Ürün adı girin.'; } }
+      if (nameMsg.classList.contains('err') && nameMsg.textContent) cardOk = false;
+      it.el.classList.toggle('has-error', showErrors && !cardOk);
+      if (!cardOk) ok = false;
+    });
+    return ok && items.length > 0;
+  }
+
+  function refresh() {
+    const n = items.length, max = cfg.limits.MAX_PRODUCTS;
+    addBtn.disabled = n >= max;
+    addBtn.textContent = n >= max ? `En fazla ${max} ürün` : '+ Ürün ekle';
+    $('#count').textContent = `${n} ürün · tek seferde en fazla ${max}`;
+    submitBtn.textContent = n > 1 ? `${n} ürünü gönder` : 'Gönder';
+    submitBtn.disabled = !(n > 0 && token && $('#consent').checked);
+  }
+
+  function showAlert(type, html) {
+    alertBox.className = `alert show ${type}`;
+    alertBox.innerHTML = html;
+  }
+
+  // ----------------------------------------------------------- gönder
+  async function submit() {
+    alertBox.className = 'alert';
+    if (!validateAll(true)) {
+      showAlert('err', 'Lütfen işaretli alanları düzeltin.');
+      list.querySelector('.has-error')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Gönderiliyor…';
+    try {
+      const products = items.map((it) => ({ ...readFields(it.el), logo: it.logo }));
+      const res = await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ turnstileToken: token, products }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.ok) throw new Error(data.error || 'Gönderim başarısız oldu.');
+
+      clearDraft();
+      $('#formArea').classList.add('hidden');
+      $('#doneArea').classList.remove('hidden');
+      $('#doneText').textContent = data.count > 1
+        ? `${data.count} ürün incelemeye gönderildi. Onaylandıktan sonra listede görünecek.`
+        : 'Ürün incelemeye gönderildi. Onaylandıktan sonra listede görünecek.';
+      $('#doneLink').href = data.prUrl;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } catch (err) {
+      showAlert('err', '');
+      alertBox.textContent = err.message;
+    } finally {
+      token = null;
+      if (typeof window.turnstile?.reset === 'function' && widgetId !== null) window.turnstile.reset(widgetId);
+      refresh();
+    }
+  }
+
+  // ----------------------------------------------------------- başlat
+  function renderTurnstile() {
+    if (typeof window.turnstile?.render !== 'function') { setTimeout(renderTurnstile, 200); return; }
+    widgetId = window.turnstile.render('#ts-widget', {
+      sitekey: cfg.siteKey,
+      language: 'tr',
+      callback: (t) => { token = t; refresh(); },
+      'expired-callback': () => { token = null; refresh(); },
+      'error-callback': () => { token = null; refresh(); },
+    });
+  }
+
+  async function init() {
+    try {
+      cfg = await (await fetch('/api/config')).json();
+    } catch {
+      showAlert('err', 'Form yüklenemedi. Lütfen sayfayı yenileyin.');
+      return;
+    }
+    // Tekrar kontrolü için mevcut liste (herkese açık dosya)
+    fetch(`https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/refs/heads/${cfg.branch}/all-products.json`, { cache: 'no-store' })
+      .then((r) => r.json())
+      .then((arr) => { existing = new Set(arr.map((p) => slugify(String(p.urunAdi || '')))); items.forEach(checkName); })
+      .catch(() => { /* kontrol sunucuda da yapılıyor */ });
+
+    const draft = loadDraft();
+    (draft.length ? draft : [{}]).slice(0, cfg.limits.MAX_PRODUCTS).forEach((d) => addCard(d));
+
+    addBtn.addEventListener('click', () => {
+      const it = addCard();
+      it && it.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      it && $('.f-urunAdi', it.el).focus({ preventScroll: true });
+      saveDraft();
+    });
+    $('#consent').addEventListener('change', refresh);
+    submitBtn.addEventListener('click', submit);
+    $('#againBtn').addEventListener('click', () => {
+      items.splice(0).forEach((it) => it.el.remove());
+      addCard();
+      alertBox.className = 'alert';
+      $('#doneArea').classList.add('hidden');
+      $('#formArea').classList.remove('hidden');
+    });
+    renderTurnstile();
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
