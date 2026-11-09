@@ -1,0 +1,53 @@
+name: Ürün doğrulama
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "all-products.json"
+      - "b_img/**"
+      - ".github/**"
+  push:
+    branches: [main]
+    paths:
+      - "all-products.json"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: urun-dogrulama-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  dogrula:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      # Doğrulayıcı, PR'daki değil TABAN (main) sürümünden çalıştırılır;
+      # böylece bir PR doğrulayıcıyı değiştirerek kontrolü atlatamaz.
+      - name: Doğrulayıcıyı hazırla
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [ -n "$BASE_SHA" ] && git cat-file -e "$BASE_SHA:.github/scripts/urun_dogrula.py" 2>/dev/null; then
+            git show "$BASE_SHA:.github/scripts/urun_dogrula.py" > "$RUNNER_TEMP/urun_dogrula.py"
+          else
+            cp .github/scripts/urun_dogrula.py "$RUNNER_TEMP/urun_dogrula.py"
+          fi
+
+      - name: Doğrula
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          if [ -n "$BASE_SHA" ]; then
+            python3 -I "$RUNNER_TEMP/urun_dogrula.py" --base "$BASE_SHA" --head-ref "$HEAD_REF"
+          else
+            python3 -I "$RUNNER_TEMP/urun_dogrula.py"
+          fi
