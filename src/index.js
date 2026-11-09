@@ -186,6 +186,11 @@ async function verifyTurnstile(token, ip, env) {
   if (ip) form.append('remoteip', ip);
   const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', { method: 'POST', body: form });
   const data = await res.json().catch(() => ({}));
+  if (data.success !== true) {
+    // Gizli anahtar loglanmaz; yalnızca Cloudflare'in hata kodu ve hostname yazılır.
+    // `npx wrangler tail` ile canlı izlenebilir.
+    console.warn('Turnstile doğrulaması başarısız', JSON.stringify({ codes: data['error-codes'], hostname: data.hostname, secretTanimli: Boolean(env.TURNSTILE_SECRET_KEY) }));
+  }
   return data.success === true;
 }
 
