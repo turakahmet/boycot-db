@@ -2638,6 +2638,14 @@
         "barkodNo": "8690799",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/metinhelva.jpg"
+    },
+    {
+        "urunAdi": "test",
+        "urunAciklamasi": "tesadasdqwe qe qeqw eqw dasd asdas d",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIDA",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/test.jpg"
     }
 	
 ]
