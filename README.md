@@ -90,7 +90,7 @@ Token'ı hiçbir dosyaya, sohbete veya koda yapıştırmayın. Yalnızca 5. adı
 - Hostname: `urun-katki-formu.<hesap-alt-alan-adiniz>.workers.dev` (Worker'ı ilk kez yayınladıktan sonra adresi kesinleşir; gerekirse sonra güncelleyin. Kendi alan adınızı kullanırsanız onu da ekleyin.)
 - Widget mode: **Managed**
 
-Size **Site Key** (herkese açık) ve **Secret Key** (gizli) verilir. Site Key'i `wrangler.jsonc` içindeki `BURAYA_TURNSTILE_SITE_KEY` yerine yazın.
+Size **Site Key** (herkese açık) ve **Secret Key** (gizli) verilir. Site Key'i `wrangler.jsonc` içindeki `TURNSTILE_SITE_KEY` değerine yazın (şu anki widget anahtarı zaten girili).
 
 ### 5. Worker'ı yayınlayın
 

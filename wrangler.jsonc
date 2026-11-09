@@ -15,6 +15,6 @@
     "GITHUB_REPO": "boycot-db",
     "BASE_BRANCH": "main",
     // Turnstile site anahtarı herkese açıktır, buraya yazılabilir
-    "TURNSTILE_SITE_KEY": "BURAYA_TURNSTILE_SITE_KEY"
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAF5u6ehtXmQorZiY"
   }
 }
