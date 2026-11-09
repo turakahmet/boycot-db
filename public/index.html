@@ -89,6 +89,40 @@
   .done h2 { margin: 0 0 8px; }
   .done p { color: var(--muted); }
   .hidden { display: none !important; }
+  .secondary { background: transparent; color: var(--ink); border: 1px solid var(--line); border-radius: 10px; padding: 9px 16px; font: inherit; font-weight: 600; cursor: pointer; }
+  .secondary:hover { border-color: var(--accent); color: var(--accent); }
+  .sec-title { font-size: 17px; margin: 0 0 2px; }
+  .st-intro { margin: 0 0 10px; }
+  .st-muted { color: var(--muted); font-size: 13px; }
+  .st-error { color: var(--err); font-size: 14px; }
+  .st-listed { color: var(--ok); font-size: 14px; font-weight: 600; margin: 10px 0 0; }
+  .st-group { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
+  .st-group:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+  .st-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin-bottom: 6px; }
+  .st-code { font: 600 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .st-remove { margin-left: auto; border: 0; background: none; color: var(--muted); font-size: 12px; cursor: pointer; padding: 2px 4px; }
+  .st-remove:hover { color: var(--err); }
+  .st-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .st-row { background: var(--bg); border-radius: 10px; padding: 10px 12px; }
+  .st-top { display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .st-name { font-weight: 600; }
+  .st-badge { font-size: 12.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+  .st-wait { background: var(--warn-soft); color: var(--warn); }
+  .st-ok { background: var(--ok-soft); color: var(--ok); }
+  .st-no { background: var(--err-soft); color: var(--err); }
+  .st-reason { font-size: 13.5px; margin-top: 6px; }
+  .st-reply { font-size: 13.5px; margin-top: 6px; padding: 8px 10px; border-left: 3px solid var(--line); background: var(--surface); border-radius: 6px; }
+  .st-date { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .lookup { margin: 0 0 24px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0 16px; }
+  .lookup summary { cursor: pointer; padding: 14px 0; font-weight: 600; font-size: 14.5px; }
+  .lookup[open] { padding-bottom: 16px; }
+  .lookup-form { display: flex; gap: 8px; margin-bottom: 10px; }
+  .lookup-form input { flex: 1; min-width: 0; }
+  .code-box { margin: 18px auto 22px; max-width: 420px; padding: 16px; border: 1px dashed var(--line); border-radius: var(--radius); }
+  .code { font: 700 26px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; margin: 4px 0 8px; }
+  .code-help { margin: 0 0 12px; }
+  #doneLinkText { margin-top: 10px; }
+  .status { margin: 20px 0 14px; }
   .barkod-onizleme { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; }
   .barkod-onizleme:empty { display: none; }
   .barkod-onizleme li { font-size: 12.5px; padding: 6px 9px; border-radius: 8px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
@@ -106,6 +140,21 @@
     <h1>Ürün öner</h1>
     <p>Listede olmayan yerli ürünleri bize bildirin. Birden fazla ürünü tek seferde gönderebilirsiniz.</p>
   </header>
+
+  <section class="card status hidden" id="myArea" aria-live="polite">
+    <h2 class="sec-title">Gönderimlerim</h2>
+    <p class="st-muted st-intro">Bu cihazdan gönderdiğiniz ürünlerin durumu.</p>
+    <div id="myList"></div>
+  </section>
+
+  <details class="lookup" id="lookup">
+    <summary>Daha önce gönderdiğiniz bir ürünün durumunu sorgulayın</summary>
+    <form id="lookupForm" class="lookup-form">
+      <input type="text" id="lookupInput" placeholder="Ürün adı veya takip kodu" autocomplete="off" maxlength="80" aria-label="Ürün adı veya takip kodu">
+      <button type="submit" class="secondary">Sorgula</button>
+    </form>
+    <div id="lookupResult" aria-live="polite"></div>
+  </details>
 
   <div class="note">
     <strong>Nasıl çalışır?</strong>
@@ -139,6 +188,13 @@
   <section class="card done hidden" id="doneArea">
     <h2>Teşekkürler!</h2>
     <p id="doneText"></p>
+    <div class="code-box">
+      <div class="st-muted">Takip kodunuz</div>
+      <div class="code" id="doneCode"></div>
+      <p class="st-muted code-help">Durumu bu sayfada <strong>Gönderimlerim</strong> bölümünden görebilirsiniz. Başka bir cihazdan bakmak için linki kendinize gönderin.</p>
+      <button type="button" class="secondary" id="saveLinkBtn">Durum linkini kaydet</button>
+      <input type="text" id="doneLinkText" class="hidden" readonly aria-label="Durum linki">
+    </div>
     <button type="button" class="primary" id="againBtn">Yeni gönderim yap</button>
   </section>
 </div>
@@ -194,6 +250,7 @@
 
 <script type="module">
 import { barkodlariAyikla, gonderimKararlari } from './barkod.js';
+import { durumBaslat, gonderimKaydet, gonderimlerimiGoster, kodGoster, linkPaylas } from './durum-ui.js';
 (() => {
   const TIP_ADLARI = {
     GIDA: 'Gıda', ICECEK: 'İçecek', TEMIZLIK: 'Temizlik', GIYIM: 'Giyim', BAKIM: 'Kişisel bakım',
@@ -213,6 +270,7 @@ import { barkodlariAyikla, gonderimKararlari } from './barkod.js';
   let existingProducts = [];   // barkod önizlemesi için mevcut liste
   let token = null;            // Turnstile
   let widgetId = null;
+  let sonKod = null;           // son gönderimin takip kodu
   const items = [];            // { el, logo }
 
   // ----------------------------------------------------------- taslak
@@ -444,12 +502,19 @@ import { barkodlariAyikla, gonderimKararlari } from './barkod.js';
       if (!res.ok || !data.ok) throw new Error(data.error || 'Gönderim başarısız oldu.');
 
       clearDraft();
+      if (data.kod) {
+        gonderimKaydet(data.kod, data.urunler);
+        sonKod = data.kod;
+        $('#doneCode').textContent = kodGoster(data.kod);
+        gonderimlerimiGoster();
+      }
+      $('.code-box').classList.toggle('hidden', !data.kod);
       $('#formArea').classList.add('hidden');
       $('#doneArea').classList.remove('hidden');
       $('#doneText').textContent = data.count > 1
         ? `${data.count} ürün incelemeye gönderildi. Onaylandıktan sonra listede görünecek.`
         : 'Ürün incelemeye gönderildi. Onaylandıktan sonra listede görünecek.';
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      $('#doneArea').scrollIntoView({ behavior: 'smooth', block: 'start' });
     } catch (err) {
       showAlert('err', '');
       alertBox.textContent = err.message;
@@ -500,9 +565,12 @@ import { barkodlariAyikla, gonderimKararlari } from './barkod.js';
       items.splice(0).forEach((it) => it.el.remove());
       addCard();
       alertBox.className = 'alert';
+      $('#doneLinkText').classList.add('hidden');
       $('#doneArea').classList.add('hidden');
       $('#formArea').classList.remove('hidden');
     });
+    $('#saveLinkBtn').addEventListener('click', (e) => sonKod && linkPaylas(sonKod, e.currentTarget));
+    durumBaslat();
     renderTurnstile();
   }
 

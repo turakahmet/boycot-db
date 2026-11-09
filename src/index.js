@@ -12,6 +12,7 @@
  *   GITHUB_OWNER, GITHUB_REPO, BASE_BRANCH, TURNSTILE_SITE_KEY
  */
 
+import { yeniKod, kodNormal, kodGoster, metaYaz, durumIndeksi, kodDurumu, adDurumu, indeksSifirla } from './durum.js';
 import { barkodlariAyikla, ean13Gecerli, gonderimKararlari, MAX_BARKOD } from '../public/barkod.js';
 
 export const LIMITS = {
@@ -121,7 +122,7 @@ function mdCell(s) {
   return String(s).replace(/\|/g, '\\|').replace(/[\r\n]+/g, ' ').replace(/@/g, '@\u200b').replace(/</g, '&lt;');
 }
 
-export function buildPrBody(items, commitSha, env) {
+export function buildPrBody(items, commitSha, env, kod) {
   const raw = `https://raw.githubusercontent.com/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/${commitSha}`;
   const rows = items.map((it, i) =>
     `| ${i + 1} | <img src="${raw}/${IMG_DIR}/${it.file}" width="64"> | ${mdCell(it.urunAdi)} | ${mdCell(it.urunTip)} | ${mdCell(it.barkodNo || '-')} | ${it.kaynak ? `[kaynak](${encodeURI(it.kaynak).replace(/\)/g, '%29')})` : '-'} |`);
@@ -132,7 +133,7 @@ export function buildPrBody(items, commitSha, env) {
   const yabancilar = items.flatMap((it) => it.kararlar.filter((k) => k.yabanci && k.durum !== 'cakisma').map((k) => `\`${k.barkod}\` (${mdCell(it.urunAdi)})`));
   const details = items.map((it, i) => `**${i + 1}. ${mdCell(it.urunAdi)}**\n> ${mdCell(it.urunAciklamasi)}`);
   return [
-    'Bu PR web formu üzerinden otomatik oluşturuldu. Gönderen kişiye ait kişisel veri tutulmamaktadır.',
+    `Bu PR web formu üzerinden otomatik oluşturuldu. Gönderen kişiye ait kişisel veri tutulmamaktadır. Takip kodu: \`${kod ? kodGoster(kod) : '-'}\``,
     '',
     '| # | Logo | Ürün | Tip | Firma kodu | Kaynak |',
     '|---|---|---|---|---|---|',
@@ -149,6 +150,15 @@ export function buildPrBody(items, commitSha, env) {
     '- [ ] Barkod firma kodları doğru firmaya mı ait?',
     '- [ ] Logolar doğru ve uygun mu?',
     '- [ ] Açıklamalarda hata / uygunsuz içerik yok',
+    '',
+    '<details><summary>Katkıcıya yanıt nasıl verilir?</summary>',
+    '',
+    '- **Onay:** Merge edin. Katkıcı "Eklendi" görür. Bazı ürünleri çıkarıp merge ederseniz yalnızca kalanlar "Eklendi" olur.',
+    '- **Ret:** Kapatmadan önce bir `red: ...` etiketi ekleyin; katkıcı etiketin açıklamasını görür.',
+    '- **Özel mesaj:** `Yanıt:` ile başlayan bir yorum yazın; metin katkıcıya aynen gösterilir.',
+    '</details>',
+    '',
+    kod ? metaYaz({ kod, urunler: items.map((it) => it.urunAdi), dosyalar: items.map((it) => it.file) }) : '',
   ].join('\n');
 }
 
@@ -296,22 +306,39 @@ export async function handleSubmit(request, env) {
     body: { message: `${title}\n\nWeb formu üzerinden gönderildi.`, tree: tree.sha, parents: [baseSha] },
   });
 
+  const kod = yeniKod();
   const stamp = new Date().toISOString().replace(/[-:T]/g, '').slice(0, 14);
   const branch = `${BRANCH_PREFIX}${stamp}-${crypto.randomUUID().slice(0, 6)}`;
   await api('/git/refs', { method: 'POST', body: { ref: `refs/heads/${branch}`, sha: commit.sha } });
 
   const pr = await api('/pulls', {
     method: 'POST',
-    body: { title: title.slice(0, 250), head: branch, base: baseBranch, body: buildPrBody(items, commit.sha, env) },
+    body: { title: title.slice(0, 250), head: branch, base: baseBranch, body: buildPrBody(items, commit.sha, env, kod) },
   });
 
   try {
     await api(`/issues/${pr.number}/labels`, { method: 'POST', body: { labels: [PR_LABEL] } });
   } catch { /* etiket isteğe bağlı */ }
 
+  indeksSifirla();
   // PR adresi kullanıcıya gönderilmez; yalnızca loglarda görünür
   console.log('Form PR açıldı', pr.html_url);
-  return { count: items.length };
+  return { count: items.length, kod, urunler: items.map((it) => it.urunAdi) };
+}
+
+async function handleDurum(url, env) {
+  const api = gh(env);
+  const idx = await durumIndeksi(env, api, normName, { jsonPath: JSON_PATH, imgDir: IMG_DIR, branchPrefix: BRANCH_PREFIX });
+  const kodlarParam = url.searchParams.get('kodlar') || url.searchParams.get('kod');
+  if (kodlarParam) {
+    const kodlar = [...new Set(kodlarParam.split(',').map(kodNormal).filter(Boolean))].slice(0, 20);
+    if (!kodlar.length) throw new UserError('Takip kodu geçersiz. Kod 8 karakterden oluşur, ör. KTK4-F7Q2.');
+    return { tur: 'kod', sonuclar: await kodDurumu(idx, api, kodlar) };
+  }
+  const ad = (url.searchParams.get('ad') || '').slice(0, 80);
+  const q = normName(ad);
+  if (q.length < 2) throw new UserError('En az 2 harf yazın.');
+  return { tur: 'ad', ...(await adDurumu(idx, api, q)) };
 }
 
 function json(data, status = 200) {
@@ -348,6 +375,16 @@ export default {
         if (e instanceof UserError) return json({ error: e.message }, 400);
         console.error(e); // Cloudflare loglarında görünür; kullanıcıya ayrıntı verilmez
         return json({ error: 'Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.' }, 500);
+      }
+    }
+
+    if (url.pathname === '/api/durum' && request.method === 'GET') {
+      try {
+        return json(await handleDurum(url, env));
+      } catch (e) {
+        if (e instanceof UserError) return json({ error: e.message }, 400);
+        console.error(e);
+        return json({ error: 'Durum şu anda alınamıyor. Lütfen daha sonra tekrar deneyin.' }, 500);
       }
     }
 

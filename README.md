@@ -40,7 +40,9 @@ Katkıcı paketteki **13 haneli barkodun tamamını** girer (kontrol hanesi doğ
 |---|---|
 | `public/index.html` | Form sayfası |
 | `public/barkod.js` | Barkod → firma kodu kuralları (form + Worker ortak) |
-| `src/index.js` | Worker: doğrulama, commit, PR açma |
+| `public/durum-ui.js` | Gönderimlerim, durum sorgusu, durum linki |
+| `src/index.js` | Worker: doğrulama, commit, PR açma, durum sorgusu |
+| `src/durum.js` | Takip kodu, PR meta verisi, durum hesaplama, ad eşleştirme |
 | `wrangler.jsonc` | Cloudflare ayarları (gizli anahtar içermez) |
 
 Doğrulama Action'ı (`.github/workflows/urun-dogrulama.yml` ve `.github/scripts/urun_dogrula.py`) `main` branch'inde olmalıdır, çünkü GitHub PR kontrollerini taban branch'teki iş akışından çalıştırır.
@@ -125,6 +127,37 @@ Bu yöntemde `form` branch'ine her push otomatik yayınlanır.
 `index.md` dosyasına veya uygulamanızın içine form linkini ekleyebilirsiniz.
 
 ---
+
+## Katkıcıya geri dönüş
+
+Kişisel veri alınmadan, katkıcı gönderiminin sonucunu üç yoldan görür:
+
+1. **Gönderimlerim:** Gönderim tarayıcıya kaydedilir; aynı cihazdan formu açınca durum sayfanın üstünde görünür.
+2. **Ürün adıyla sorgu:** "sırın gida", "SIRIN GIDA" veya "sirn gida" yazılsa da "Şirin Gıda" bulunur (Türkçe karakter, büyük/küçük harf, boşluk farkları ve küçük yazım hataları tolere edilir).
+3. **Takip kodu / durum linki:** Teşekkür ekranında `ABCD-2345` biçiminde bir kod ve "Durum linkini kaydet" butonu çıkar. Link başka cihazda açılınca durum doğrudan görünür.
+
+Durumlar: ⏳ İnceleniyor · ✅ Eklendi · ❌ Eklenmedi (+ neden). Sonuçlar en fazla ~3 dakika gecikmeyle güncellenir.
+
+**Sizin yapmanız gereken:**
+
+| İstediğiniz | Yapılacak |
+|---|---|
+| Onay | Merge edin |
+| Bazı ürünleri onaylama | Onaylamadıklarınızı PR'dan çıkarıp merge edin; yalnızca kalanlar "Eklendi" olur |
+| Ret | Kapatmadan önce bir `red: ...` etiketi ekleyin (katkıcı etiketin açıklamasını görür) |
+| Özel mesaj | `Yanıt:` ile başlayan bir yorum yazın; metin katkıcıya aynen gösterilir. Yalnızca repo sahibinin yorumları dikkate alınır |
+
+Ret etiketleri ve katkıcıya görünen metinleri:
+
+| Etiket | Görünen metin |
+|---|---|
+| `red: yerli değil` | Ürün/firma yerli sermayeli değil veya yeterli bilgi bulunamadı. |
+| `red: zaten listede` | Bu ürün başka bir adla listede zaten var. |
+| `red: eksik bilgi` | Açıklama, logo veya barkod bilgisi yetersiz ya da hatalı. |
+| `red: kaynak yetersiz` | Ürünün yerli olduğunu doğrulayan bir kaynak bulunamadı. |
+| `red: uygunsuz içerik` | Gönderim kurallara uygun değil. |
+
+Etiketsiz kapatılan PR'larda "İnceleme sonucunda listeye eklenmedi." gösterilir. Metinleri değiştirmek için `src/durum.js` içindeki `RET_NEDENLERI` listesini düzenleyin (etiket adları GitHub'dakiyle aynı kalmalı). PR'lar ve yorumlar herkese açık olduğundan ret notlarını tarafsız bir dille yazın.
 
 ## İnceleme süreci
 
