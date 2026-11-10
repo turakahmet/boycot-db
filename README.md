@@ -89,7 +89,7 @@ Token'ı hiçbir dosyaya, sohbete veya koda yapıştırmayın. Yalnızca 5. adı
 **Cloudflare → Turnstile → Add widget**
 
 - Widget name: `urun-katki-formu`
-- Hostname: `urun-katki-formu.<hesap-alt-alan-adiniz>.workers.dev` (Worker'ı ilk kez yayınladıktan sonra adresi kesinleşir; gerekirse sonra güncelleyin. Kendi alan adınızı kullanırsanız onu da ekleyin.)
+- Hostname: `oner.<hesap-alt-alan-adiniz>.workers.dev` (şu an: `oner.yerliurun.workers.dev`) (Worker'ı ilk kez yayınladıktan sonra adresi kesinleşir; gerekirse sonra güncelleyin. Kendi alan adınızı kullanırsanız onu da ekleyin.)
 - Widget mode: **Managed**
 
 Size **Site Key** (herkese açık) ve **Secret Key** (gizli) verilir. Site Key'i `wrangler.jsonc` içindeki `TURNSTILE_SITE_KEY` değerine yazın (şu anki widget anahtarı zaten girili).
@@ -118,7 +118,7 @@ Bu yöntemde `form` branch'ine her push otomatik yayınlanır.
 
 ### 6. Test edin
 
-1. `https://urun-katki-formu.<alt-alan-adiniz>.workers.dev` adresini açın.
+1. `https://oner.yerliurun.workers.dev` adresini açın.
 2. Örnek bir ürün gönderin. Birkaç saniye içinde repoda `form-katkisi` etiketli bir PR ve yeşil "Ürün doğrulama" kontrolü görmelisiniz.
 3. Test PR'ını kapatın, ardından `katki/...` branch'ini silin.
 
