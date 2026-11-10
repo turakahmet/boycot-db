@@ -159,6 +159,21 @@ Ret etiketleri ve katkıcıya görünen metinleri:
 
 Etiketsiz kapatılan PR'larda "İnceleme sonucunda listeye eklenmedi." gösterilir. Metinleri değiştirmek için `src/durum.js` içindeki `RET_NEDENLERI` listesini düzenleyin (etiket adları GitHub'dakiyle aynı kalmalı). PR'lar ve yorumlar herkese açık olduğundan ret notlarını tarafsız bir dille yazın.
 
+## Yeni gönderim bildirimi (Telegram)
+
+PR'lar sizin token'ınızla açıldığı için GitHub size bildirim göndermez. Bu yüzden Worker her yeni gönderimde Telegram'dan mesaj atar (ürün adları, tipleri, barkod uyarıları ve PR linki; kişisel veri yok). Ayar yapılmazsa bildirim atlanır, form yine çalışır.
+
+1. Telegram'da **@BotFather** ile konuşun → `/newbot` → bota bir ad ve `_bot` ile biten bir kullanıcı adı verin. Size bir **bot token** verir (gizlidir).
+2. Yeni botunuzu açıp **Start**'a basın ve herhangi bir mesaj yazın.
+3. Tarayıcıda `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates` adresini açın; `"chat":{"id":123456789` kısmındaki sayı **chat id**'nizdir.
+4. Worker'a girin (değerler komut sorunca yapıştırılır):
+   ```
+   npx wrangler secret put TELEGRAM_BOT_TOKEN
+   npx wrangler secret put TELEGRAM_CHAT_ID
+   ```
+
+Bildirim gelmezse `npx wrangler tail` ile `Telegram bildirimi gönderilemedi` satırına bakın.
+
 ## İnceleme süreci
 
 Her PR'da logo önizlemeli bir tablo, açıklamalar ve kaynak linkleri yer alır.

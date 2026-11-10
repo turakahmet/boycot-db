@@ -8,6 +8,7 @@
  * Gizli değişkenler (koda YAZILMAZ, `wrangler secret put` ile girilir):
  *   GITHUB_TOKEN          - yalnızca bu repoya Contents RW + Pull requests RW yetkili fine-grained token
  *   TURNSTILE_SECRET_KEY  - Cloudflare Turnstile gizli anahtarı
+ *   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID - (isteğe bağlı) yeni gönderim bildirimi
  * Normal değişkenler (wrangler.jsonc > vars):
  *   GITHUB_OWNER, GITHUB_REPO, BASE_BRANCH, TURNSTILE_SITE_KEY
  */
@@ -208,7 +209,7 @@ async function verifyTurnstile(token, ip, env) {
 
 class UserError extends Error {}
 
-export async function handleSubmit(request, env) {
+export async function handleSubmit(request, env, ctx) {
   const len = Number(request.headers.get('content-length') || 0);
   if (len > LIMITS.BODY_MAX_BYTES) throw new UserError('Gönderim çok büyük. Daha az ürünle tekrar deneyin.');
 
@@ -323,6 +324,8 @@ export async function handleSubmit(request, env) {
   indeksSifirla();
   // PR adresi kullanıcıya gönderilmez; yalnızca loglarda görünür
   console.log('Form PR açıldı', pr.html_url);
+  const bildirim = telegramBildir(env, items, pr.html_url);
+  if (ctx && ctx.waitUntil) ctx.waitUntil(bildirim); else await bildirim;
   return { count: items.length, kod, urunler: items.map((it) => it.urunAdi) };
 }
 
@@ -341,6 +344,41 @@ async function handleDurum(url, env) {
   return { tur: 'ad', ...(await adDurumu(idx, api, q)) };
 }
 
+/**
+ * Yeni gönderimde Telegram bildirimi. PR'lar sahibin token'ıyla açıldığı için
+ * GitHub sahibine bildirim göndermez; bu yüzden ayrı kanal kullanılır.
+ * Gizli değişkenler: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID (tanımlı değilse atlanır).
+ * Bildirimde yalnızca ürün bilgisi ve PR linki vardır, kişisel veri yoktur.
+ * Hata gönderimi etkilemez, yalnızca loglanır.
+ */
+export function telegramMetni(items, prUrl) {
+  const cakisma = items.reduce((n, it) => n + (it.kararlar || []).filter((k) => k.durum === 'cakisma').length, 0);
+  const yabanci = items.reduce((n, it) => n + (it.kararlar || []).filter((k) => k.yabanci && k.durum !== 'cakisma').length, 0);
+  const satirlar = [
+    `🆕 Yeni ürün önerisi${items.length > 1 ? ` (${items.length} ürün)` : ''}`,
+    '',
+    ...items.map((it) => `• ${it.urunAdi} (${it.urunTip})${it.barkodNo ? ` · ${it.barkodNo}` : ''}`),
+  ];
+  if (cakisma) satirlar.push('', `⚠️ ${cakisma} barkod çakışması`);
+  if (yabanci) satirlar.push(`🌐 ${yabanci} Türkiye dışı barkod`);
+  satirlar.push('', `İncele: ${prUrl}`);
+  return satirlar.join('\n').slice(0, 4000);
+}
+
+async function telegramBildir(env, items, prUrl) {
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_CHAT_ID) return;
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chat_id: env.TELEGRAM_CHAT_ID, text: telegramMetni(items, prUrl), disable_web_page_preview: true }),
+    });
+    if (!res.ok) console.warn('Telegram bildirimi gönderilemedi', res.status, (await res.text()).slice(0, 200));
+  } catch (e) {
+    console.warn('Telegram bildirimi gönderilemedi', String(e).slice(0, 200));
+  }
+}
+
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
@@ -349,7 +387,7 @@ function json(data, status = 200) {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
     if (url.pathname === '/api/config' && request.method === 'GET') {
@@ -370,7 +408,7 @@ export default {
       if (!(request.headers.get('Content-Type') || '').includes('application/json'))
         return json({ error: 'Geçersiz istek' }, 415);
       try {
-        return json({ ok: true, ...(await handleSubmit(request, env)) });
+        return json({ ok: true, ...(await handleSubmit(request, env, ctx)) });
       } catch (e) {
         if (e instanceof UserError) return json({ error: e.message }, 400);
         console.error(e); // Cloudflare loglarında görünür; kullanıcıya ayrıntı verilmez
