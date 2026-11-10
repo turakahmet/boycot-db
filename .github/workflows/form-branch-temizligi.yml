@@ -1,0 +1,62 @@
+name: Form branch temizliği
+
+# Kapanan (merge edilen veya reddedilen) form PR'larının katki/... branch'lerini siler.
+# Elle çalıştırıldığında (Actions > Form branch temizliği > Run workflow),
+# açık PR'ı olmayan tüm katki/... branch'lerini toplu siler.
+#
+# Güvenlik: pull_request_target taban branch'teki (main) bu dosyayla çalışır ve
+# PR kodunu hiç indirmez/çalıştırmaz; yalnızca branch silme API çağrısı yapar.
+
+on:
+  pull_request_target:
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: form-branch-temizligi
+  cancel-in-progress: false
+
+jobs:
+  temizle:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (startsWith(github.event.pull_request.head.ref, 'katki/') &&
+       github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Branch'leri sil
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          OLAY: ${{ github.event_name }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          set -u
+          sil() {
+            if gh api -X DELETE "repos/$REPO/git/refs/heads/$1" --silent 2>/dev/null; then
+              echo "silindi: $1"
+            else
+              echo "atlandı (zaten silinmiş olabilir): $1"
+            fi
+          }
+
+          if [ "$OLAY" = "pull_request_target" ]; then
+            case "$HEAD_REF" in katki/*) sil "$HEAD_REF" ;; esac
+            exit 0
+          fi
+
+          # Elle çalıştırma: açık PR'ı olmayan tüm katki/ branch'leri
+          gh api --paginate "repos/$REPO/branches?per_page=100" --jq '.[].name' | grep '^katki/' | while read -r b; do
+            acik=$(gh api "repos/$REPO/pulls?state=open&head=$OWNER:$b" --jq 'length')
+            if [ "$acik" = "0" ]; then
+              sil "$b"
+            else
+              echo "açık PR var, korunuyor: $b"
+            fi
+          done
