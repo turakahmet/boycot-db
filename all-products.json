@@ -2638,6 +2638,14 @@
         "barkodNo": "8690799",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/metinhelva.jpg"
+    },
+    {
+        "urunAdi": "test telegeram",
+        "urunAciklamasi": "ad asjd asjdh akjsdh kajshdl kahdkjah dkas",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "GIYIM",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/testtelegeram.jpg"
     }
 	
 ]
