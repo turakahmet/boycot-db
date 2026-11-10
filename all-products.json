@@ -2638,6 +2638,14 @@
         "barkodNo": "8690799",
         "urunTip": "GIDA",
         "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/metinhelva.jpg"
+    },
+    {
+        "urunAdi": "yeni adres tes",
+        "urunAciklamasi": "asda dasd aşlsd şalskd lşaksdşla kşdka l",
+        "ulke": "TR",
+        "barkodNo": "",
+        "urunTip": "TEMIZLIK",
+        "urunLogo": "https://raw.githubusercontent.com/turakahmet/boycot-db/refs/heads/main/b_img/yeniadrestes.jpg"
     }
 	
 ]
