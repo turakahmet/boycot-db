@@ -70,7 +70,7 @@ Doğrulama Action'ı (`.github/workflows/urun-dogrulama.yml` ve `.github/scripts
 **GitHub → Settings (profil) → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**
 
 - Token name: `urun-katki-formu`
-- Expiration: en fazla 1 yıl (**bitiş tarihini takviminize not edin**)
+- Expiration: **No expiration** (proje bakımsız kalsa da form çalışmaya devam etsin diye süresiz seçildi; yetkiler yalnızca bu repo ve PR açmakla sınırlı, `main`'e doğrudan yazamaz. Sızdığından şüphelenirseniz hemen silip yenisini oluşturun.)
 - Repository access: **Only select repositories → boycot-db**
 - Permissions → Repository permissions:
   - **Contents: Read and write**
